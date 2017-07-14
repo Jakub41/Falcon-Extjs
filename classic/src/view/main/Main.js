@@ -76,52 +76,55 @@ Ext.define('jakub.view.main.Main', {
     },
 
     items: [{
-        title: 'Users.csv',
+        //title: 'Users',
+        iconCls: 'fa-user',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
             xtype: 'usersGrid'
         }]
     }, {
         title: 'Activities.csv',
+        iconCls: 'fa-bolt',
         items: [{
             xtype: 'activityGrid'
         }]
     }, {
         title: 'Effects.csv',
+        iconCls: 'fa-bar-chart',
         items: [{
-          xtype: 'cartesian',
-      		legend: {
-      			position: 'right'
-      		},
-          tbar: [{
-            xtype: 'label',
-            text: 'Effects.csv'
-          }],
-          store: {
-            autoLoad: true,
-            fields: ['Time', 'Plan', 'Actual'],
-            proxy: {
-              type: 'ajax',
-              url: 'http://localhost:1841/effects.csv',
-              reader: 'csv'
-            }
-          },
-          axes: [{
-            type: 'numeric',
-            position: 'left',
-            title: '(%)',
-            grid: true
-          }, {
-            type: 'category',
-            position: 'bottom',
-            grid: true
-          }],
-          series: [{
-            type: 'bar',
-            // stacked: false,
-            xField: 'Time',
-            yField: ['Plan', 'Actual']
-          }]
+            xtype: 'cartesian',
+            legend: {
+                position: 'right'
+            },
+            tbar: [{
+                xtype: 'label',
+                text: 'Effects.csv'
+            }],
+            store: {
+                autoLoad: true,
+                fields: ['Time', 'Plan', 'Actual'],
+                proxy: {
+                    type: 'ajax',
+                    url: 'http://localhost:1841/effects.csv',
+                    reader: 'csv'
+                }
+            },
+            axes: [{
+                type: 'numeric',
+                position: 'left',
+                title: '(%)',
+                grid: true
+            }, {
+                type: 'category',
+                position: 'bottom',
+                grid: true
+            }],
+            series: [{
+                type: 'bar',
+                // stacked: false,
+                xField: 'Time',
+                yField: ['Plan', 'Actual']
+            }]
         }]
     }]
 });
