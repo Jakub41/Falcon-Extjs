@@ -520,7 +520,7 @@
         "modern": {
             "toolkit": "modern",
 
-            "theme": "theme-triton",
+            "theme": "theme-material",
 
             "sass": {
                 "generated": {
