@@ -34,7 +34,7 @@ Along side the task was provided the next material:
 
 I resolved the task as required and I add an extra feature called **uploads**.
 
-The **uploads** feature works in this way, a user can upload a CSV file which is converted into a table through the CSV converter tool, implemented in this project. For test the **uploads** I made a folder under [`CSV/Samples`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/Sampels) which contains some CSV files for test the tool. 
+The **uploads** feature works in this way, a user can upload a CSV file which is converted into a table through the CSV converter tool, implemented in this project. For test the **uploads** I made a folder under [`CSV/Samples`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/Samples) which contains some CSV files for test the tool. 
 
 ## Conclusion
 
