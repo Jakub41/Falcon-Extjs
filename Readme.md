@@ -19,7 +19,7 @@ As described above, I had to learn the framework from scratch. I used for my res
 List of resources from **Falcon**:
 
 - [Sencha Cmd](https://www.sencha.com/products/extjs/cmd-download/)
-- [Sencha Cmd Smart Guide](http://docs.sencha.com/extjs/6.0.2/guides/getting_started/getting_started.html)
+- [Sencha Cmd Smart Guide](http://docs.sencha.com/extjs/6.0.2/guides/getting_started/getting_started.html)
 - [MVVM vs. MVC](https://www.sencha.com/blog/ext-js-5-mvc-mvvm-and-more/)
 - [Sencha Guides](http://docs.sencha.com/extjs/6.0.2/guides/core_concepts/classes.html), [Guide2](http://docs.sencha.com/extjs/6.0.2/guides/application_architecture/application_architecture.html)
 - [Grids and renderer method](http://docs.sencha.com/extjs/6.0.2/classic/Ext.grid.Panel.html)
@@ -29,8 +29,8 @@ List of resources from **Falcon**:
 
 Along side the task was provided the next material:
 
-- The document contains the task [specification]() 
-- 3 files CSV under the folder [`CSV/FromFalcon`]()
+- The document contains the task [specification](https://github.com/Jakub41/Falcon-Extjs/tree/master/Doc) 
+- 3 files CSV under the folder [`CSV/FromFalcon`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/FromFalcon)
 
 I resolved the task as required and I add an extra feature called **uploads**.
 
