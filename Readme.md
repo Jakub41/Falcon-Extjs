@@ -29,12 +29,12 @@ List of resources from **Falcon**:
 
 Along side the task was provided the next material:
 
-- The document contains the task [specification](https://github.com/Jakub41/Falcon-Extjs/tree/master/Doc) 
+- The document contains the task [specification](https://github.com/Jakub41/Falcon-Extjs/tree/master/Doc/Nordantech_Ext JS_Challenge.pdf) 
 - 3 files CSV under the folder [`CSV/FromFalcon`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/FromFalcon)
 
 I resolved the task as required and I add an extra feature called **uploads**.
 
-The **uploads** feature works in this way, a user can upload a CSV file which is converted into a table through the CSV converter tool, implemented in this project. For test the **uploads** I made a folder under `CSV/Samples` which contains some CSV files for test the tool. 
+The **uploads** feature works in this way, a user can upload a CSV file which is converted into a table through the CSV converter tool, implemented in this project. For test the **uploads** I made a folder under [`CSV/Samples`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/Sampels) which contains some CSV files for test the tool. 
 
 ## Conclusion
 
