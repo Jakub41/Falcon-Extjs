@@ -29,7 +29,7 @@ List of resources from **Falcon**:
 
 Along side the task was provided the next material:
 
-- The document contains the task [specification](https://github.com/Jakub41/Falcon-Extjs/tree/master/Doc/Nordantech_Ext JS_Challenge.pdf) 
+- The document contains the task [specification](https://github.com/Jakub41/Falcon-Extjs/tree/master/Doc/Nordantech_ExtJS_Challenge.pdf) 
 - 3 files CSV under the folder [`CSV/FromFalcon`](https://github.com/Jakub41/Falcon-Extjs/tree/master/CSV/FromFalcon)
 
 I resolved the task as required and I add an extra feature called **uploads**.
