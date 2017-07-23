@@ -8,17 +8,17 @@
 
 Ext.define('jakub.view.main.ActivityGridViewModel', {
     extend: 'Ext.app.ViewModel',
-    alias: 'viewmodel.activityGrid',
-
+    alias: 'viewmodel.activityGridViewModel',
+    requires: 'jakub.model.ActivityModel',
     stores: {
-      activityStore: {
-        autoLoad: true,
-        fields: ['Activity', 'Planned Start', 'Actual Start', 'Planned End', 'Actual End', 'Responsible user'],
-        proxy: {
-          type: 'ajax',
-          url: 'http://localhost:1841/activities.csv',
-          reader: 'csv'
+        activityStore: {
+            model: 'jakub.model.ActivityModel',
+            autoLoad: true,
+            proxy: {
+                type: 'ajax',
+                url: '/CSV/FromFalcon/activities.csv',
+                reader: 'csv'
+            }
         }
-      }
     }
 });

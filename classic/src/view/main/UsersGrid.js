@@ -8,18 +8,18 @@
 
  //View
 Ext.define('jakub.view.main.UsersGrid', {
-    extend: 'Ext.grid.Panel',
+	extend: 'Ext.grid.Panel',
+	requires: [
+		'jakub.view.main.UsersGridViewModel',
+		'jakub.controller.UsersGridController'
+	],
     xtype: 'usersGrid',
-    viewModel: 'usersGrid',
-
+    viewModel: 'usersGridViewModel',
+    controller:'usersGridController',
     bind: {
       store: '{usersStore}'
     },
-    
-    tbar: [{
-      xtype: 'label',
-      text: 'Users.csv'
-    }],
+    title: 'Users',
     columns: [{
       text: 'Name',
       flex: 1,
@@ -37,7 +37,7 @@ Ext.define('jakub.view.main.UsersGrid', {
       flex: 1,
       dataIndex: 'Department'
     }, {
-      text: 'E-Mail *',
+      text: 'E-Mail',
       flex: 1,
       dataIndex: 'E-Mail *'
     }, {
@@ -47,6 +47,16 @@ Ext.define('jakub.view.main.UsersGrid', {
     }, {
       text: 'Status',
       flex: 1,
-      dataIndex: 'Status'
+	  align: 'center',
+      dataIndex: 'Status',
+      renderer: function (value, metaData) {
+      	if (value == 'active') {
+      		metaData.style = "color:green;";
+      	}
+      	else {
+      		metaData.style = "color:red;";
+      	}
+      	return value;
+      }
     }]
 });

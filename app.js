@@ -9,7 +9,8 @@ Ext.application({
     extend: 'jakub.Application',
 
     requires: [
-        'jakub.view.main.Main'
+        'jakub.view.main.Main',
+		'jakub.utils.CSVConvertor'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class

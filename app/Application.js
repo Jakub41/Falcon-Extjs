@@ -7,7 +7,7 @@ Ext.define('jakub.Application', {
     extend: 'Ext.app.Application',
 
     name: 'jakub',
-
+    requires:'jakub.utils.CSVReader',
     stores: [
         // TODO: add global / shared stores here
     ],

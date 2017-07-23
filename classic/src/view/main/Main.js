@@ -8,25 +8,23 @@
 Ext.define('jakub.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
-
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
-
+		'jakub.view.main.EffectChart',
+		'jakub.view.main.UsersGrid',
+		'jakub.view.main.ActivityGrid',
         'jakub.view.main.MainController',
         'jakub.view.main.MainModel',
-        'jakub.view.main.List'
+        'jakub.view.main.List',
+		'jakub.controller.UploadController'
     ],
-
     controller: 'main',
     viewModel: 'main',
-
     ui: 'navigation',
-
     tabBarHeaderPosition: 1,
     titleRotation: 0,
     tabRotation: 0,
-
     header: {
         layout: {
             align: 'stretchmax'
@@ -39,15 +37,13 @@ Ext.define('jakub.view.main.Main', {
         },
         iconCls: 'fa-th-list'
     },
-
     tabBar: {
-        flex: 1,
+    	flex: 1,
         layout: {
             align: 'stretch',
             overflowHandler: 'none'
         }
     },
-
     responsiveConfig: {
         tall: {
             headerPosition: 'top'
@@ -56,7 +52,6 @@ Ext.define('jakub.view.main.Main', {
             headerPosition: 'left'
         }
     },
-
     defaults: {
         bodyPadding: 20,
         tabConfig: {
@@ -74,57 +69,72 @@ Ext.define('jakub.view.main.Main', {
             }
         }
     },
-
     items: [{
-        //title: 'Users',
+        title: 'Users',
         iconCls: 'fa-user',
-        // The following grid shares a store with the classic version's grid as well!
+        layout: 'fit',
         items: [{
             xtype: 'usersGrid'
         }]
     }, {
-        title: 'Activities.csv',
+        title: 'Activities',
         iconCls: 'fa-bolt',
+        layout: 'fit',
         items: [{
             xtype: 'activityGrid'
         }]
     }, {
-        title: 'Effects.csv',
+        title: 'Effects',
         iconCls: 'fa-bar-chart',
+        layout: 'fit',
+		items: [{
+			xtype: 'panel',
+			layout: 'fit',
+			title: 'Effects',
+			items: [{
+				xtype: 'effectiveChart'
+			}]
+		}]
+    },{
+        title: 'Upload',
+        iconCls: 'fa-upload',
+        layout: 'fit',
         items: [{
-            xtype: 'cartesian',
-            legend: {
-                position: 'right'
-            },
-            tbar: [{
-                xtype: 'label',
-                text: 'Effects.csv'
-            }],
-            store: {
-                autoLoad: true,
-                fields: ['Time', 'Plan', 'Actual'],
-                proxy: {
-                    type: 'ajax',
-                    url: 'http://localhost:1841/effects.csv',
-                    reader: 'csv'
-                }
-            },
-            axes: [{
-                type: 'numeric',
-                position: 'left',
-                title: '(%)',
-                grid: true
-            }, {
-                type: 'category',
-                position: 'bottom',
-                grid: true
-            }],
-            series: [{
-                type: 'bar',
-                // stacked: false,
-                xField: 'Time',
-                yField: ['Plan', 'Actual']
-            }]
+			xtype: 'grid',
+        	title: 'Upload CSV',
+        	controller: 'uploadController',
+        	tbar: [
+				{
+					xtype: 'fileuploadfield',
+					reference: 'uploadControl',
+					fieldLabel: 'CSV File',
+					labelAlign: 'right',
+					buttonText: 'Select CSV..',
+					width: 300
+				}, {
+					xtype: 'splitter'
+				}, {
+					xtype: 'button',
+					text: 'Upload',
+					handler: 'onUploadClick'
+				}, {
+					xtype: 'displayfield',
+					labelAlign: 'right',
+					fieldLabel: 'File Name',
+					fieldStyle: 'color:green; font-weight:bold',
+					bind: {
+						value: '{fileName}'
+					}
+				}, {
+					xtype: 'tbfill'
+				}, {
+					xtype: 'button',
+					text: 'Reset',
+					handler: 'onReset'
+				}
+        	],
+        	store: new Ext.data.Store(),
+        	columns: []
         }]
     }]
 });
