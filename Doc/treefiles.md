@@ -1,39 +1,42 @@
-[01;34m.[00m
-├── [01;34mCSV[00m
-│   ├── [01;34mFromFalcon[00m
+# Tree Map 
+
+```.
+├── CSV
+│   ├── FromFalcon
 │   │   ├── activities.csv
 │   │   ├── effects.csv
 │   │   └── users.csv
-│   └── [01;34mSamples[00m
+│   └── Samples
 │       ├── FL_insurance_sample.csv
 │       ├── SacramentocrimeJanuary2006.csv
 │       ├── Sacramentorealestatetransactions.csv
 │       ├── SalesJan2009.csv
 │       └── TechCrunchcontinentalUSA.csv
-├── [01;34mDoc[00m
+├── Doc
 │   ├── Nordantech_Ext\ JS_Challenge.pdf
 │   ├── Readme.md
 │   ├── StructureFlow.png
-│   └── appFlow.png
+│   ├── appFlow.png
+│   └── treefiles.md
 ├── Readme.md
-├── [01;34mapp[00m
+├── app
 │   ├── Application.js
 │   ├── Readme.md
-│   ├── [01;34mcontroller[00m
+│   ├── controller
 │   │   ├── UploadController.js
 │   │   └── UsersGridController.js
-│   ├── [01;34mmodel[00m
+│   ├── model
 │   │   ├── ActivityModel.js
 │   │   ├── Readme.md
 │   │   └── UsersModel.js
-│   ├── [01;34mstore[00m
+│   ├── store
 │   │   ├── Personnel.js
 │   │   └── Readme.md
-│   ├── [01;34mutils[00m
+│   ├── utils
 │   │   ├── CSVConvertor.js
 │   │   └── CSVReader.js
-│   └── [01;34mview[00m
-│       └── [01;34mmain[00m
+│   └── view
+│       └── main
 │           ├── ActivityGridViewModel.js
 │           ├── EffectChart.js
 │           ├── MainController.js
@@ -43,34 +46,34 @@
 ├── app.json
 ├── bootstrap.css
 ├── bootstrap.js
-├── [01;34mbuild[00m
-│   ├── [01;34mdevelopment[00m
-│   │   └── [01;34mjakub[00m
-│   │       ├── [01;34mclassic[00m
-│   │       │   └── [01;34mresources[00m
+├── build
+│   ├── development
+│   │   └── jakub
+│   │       ├── classic
+│   │       │   └── resources
 │   │       │       ├── Readme.md
-│   │       │       ├── [01;34mext[00m
-│   │       │       │   └── [01;34mext-watermark[00m
+│   │       │       ├── ext
+│   │       │       │   └── ext-watermark
 │   │       │       │       ├── Read\ Me.txt
-│   │       │       │       ├── [01;34mdemo-files[00m
+│   │       │       │       ├── demo-files
 │   │       │       │       │   ├── demo.css
 │   │       │       │       │   └── demo.js
 │   │       │       │       ├── demo.html
-│   │       │       │       ├── [01;34mfonts[00m
+│   │       │       │       ├── fonts
 │   │       │       │       │   ├── ext-watermark.eot
 │   │       │       │       │   ├── ext-watermark.svg
 │   │       │       │       │   ├── ext-watermark.ttf
 │   │       │       │       │   └── ext-watermark.woff
 │   │       │       │       ├── selection.json
 │   │       │       │       └── style.css
-│   │       │       ├── [01;34mfont-ext[00m
-│   │       │       │   └── [01;34mfonts[00m
+│   │       │       ├── font-ext
+│   │       │       │   └── fonts
 │   │       │       │       ├── ExtJS.eot
 │   │       │       │       ├── ExtJS.svg
 │   │       │       │       ├── ExtJS.ttf
 │   │       │       │       └── ExtJS.woff
-│   │       │       ├── [01;34mimages[00m
-│   │       │       │   ├── [01;34mbreadcrumb[00m
+│   │       │       ├── images
+│   │       │       │   ├── breadcrumb
 │   │       │       │   │   ├── default-arrow-open-rtl.png
 │   │       │       │   │   ├── default-arrow-open.png
 │   │       │       │   │   ├── default-arrow-rtl.png
@@ -83,7 +86,7 @@
 │   │       │       │   │   ├── default-split-arrow-over.png
 │   │       │       │   │   ├── default-split-arrow-rtl.png
 │   │       │       │   │   └── default-split-arrow.png
-│   │       │       │   ├── [01;34mbutton[00m
+│   │       │       │   ├── button
 │   │       │       │   │   ├── default-large-arrow-rtl.png
 │   │       │       │   │   ├── default-large-arrow.png
 │   │       │       │   │   ├── default-large-s-arrow-b-rtl.png
@@ -143,19 +146,19 @@
 │   │       │       │   │   ├── plain-toolbar-small-s-arrow-b.png
 │   │       │       │   │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │       │       │   │   └── plain-toolbar-small-s-arrow.png
-│   │       │       │   ├── [01;34mdatepicker[00m
+│   │       │       │   ├── datepicker
 │   │       │       │   │   ├── arrow-left.png
 │   │       │       │   │   ├── arrow-right.png
 │   │       │       │   │   └── month-arrow.png
-│   │       │       │   ├── [01;34mdd[00m
+│   │       │       │   ├── dd
 │   │       │       │   │   ├── drop-add.png
 │   │       │       │   │   ├── drop-no.png
 │   │       │       │   │   └── drop-yes.png
-│   │       │       │   ├── [01;34meditor[00m
+│   │       │       │   ├── editor
 │   │       │       │   │   └── tb-sprite.png
-│   │       │       │   ├── [01;34mfieldset[00m
+│   │       │       │   ├── fieldset
 │   │       │       │   │   └── collapse-tool.png
-│   │       │       │   ├── [01;34mform[00m
+│   │       │       │   ├── form
 │   │       │       │   │   ├── checkbox.png
 │   │       │       │   │   ├── clear-trigger-rtl.png
 │   │       │       │   │   ├── clear-trigger.png
@@ -170,7 +173,7 @@
 │   │       │       │   │   ├── tag-field-item-close.png
 │   │       │       │   │   ├── trigger-rtl.png
 │   │       │       │   │   └── trigger.png
-│   │       │       │   ├── [01;34mgrid[00m
+│   │       │       │   ├── grid
 │   │       │       │   │   ├── col-move-bottom.png
 │   │       │       │   │   ├── col-move-top.png
 │   │       │       │   │   ├── columns.png
@@ -180,7 +183,7 @@
 │   │       │       │   │   ├── dirty.png
 │   │       │       │   │   ├── drop-no.png
 │   │       │       │   │   ├── drop-yes.png
-│   │       │       │   │   ├── [01;34mfilters[00m
+│   │       │       │   │   ├── filters
 │   │       │       │   │   │   ├── equals.png
 │   │       │       │   │   │   ├── find.png
 │   │       │       │   │   │   ├── greater_than.png
@@ -193,7 +196,7 @@
 │   │       │       │   │   ├── hmenu-desc.png
 │   │       │       │   │   ├── hmenu-lock.png
 │   │       │       │   │   ├── hmenu-unlock.png
-│   │       │       │   │   ├── [01;35mloading.gif[00m
+│   │       │       │   │   ├── loading.gif
 │   │       │       │   │   ├── page-first.png
 │   │       │       │   │   ├── page-last.png
 │   │       │       │   │   ├── page-next.png
@@ -202,10 +205,10 @@
 │   │       │       │   │   ├── refresh.png
 │   │       │       │   │   ├── sort_asc.png
 │   │       │       │   │   └── sort_desc.png
-│   │       │       │   ├── [01;34mloadmask[00m
-│   │       │       │   │   └── [01;35mloading.gif[00m
+│   │       │       │   ├── loadmask
+│   │       │       │   │   └── loading.gif
 │   │       │       │   ├── magnify.png
-│   │       │       │   ├── [01;34mmenu[00m
+│   │       │       │   ├── menu
 │   │       │       │   │   ├── default-checked.png
 │   │       │       │   │   ├── default-group-checked.png
 │   │       │       │   │   ├── default-menu-parent-left.png
@@ -214,26 +217,26 @@
 │   │       │       │   │   ├── default-scroll-bottom.png
 │   │       │       │   │   ├── default-scroll-top.png
 │   │       │       │   │   └── default-unchecked.png
-│   │       │       │   ├── [01;34mshared[00m
+│   │       │       │   ├── shared
 │   │       │       │   │   ├── icon-error.png
 │   │       │       │   │   ├── icon-info.png
 │   │       │       │   │   ├── icon-question.png
 │   │       │       │   │   └── icon-warning.png
-│   │       │       │   ├── [01;34msizer[00m
+│   │       │       │   ├── sizer
 │   │       │       │   │   ├── e-handle.png
 │   │       │       │   │   ├── ne-handle.png
 │   │       │       │   │   ├── nw-handle.png
 │   │       │       │   │   ├── s-handle.png
 │   │       │       │   │   ├── se-handle.png
 │   │       │       │   │   └── sw-handle.png
-│   │       │       │   ├── [01;34mslider[00m
+│   │       │       │   ├── slider
 │   │       │       │   │   ├── slider-bg.png
 │   │       │       │   │   ├── slider-thumb.png
 │   │       │       │   │   ├── slider-v-bg.png
 │   │       │       │   │   └── slider-v-thumb.png
-│   │       │       │   ├── [01;34mtab[00m
+│   │       │       │   ├── tab
 │   │       │       │   │   └── tab-default-close.png
-│   │       │       │   ├── [01;34mtab-bar[00m
+│   │       │       │   ├── tab-bar
 │   │       │       │   │   ├── default-more-left.png
 │   │       │       │   │   ├── default-more.png
 │   │       │       │   │   ├── default-plain-more-left.png
@@ -246,7 +249,7 @@
 │   │       │       │   │   ├── default-scroll-left.png
 │   │       │       │   │   ├── default-scroll-right.png
 │   │       │       │   │   └── default-scroll-top.png
-│   │       │       │   ├── [01;34mtoolbar[00m
+│   │       │       │   ├── toolbar
 │   │       │       │   │   ├── default-more-left.png
 │   │       │       │   │   ├── default-more.png
 │   │       │       │   │   ├── default-scroll-bottom.png
@@ -257,26 +260,26 @@
 │   │       │       │   │   ├── footer-more.png
 │   │       │       │   │   ├── footer-scroll-left.png
 │   │       │       │   │   └── footer-scroll-right.png
-│   │       │       │   ├── [01;34mtools[00m
+│   │       │       │   ├── tools
 │   │       │       │   │   ├── tool-sprites-dark.png
 │   │       │       │   │   └── tool-sprites.png
-│   │       │       │   ├── [01;34mtree[00m
+│   │       │       │   ├── tree
 │   │       │       │   │   ├── arrows-rtl.png
 │   │       │       │   │   ├── arrows.png
 │   │       │       │   │   ├── drop-above.png
-│   │       │       │   │   ├── [01;35mdrop-add.gif[00m
+│   │       │       │   │   ├── drop-add.gif
 │   │       │       │   │   ├── drop-add.png
 │   │       │       │   │   ├── drop-append.png
 │   │       │       │   │   ├── drop-below.png
-│   │       │       │   │   ├── [01;35mdrop-between.gif[00m
+│   │       │       │   │   ├── drop-between.gif
 │   │       │       │   │   ├── drop-between.png
-│   │       │       │   │   ├── [01;35mdrop-no.gif[00m
+│   │       │       │   │   ├── drop-no.gif
 │   │       │       │   │   ├── drop-no.png
-│   │       │       │   │   ├── [01;35mdrop-over.gif[00m
+│   │       │       │   │   ├── drop-over.gif
 │   │       │       │   │   ├── drop-over.png
-│   │       │       │   │   ├── [01;35mdrop-under.gif[00m
+│   │       │       │   │   ├── drop-under.gif
 │   │       │       │   │   ├── drop-under.png
-│   │       │       │   │   ├── [01;35mdrop-yes.gif[00m
+│   │       │       │   │   ├── drop-yes.gif
 │   │       │       │   │   ├── drop-yes.png
 │   │       │       │   │   ├── elbow-end-minus-rtl.png
 │   │       │       │   │   ├── elbow-end-minus.png
@@ -302,15 +305,15 @@
 │   │       │       │   │   ├── folder.png
 │   │       │       │   │   ├── leaf-rtl.png
 │   │       │       │   │   ├── leaf.png
-│   │       │       │   │   └── [01;35mloading.gif[00m
-│   │       │       │   ├── [01;34mutil[00m
-│   │       │       │   │   └── [01;34msplitter[00m
+│   │       │       │   │   └── loading.gif
+│   │       │       │   ├── util
+│   │       │       │   │   └── splitter
 │   │       │       │   │       ├── mini-bottom.png
 │   │       │       │   │       ├── mini-left.png
 │   │       │       │   │       ├── mini-right.png
 │   │       │       │   │       └── mini-top.png
-│   │       │       │   └── [01;34mwindow[00m
-│   │       │       │       └── [01;34mtoast[00m
+│   │       │       │   └── window
+│   │       │       │       └── toast
 │   │       │       │           ├── fade-blue.png
 │   │       │       │           ├── fader.png
 │   │       │       │           ├── icon16_error.png
@@ -318,67 +321,67 @@
 │   │       │       ├── jakub-all.css
 │   │       │       ├── jakub-all_1.css
 │   │       │       ├── jakub-all_2.css
-│   │       │       └── [01;34mux[00m
+│   │       │       └── ux
 │   │       │           ├── Readme.md
-│   │       │           └── [01;34mimages[00m
-│   │       │               ├── [01;34mcolorpick[00m
+│   │       │           └── images
+│   │       │               ├── colorpick
 │   │       │               │   ├── checkerboard.png
 │   │       │               │   ├── drag_circle.png
 │   │       │               │   ├── huegradient.png
 │   │       │               │   ├── map_gradient.png
 │   │       │               │   └── pickerslider.png
-│   │       │               ├── [01;34mexplorer[00m
+│   │       │               ├── explorer
 │   │       │               │   ├── leaf.png
 │   │       │               │   └── node.png
-│   │       │               ├── [01;34mgrouptabpanel[00m
-│   │       │               │   ├── [01;35mcorners.gif[00m
-│   │       │               │   ├── [01;35mminus.gif[00m
-│   │       │               │   └── [01;35mplus.gif[00m
-│   │       │               ├── [01;34mitemselector[00m
-│   │       │               │   ├── [01;35mbottom.gif[00m
-│   │       │               │   ├── [01;35mdown.gif[00m
-│   │       │               │   ├── [01;35mleft.gif[00m
-│   │       │               │   ├── [01;35mright.gif[00m
-│   │       │               │   ├── [01;35mtop.gif[00m
-│   │       │               │   └── [01;35mup.gif[00m
-│   │       │               ├── [01;34mstatusbar[00m
+│   │       │               ├── grouptabpanel
+│   │       │               │   ├── corners.gif
+│   │       │               │   ├── minus.gif
+│   │       │               │   └── plus.gif
+│   │       │               ├── itemselector
+│   │       │               │   ├── bottom.gif
+│   │       │               │   ├── down.gif
+│   │       │               │   ├── left.gif
+│   │       │               │   ├── right.gif
+│   │       │               │   ├── top.gif
+│   │       │               │   └── up.gif
+│   │       │               ├── statusbar
 │   │       │               │   ├── accept.png
-│   │       │               │   ├── [01;35mexclamation.gif[00m
-│   │       │               │   └── [01;35mloading.gif[00m
-│   │       │               └── [01;34mtabscrollermenu[00m
-│   │       │                   └── [01;35mmenu.gif[00m
+│   │       │               │   ├── exclamation.gif
+│   │       │               │   └── loading.gif
+│   │       │               └── tabscrollermenu
+│   │       │                   └── menu.gif
 │   │       ├── classic.json
-│   │       ├── [01;34mmodern[00m
-│   │       │   └── [01;34mresources[00m
+│   │       ├── modern
+│   │       │   └── resources
 │   │       │       ├── Readme.md
-│   │       │       ├── [01;34mext[00m
-│   │       │       │   └── [01;34mext-watermark[00m
+│   │       │       ├── ext
+│   │       │       │   └── ext-watermark
 │   │       │       │       ├── Read\ Me.txt
-│   │       │       │       ├── [01;34mdemo-files[00m
+│   │       │       │       ├── demo-files
 │   │       │       │       │   ├── demo.css
 │   │       │       │       │   └── demo.js
 │   │       │       │       ├── demo.html
-│   │       │       │       ├── [01;34mfonts[00m
+│   │       │       │       ├── fonts
 │   │       │       │       │   ├── ext-watermark.eot
 │   │       │       │       │   ├── ext-watermark.svg
 │   │       │       │       │   ├── ext-watermark.ttf
 │   │       │       │       │   └── ext-watermark.woff
 │   │       │       │       ├── selection.json
 │   │       │       │       └── style.css
-│   │       │       ├── [01;34mfont-ext[00m
-│   │       │       │   └── [01;34mfonts[00m
+│   │       │       ├── font-ext
+│   │       │       │   └── fonts
 │   │       │       │       ├── ExtJS.eot
 │   │       │       │       ├── ExtJS.svg
 │   │       │       │       ├── ExtJS.ttf
 │   │       │       │       └── ExtJS.woff
-│   │       │       ├── [01;34mimages[00m
+│   │       │       ├── images
 │   │       │       │   ├── check.png
 │   │       │       │   ├── clear_icon.png
 │   │       │       │   ├── disclosure.png
 │   │       │       │   ├── disclosure2.png
 │   │       │       │   ├── dotgrid.png
-│   │       │       │   ├── [01;35mloading.gif[00m
-│   │       │       │   ├── [01;34mpictos[00m
+│   │       │       │   ├── loading.gif
+│   │       │       │   ├── pictos
 │   │       │       │   │   ├── action.png
 │   │       │       │   │   ├── add.png
 │   │       │       │   │   ├── add1.png
@@ -732,21 +735,21 @@
 │   │       │       │   ├── togglethumbbg.png
 │   │       │       │   ├── togglethumbmask.png
 │   │       │       │   ├── trackmask_outer.png
-│   │       │       │   └── [01;34mtree[00m
-│   │       │       │       └── [01;35mloading.gif[00m
+│   │       │       │   └── tree
+│   │       │       │       └── loading.gif
 │   │       │       └── jakub-all.css
 │   │       ├── modern.json
-│   │       └── [01;34mresources[00m
+│   │       └── resources
 │   │           ├── Readme.md
-│   │           ├── [01;34mfont-awesome[00m
-│   │           │   └── [01;34mfonts[00m
+│   │           ├── font-awesome
+│   │           │   └── fonts
 │   │           │       ├── FontAwesome.otf
 │   │           │       ├── fontawesome-webfont.eot
 │   │           │       ├── fontawesome-webfont.svg
 │   │           │       ├── fontawesome-webfont.ttf
 │   │           │       ├── fontawesome-webfont.woff
 │   │           │       └── fontawesome-webfont.woff2
-│   │           └── [01;34mfonts[00m
+│   │           └── fonts
 │   │               ├── OpenSans-Bold.ttf
 │   │               ├── OpenSans-BoldItalic.ttf
 │   │               ├── OpenSans-ExtraBold.ttf
@@ -757,39 +760,39 @@
 │   │               ├── OpenSans-Regular.ttf
 │   │               ├── OpenSans-Semibold.ttf
 │   │               └── OpenSans-SemiboldItalic.ttf
-│   ├── [01;34mproduction[00m
-│   │   └── [01;34mjakub[00m
-│   │       ├── [01;34marchive[00m
-│   │       │   ├── [01;34mclassic[00m
-│   │       │   └── [01;34mmodern[00m
+│   ├── production
+│   │   └── jakub
+│   │       ├── archive
+│   │       │   ├── classic
+│   │       │   └── modern
 │   │       ├── cache.appcache
-│   │       ├── [01;34mclassic[00m
+│   │       ├── classic
 │   │       │   ├── app.js
-│   │       │   ├── [01;34mdeltas[00m
-│   │       │   └── [01;34mresources[00m
+│   │       │   ├── deltas
+│   │       │   └── resources
 │   │       │       ├── Readme.md
-│   │       │       ├── [01;34mext[00m
-│   │       │       │   └── [01;34mext-watermark[00m
+│   │       │       ├── ext
+│   │       │       │   └── ext-watermark
 │   │       │       │       ├── Read\ Me.txt
-│   │       │       │       ├── [01;34mdemo-files[00m
+│   │       │       │       ├── demo-files
 │   │       │       │       │   ├── demo.css
 │   │       │       │       │   └── demo.js
 │   │       │       │       ├── demo.html
-│   │       │       │       ├── [01;34mfonts[00m
+│   │       │       │       ├── fonts
 │   │       │       │       │   ├── ext-watermark.eot
 │   │       │       │       │   ├── ext-watermark.svg
 │   │       │       │       │   ├── ext-watermark.ttf
 │   │       │       │       │   └── ext-watermark.woff
 │   │       │       │       ├── selection.json
 │   │       │       │       └── style.css
-│   │       │       ├── [01;34mfont-ext[00m
-│   │       │       │   └── [01;34mfonts[00m
+│   │       │       ├── font-ext
+│   │       │       │   └── fonts
 │   │       │       │       ├── ExtJS.eot
 │   │       │       │       ├── ExtJS.svg
 │   │       │       │       ├── ExtJS.ttf
 │   │       │       │       └── ExtJS.woff
-│   │       │       ├── [01;34mimages[00m
-│   │       │       │   ├── [01;34mbreadcrumb[00m
+│   │       │       ├── images
+│   │       │       │   ├── breadcrumb
 │   │       │       │   │   ├── default-arrow-open-rtl.png
 │   │       │       │   │   ├── default-arrow-open.png
 │   │       │       │   │   ├── default-arrow-rtl.png
@@ -802,121 +805,121 @@
 │   │       │       │   │   ├── default-split-arrow-over.png
 │   │       │       │   │   ├── default-split-arrow-rtl.png
 │   │       │       │   │   └── default-split-arrow.png
-│   │       │       │   ├── [01;34mbtn[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-large-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-medium-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-small-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-large-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-medium-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-disabled-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-disabled-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-focus-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-default-toolbar-small-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-large-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-medium-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-focus-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-focus-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-focus-pressed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-focus-pressed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-over-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-over-sides.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-plain-toolbar-small-pressed-corners.gif[00m
-│   │       │       │   │   └── [01;35mbtn-plain-toolbar-small-pressed-sides.gif[00m
-│   │       │       │   ├── [01;34mbtn-group[00m
-│   │       │       │   │   ├── [01;35mbtn-group-default-framed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-group-default-framed-notitle-corners.gif[00m
-│   │       │       │   │   ├── [01;35mbtn-group-default-framed-notitle-sides.gif[00m
-│   │       │       │   │   └── [01;35mbtn-group-default-framed-sides.gif[00m
-│   │       │       │   ├── [01;34mbutton[00m
+│   │       │       │   ├── btn
+│   │       │       │   │   ├── btn-default-large-corners.gif
+│   │       │       │   │   ├── btn-default-large-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-large-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-large-focus-corners.gif
+│   │       │       │   │   ├── btn-default-large-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-large-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-large-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-large-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-large-focus-sides.gif
+│   │       │       │   │   ├── btn-default-large-over-corners.gif
+│   │       │       │   │   ├── btn-default-large-over-sides.gif
+│   │       │       │   │   ├── btn-default-large-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-large-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-large-sides.gif
+│   │       │       │   │   ├── btn-default-medium-corners.gif
+│   │       │       │   │   ├── btn-default-medium-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-medium-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-medium-focus-corners.gif
+│   │       │       │   │   ├── btn-default-medium-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-medium-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-medium-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-medium-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-medium-focus-sides.gif
+│   │       │       │   │   ├── btn-default-medium-over-corners.gif
+│   │       │       │   │   ├── btn-default-medium-over-sides.gif
+│   │       │       │   │   ├── btn-default-medium-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-medium-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-medium-sides.gif
+│   │       │       │   │   ├── btn-default-small-corners.gif
+│   │       │       │   │   ├── btn-default-small-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-small-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-small-focus-corners.gif
+│   │       │       │   │   ├── btn-default-small-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-small-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-small-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-small-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-small-focus-sides.gif
+│   │       │       │   │   ├── btn-default-small-over-corners.gif
+│   │       │       │   │   ├── btn-default-small-over-sides.gif
+│   │       │       │   │   ├── btn-default-small-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-small-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-small-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-focus-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-large-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-focus-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-medium-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-disabled-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-disabled-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-focus-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-over-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-over-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-pressed-corners.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-pressed-sides.gif
+│   │       │       │   │   ├── btn-default-toolbar-small-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-focus-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-focus-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-pressed-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-large-pressed-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-focus-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-focus-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-pressed-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-medium-pressed-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-focus-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-focus-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-focus-pressed-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-focus-pressed-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-over-corners.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-over-sides.gif
+│   │       │       │   │   ├── btn-plain-toolbar-small-pressed-corners.gif
+│   │       │       │   │   └── btn-plain-toolbar-small-pressed-sides.gif
+│   │       │       │   ├── btn-group
+│   │       │       │   │   ├── btn-group-default-framed-corners.gif
+│   │       │       │   │   ├── btn-group-default-framed-notitle-corners.gif
+│   │       │       │   │   ├── btn-group-default-framed-notitle-sides.gif
+│   │       │       │   │   └── btn-group-default-framed-sides.gif
+│   │       │       │   ├── button
 │   │       │       │   │   ├── default-large-arrow-rtl.png
 │   │       │       │   │   ├── default-large-arrow.png
 │   │       │       │   │   ├── default-large-s-arrow-b-rtl.png
@@ -976,19 +979,19 @@
 │   │       │       │   │   ├── plain-toolbar-small-s-arrow-b.png
 │   │       │       │   │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │       │       │   │   └── plain-toolbar-small-s-arrow.png
-│   │       │       │   ├── [01;34mdatepicker[00m
+│   │       │       │   ├── datepicker
 │   │       │       │   │   ├── arrow-left.png
 │   │       │       │   │   ├── arrow-right.png
 │   │       │       │   │   └── month-arrow.png
-│   │       │       │   ├── [01;34mdd[00m
+│   │       │       │   ├── dd
 │   │       │       │   │   ├── drop-add.png
 │   │       │       │   │   ├── drop-no.png
 │   │       │       │   │   └── drop-yes.png
-│   │       │       │   ├── [01;34meditor[00m
+│   │       │       │   ├── editor
 │   │       │       │   │   └── tb-sprite.png
-│   │       │       │   ├── [01;34mfieldset[00m
+│   │       │       │   ├── fieldset
 │   │       │       │   │   └── collapse-tool.png
-│   │       │       │   ├── [01;34mform[00m
+│   │       │       │   ├── form
 │   │       │       │   │   ├── checkbox.png
 │   │       │       │   │   ├── clear-trigger-rtl.png
 │   │       │       │   │   ├── clear-trigger.png
@@ -1003,7 +1006,7 @@
 │   │       │       │   │   ├── tag-field-item-close.png
 │   │       │       │   │   ├── trigger-rtl.png
 │   │       │       │   │   └── trigger.png
-│   │       │       │   ├── [01;34mgrid[00m
+│   │       │       │   ├── grid
 │   │       │       │   │   ├── col-move-bottom.png
 │   │       │       │   │   ├── col-move-top.png
 │   │       │       │   │   ├── columns.png
@@ -1013,7 +1016,7 @@
 │   │       │       │   │   ├── dirty.png
 │   │       │       │   │   ├── drop-no.png
 │   │       │       │   │   ├── drop-yes.png
-│   │       │       │   │   ├── [01;34mfilters[00m
+│   │       │       │   │   ├── filters
 │   │       │       │   │   │   ├── equals.png
 │   │       │       │   │   │   ├── find.png
 │   │       │       │   │   │   ├── greater_than.png
@@ -1026,7 +1029,7 @@
 │   │       │       │   │   ├── hmenu-desc.png
 │   │       │       │   │   ├── hmenu-lock.png
 │   │       │       │   │   ├── hmenu-unlock.png
-│   │       │       │   │   ├── [01;35mloading.gif[00m
+│   │       │       │   │   ├── loading.gif
 │   │       │       │   │   ├── page-first.png
 │   │       │       │   │   ├── page-last.png
 │   │       │       │   │   ├── page-next.png
@@ -1035,15 +1038,15 @@
 │   │       │       │   │   ├── refresh.png
 │   │       │       │   │   ├── sort_asc.png
 │   │       │       │   │   └── sort_desc.png
-│   │       │       │   ├── [01;34mgrid-row-editor-buttons[00m
-│   │       │       │   │   ├── [01;35mgrid-row-editor-buttons-default-bottom-corners.gif[00m
-│   │       │       │   │   ├── [01;35mgrid-row-editor-buttons-default-bottom-sides.gif[00m
-│   │       │       │   │   ├── [01;35mgrid-row-editor-buttons-default-top-corners.gif[00m
-│   │       │       │   │   └── [01;35mgrid-row-editor-buttons-default-top-sides.gif[00m
-│   │       │       │   ├── [01;34mloadmask[00m
-│   │       │       │   │   └── [01;35mloading.gif[00m
+│   │       │       │   ├── grid-row-editor-buttons
+│   │       │       │   │   ├── grid-row-editor-buttons-default-bottom-corners.gif
+│   │       │       │   │   ├── grid-row-editor-buttons-default-bottom-sides.gif
+│   │       │       │   │   ├── grid-row-editor-buttons-default-top-corners.gif
+│   │       │       │   │   └── grid-row-editor-buttons-default-top-sides.gif
+│   │       │       │   ├── loadmask
+│   │       │       │   │   └── loading.gif
 │   │       │       │   ├── magnify.png
-│   │       │       │   ├── [01;34mmenu[00m
+│   │       │       │   ├── menu
 │   │       │       │   │   ├── default-checked.png
 │   │       │       │   │   ├── default-group-checked.png
 │   │       │       │   │   ├── default-menu-parent-left.png
@@ -1052,88 +1055,88 @@
 │   │       │       │   │   ├── default-scroll-bottom.png
 │   │       │       │   │   ├── default-scroll-top.png
 │   │       │       │   │   └── default-unchecked.png
-│   │       │       │   ├── [01;34mpanel[00m
-│   │       │       │   │   ├── [01;35mpanel-default-framed-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-default-framed-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-light-framed-corners.gif[00m
-│   │       │       │   │   └── [01;35mpanel-light-framed-sides.gif[00m
-│   │       │       │   ├── [01;34mpanel-header[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-bottom-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-bottom-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-bottom-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-bottom-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-left-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-left-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-left-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-right-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-right-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-right-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-top-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-collapsed-top-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-left-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-left-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-left-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-right-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-right-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-right-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-top-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-default-framed-top-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-bottom-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-bottom-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-bottom-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-bottom-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-left-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-left-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-left-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-right-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-right-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-right-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-top-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-collapsed-top-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-left-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-left-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-left-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-right-corners-rtl.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-right-corners.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-right-sides.gif[00m
-│   │       │       │   │   ├── [01;35mpanel-header-light-framed-top-corners.gif[00m
-│   │       │       │   │   └── [01;35mpanel-header-light-framed-top-sides.gif[00m
-│   │       │       │   ├── [01;34mshared[00m
+│   │       │       │   ├── panel
+│   │       │       │   │   ├── panel-default-framed-corners.gif
+│   │       │       │   │   ├── panel-default-framed-sides.gif
+│   │       │       │   │   ├── panel-light-framed-corners.gif
+│   │       │       │   │   └── panel-light-framed-sides.gif
+│   │       │       │   ├── panel-header
+│   │       │       │   │   ├── panel-header-default-framed-bottom-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-bottom-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-bottom-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-bottom-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-left-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-left-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-left-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-right-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-right-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-right-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-top-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-collapsed-top-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-left-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-default-framed-left-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-left-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-right-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-default-framed-right-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-right-sides.gif
+│   │       │       │   │   ├── panel-header-default-framed-top-corners.gif
+│   │       │       │   │   ├── panel-header-default-framed-top-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-bottom-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-bottom-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-bottom-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-bottom-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-left-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-left-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-left-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-right-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-right-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-right-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-top-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-collapsed-top-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-left-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-light-framed-left-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-left-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-right-corners-rtl.gif
+│   │       │       │   │   ├── panel-header-light-framed-right-corners.gif
+│   │       │       │   │   ├── panel-header-light-framed-right-sides.gif
+│   │       │       │   │   ├── panel-header-light-framed-top-corners.gif
+│   │       │       │   │   └── panel-header-light-framed-top-sides.gif
+│   │       │       │   ├── shared
 │   │       │       │   │   ├── icon-error.png
 │   │       │       │   │   ├── icon-info.png
 │   │       │       │   │   ├── icon-question.png
 │   │       │       │   │   └── icon-warning.png
-│   │       │       │   ├── [01;34msizer[00m
+│   │       │       │   ├── sizer
 │   │       │       │   │   ├── e-handle.png
 │   │       │       │   │   ├── ne-handle.png
 │   │       │       │   │   ├── nw-handle.png
 │   │       │       │   │   ├── s-handle.png
 │   │       │       │   │   ├── se-handle.png
 │   │       │       │   │   └── sw-handle.png
-│   │       │       │   ├── [01;34mslider[00m
+│   │       │       │   ├── slider
 │   │       │       │   │   ├── slider-bg.png
 │   │       │       │   │   ├── slider-thumb.png
 │   │       │       │   │   ├── slider-v-bg.png
 │   │       │       │   │   └── slider-v-thumb.png
-│   │       │       │   ├── [01;34mtab[00m
-│   │       │       │   │   ├── [01;35mtab-default-bottom-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-bottom-focus-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-bottom-focus-over-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-bottom-over-fbg.gif[00m
+│   │       │       │   ├── tab
+│   │       │       │   │   ├── tab-default-bottom-active-fbg.gif
+│   │       │       │   │   ├── tab-default-bottom-focus-active-fbg.gif
+│   │       │       │   │   ├── tab-default-bottom-focus-over-fbg.gif
+│   │       │       │   │   ├── tab-default-bottom-over-fbg.gif
 │   │       │       │   │   ├── tab-default-close.png
-│   │       │       │   │   ├── [01;35mtab-default-left-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-left-focus-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-left-focus-over-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-left-over-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-right-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-right-focus-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-right-focus-over-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-right-over-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-top-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-top-focus-active-fbg.gif[00m
-│   │       │       │   │   ├── [01;35mtab-default-top-focus-over-fbg.gif[00m
-│   │       │       │   │   └── [01;35mtab-default-top-over-fbg.gif[00m
-│   │       │       │   ├── [01;34mtab-bar[00m
+│   │       │       │   │   ├── tab-default-left-active-fbg.gif
+│   │       │       │   │   ├── tab-default-left-focus-active-fbg.gif
+│   │       │       │   │   ├── tab-default-left-focus-over-fbg.gif
+│   │       │       │   │   ├── tab-default-left-over-fbg.gif
+│   │       │       │   │   ├── tab-default-right-active-fbg.gif
+│   │       │       │   │   ├── tab-default-right-focus-active-fbg.gif
+│   │       │       │   │   ├── tab-default-right-focus-over-fbg.gif
+│   │       │       │   │   ├── tab-default-right-over-fbg.gif
+│   │       │       │   │   ├── tab-default-top-active-fbg.gif
+│   │       │       │   │   ├── tab-default-top-focus-active-fbg.gif
+│   │       │       │   │   ├── tab-default-top-focus-over-fbg.gif
+│   │       │       │   │   └── tab-default-top-over-fbg.gif
+│   │       │       │   ├── tab-bar
 │   │       │       │   │   ├── default-more-left.png
 │   │       │       │   │   ├── default-more.png
 │   │       │       │   │   ├── default-plain-more-left.png
@@ -1146,12 +1149,12 @@
 │   │       │       │   │   ├── default-scroll-left.png
 │   │       │       │   │   ├── default-scroll-right.png
 │   │       │       │   │   └── default-scroll-top.png
-│   │       │       │   ├── [01;34mtip[00m
-│   │       │       │   │   ├── [01;35mtip-default-corners.gif[00m
-│   │       │       │   │   ├── [01;35mtip-default-sides.gif[00m
-│   │       │       │   │   ├── [01;35mtip-form-invalid-corners.gif[00m
-│   │       │       │   │   └── [01;35mtip-form-invalid-sides.gif[00m
-│   │       │       │   ├── [01;34mtoolbar[00m
+│   │       │       │   ├── tip
+│   │       │       │   │   ├── tip-default-corners.gif
+│   │       │       │   │   ├── tip-default-sides.gif
+│   │       │       │   │   ├── tip-form-invalid-corners.gif
+│   │       │       │   │   └── tip-form-invalid-sides.gif
+│   │       │       │   ├── toolbar
 │   │       │       │   │   ├── default-more-left.png
 │   │       │       │   │   ├── default-more.png
 │   │       │       │   │   ├── default-scroll-bottom.png
@@ -1162,26 +1165,26 @@
 │   │       │       │   │   ├── footer-more.png
 │   │       │       │   │   ├── footer-scroll-left.png
 │   │       │       │   │   └── footer-scroll-right.png
-│   │       │       │   ├── [01;34mtools[00m
+│   │       │       │   ├── tools
 │   │       │       │   │   ├── tool-sprites-dark.png
 │   │       │       │   │   └── tool-sprites.png
-│   │       │       │   ├── [01;34mtree[00m
+│   │       │       │   ├── tree
 │   │       │       │   │   ├── arrows-rtl.png
 │   │       │       │   │   ├── arrows.png
 │   │       │       │   │   ├── drop-above.png
-│   │       │       │   │   ├── [01;35mdrop-add.gif[00m
+│   │       │       │   │   ├── drop-add.gif
 │   │       │       │   │   ├── drop-add.png
 │   │       │       │   │   ├── drop-append.png
 │   │       │       │   │   ├── drop-below.png
-│   │       │       │   │   ├── [01;35mdrop-between.gif[00m
+│   │       │       │   │   ├── drop-between.gif
 │   │       │       │   │   ├── drop-between.png
-│   │       │       │   │   ├── [01;35mdrop-no.gif[00m
+│   │       │       │   │   ├── drop-no.gif
 │   │       │       │   │   ├── drop-no.png
-│   │       │       │   │   ├── [01;35mdrop-over.gif[00m
+│   │       │       │   │   ├── drop-over.gif
 │   │       │       │   │   ├── drop-over.png
-│   │       │       │   │   ├── [01;35mdrop-under.gif[00m
+│   │       │       │   │   ├── drop-under.gif
 │   │       │       │   │   ├── drop-under.png
-│   │       │       │   │   ├── [01;35mdrop-yes.gif[00m
+│   │       │       │   │   ├── drop-yes.gif
 │   │       │       │   │   ├── drop-yes.png
 │   │       │       │   │   ├── elbow-end-minus-rtl.png
 │   │       │       │   │   ├── elbow-end-minus.png
@@ -1207,110 +1210,110 @@
 │   │       │       │   │   ├── folder.png
 │   │       │       │   │   ├── leaf-rtl.png
 │   │       │       │   │   ├── leaf.png
-│   │       │       │   │   └── [01;35mloading.gif[00m
-│   │       │       │   ├── [01;34mutil[00m
-│   │       │       │   │   └── [01;34msplitter[00m
+│   │       │       │   │   └── loading.gif
+│   │       │       │   ├── util
+│   │       │       │   │   └── splitter
 │   │       │       │   │       ├── mini-bottom.png
 │   │       │       │   │       ├── mini-left.png
 │   │       │       │   │       ├── mini-right.png
 │   │       │       │   │       └── mini-top.png
-│   │       │       │   ├── [01;34mwindow[00m
-│   │       │       │   │   ├── [01;34mtoast[00m
+│   │       │       │   ├── window
+│   │       │       │   │   ├── toast
 │   │       │       │   │   │   ├── fade-blue.png
 │   │       │       │   │   │   ├── fader.png
 │   │       │       │   │   │   ├── icon16_error.png
 │   │       │       │   │   │   └── icon16_info.png
-│   │       │       │   │   ├── [01;35mwindow-default-corners.gif[00m
-│   │       │       │   │   └── [01;35mwindow-default-sides.gif[00m
-│   │       │       │   └── [01;34mwindow-header[00m
-│   │       │       │       ├── [01;35mwindow-header-default-bottom-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-bottom-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-bottom-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-bottom-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-left-corners-rtl.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-left-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-left-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-right-corners-rtl.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-right-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-right-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-top-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-collapsed-top-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-left-corners-rtl.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-left-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-left-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-right-corners-rtl.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-right-corners.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-right-sides.gif[00m
-│   │       │       │       ├── [01;35mwindow-header-default-top-corners.gif[00m
-│   │       │       │       └── [01;35mwindow-header-default-top-sides.gif[00m
+│   │       │       │   │   ├── window-default-corners.gif
+│   │       │       │   │   └── window-default-sides.gif
+│   │       │       │   └── window-header
+│   │       │       │       ├── window-header-default-bottom-corners.gif
+│   │       │       │       ├── window-header-default-bottom-sides.gif
+│   │       │       │       ├── window-header-default-collapsed-bottom-corners.gif
+│   │       │       │       ├── window-header-default-collapsed-bottom-sides.gif
+│   │       │       │       ├── window-header-default-collapsed-left-corners-rtl.gif
+│   │       │       │       ├── window-header-default-collapsed-left-corners.gif
+│   │       │       │       ├── window-header-default-collapsed-left-sides.gif
+│   │       │       │       ├── window-header-default-collapsed-right-corners-rtl.gif
+│   │       │       │       ├── window-header-default-collapsed-right-corners.gif
+│   │       │       │       ├── window-header-default-collapsed-right-sides.gif
+│   │       │       │       ├── window-header-default-collapsed-top-corners.gif
+│   │       │       │       ├── window-header-default-collapsed-top-sides.gif
+│   │       │       │       ├── window-header-default-left-corners-rtl.gif
+│   │       │       │       ├── window-header-default-left-corners.gif
+│   │       │       │       ├── window-header-default-left-sides.gif
+│   │       │       │       ├── window-header-default-right-corners-rtl.gif
+│   │       │       │       ├── window-header-default-right-corners.gif
+│   │       │       │       ├── window-header-default-right-sides.gif
+│   │       │       │       ├── window-header-default-top-corners.gif
+│   │       │       │       └── window-header-default-top-sides.gif
 │   │       │       ├── jakub-all.css
 │   │       │       ├── jakub-all_1.css
 │   │       │       ├── jakub-all_2.css
-│   │       │       └── [01;34mux[00m
+│   │       │       └── ux
 │   │       │           ├── Readme.md
-│   │       │           └── [01;34mimages[00m
-│   │       │               ├── [01;34mcolorpick[00m
+│   │       │           └── images
+│   │       │               ├── colorpick
 │   │       │               │   ├── checkerboard.png
 │   │       │               │   ├── drag_circle.png
 │   │       │               │   ├── huegradient.png
 │   │       │               │   ├── map_gradient.png
 │   │       │               │   └── pickerslider.png
-│   │       │               ├── [01;34mexplorer[00m
+│   │       │               ├── explorer
 │   │       │               │   ├── leaf.png
 │   │       │               │   └── node.png
-│   │       │               ├── [01;34mgrouptabpanel[00m
-│   │       │               │   ├── [01;35mcorners.gif[00m
-│   │       │               │   ├── [01;35mminus.gif[00m
-│   │       │               │   └── [01;35mplus.gif[00m
-│   │       │               ├── [01;34mitemselector[00m
-│   │       │               │   ├── [01;35mbottom.gif[00m
-│   │       │               │   ├── [01;35mdown.gif[00m
-│   │       │               │   ├── [01;35mleft.gif[00m
-│   │       │               │   ├── [01;35mright.gif[00m
-│   │       │               │   ├── [01;35mtop.gif[00m
-│   │       │               │   └── [01;35mup.gif[00m
-│   │       │               ├── [01;34mstatusbar[00m
+│   │       │               ├── grouptabpanel
+│   │       │               │   ├── corners.gif
+│   │       │               │   ├── minus.gif
+│   │       │               │   └── plus.gif
+│   │       │               ├── itemselector
+│   │       │               │   ├── bottom.gif
+│   │       │               │   ├── down.gif
+│   │       │               │   ├── left.gif
+│   │       │               │   ├── right.gif
+│   │       │               │   ├── top.gif
+│   │       │               │   └── up.gif
+│   │       │               ├── statusbar
 │   │       │               │   ├── accept.png
-│   │       │               │   ├── [01;35mexclamation.gif[00m
-│   │       │               │   └── [01;35mloading.gif[00m
-│   │       │               └── [01;34mtabscrollermenu[00m
-│   │       │                   └── [01;35mmenu.gif[00m
+│   │       │               │   ├── exclamation.gif
+│   │       │               │   └── loading.gif
+│   │       │               └── tabscrollermenu
+│   │       │                   └── menu.gif
 │   │       ├── classic.json
 │   │       ├── classic.jsonp
 │   │       ├── index.html
-│   │       ├── [01;34mmodern[00m
+│   │       ├── modern
 │   │       │   ├── app.js
-│   │       │   ├── [01;34mdeltas[00m
-│   │       │   └── [01;34mresources[00m
+│   │       │   ├── deltas
+│   │       │   └── resources
 │   │       │       ├── Readme.md
-│   │       │       ├── [01;34mext[00m
-│   │       │       │   └── [01;34mext-watermark[00m
+│   │       │       ├── ext
+│   │       │       │   └── ext-watermark
 │   │       │       │       ├── Read\ Me.txt
-│   │       │       │       ├── [01;34mdemo-files[00m
+│   │       │       │       ├── demo-files
 │   │       │       │       │   ├── demo.css
 │   │       │       │       │   └── demo.js
 │   │       │       │       ├── demo.html
-│   │       │       │       ├── [01;34mfonts[00m
+│   │       │       │       ├── fonts
 │   │       │       │       │   ├── ext-watermark.eot
 │   │       │       │       │   ├── ext-watermark.svg
 │   │       │       │       │   ├── ext-watermark.ttf
 │   │       │       │       │   └── ext-watermark.woff
 │   │       │       │       ├── selection.json
 │   │       │       │       └── style.css
-│   │       │       ├── [01;34mfont-ext[00m
-│   │       │       │   └── [01;34mfonts[00m
+│   │       │       ├── font-ext
+│   │       │       │   └── fonts
 │   │       │       │       ├── ExtJS.eot
 │   │       │       │       ├── ExtJS.svg
 │   │       │       │       ├── ExtJS.ttf
 │   │       │       │       └── ExtJS.woff
-│   │       │       ├── [01;34mimages[00m
+│   │       │       ├── images
 │   │       │       │   ├── check.png
 │   │       │       │   ├── clear_icon.png
 │   │       │       │   ├── disclosure.png
 │   │       │       │   ├── disclosure2.png
 │   │       │       │   ├── dotgrid.png
-│   │       │       │   ├── [01;35mloading.gif[00m
-│   │       │       │   ├── [01;34mpictos[00m
+│   │       │       │   ├── loading.gif
+│   │       │       │   ├── pictos
 │   │       │       │   │   ├── action.png
 │   │       │       │   │   ├── add.png
 │   │       │       │   │   ├── add1.png
@@ -1664,24 +1667,24 @@
 │   │       │       │   ├── togglethumbbg.png
 │   │       │       │   ├── togglethumbmask.png
 │   │       │       │   ├── trackmask_outer.png
-│   │       │       │   └── [01;34mtree[00m
-│   │       │       │       └── [01;35mloading.gif[00m
+│   │       │       │   └── tree
+│   │       │       │       └── loading.gif
 │   │       │       ├── jakub-all.css
-│   │       │       └── [01;34mux[00m
+│   │       │       └── ux
 │   │       │           └── Readme.md
 │   │       ├── modern.json
 │   │       ├── modern.jsonp
-│   │       └── [01;34mresources[00m
+│   │       └── resources
 │   │           ├── Readme.md
-│   │           ├── [01;34mfont-awesome[00m
-│   │           │   └── [01;34mfonts[00m
+│   │           ├── font-awesome
+│   │           │   └── fonts
 │   │           │       ├── FontAwesome.otf
 │   │           │       ├── fontawesome-webfont.eot
 │   │           │       ├── fontawesome-webfont.svg
 │   │           │       ├── fontawesome-webfont.ttf
 │   │           │       ├── fontawesome-webfont.woff
 │   │           │       └── fontawesome-webfont.woff2
-│   │           └── [01;34mfonts[00m
+│   │           └── fonts
 │   │               ├── OpenSans-Bold.ttf
 │   │               ├── OpenSans-BoldItalic.ttf
 │   │               ├── OpenSans-ExtraBold.ttf
@@ -1692,30 +1695,30 @@
 │   │               ├── OpenSans-Regular.ttf
 │   │               ├── OpenSans-Semibold.ttf
 │   │               └── OpenSans-SemiboldItalic.ttf
-│   └── [01;34mtemp[00m
-│       ├── [01;34mdevelopment[00m
-│       │   └── [01;34mjakub[00m
-│       │       ├── [01;34msass[00m
+│   └── temp
+│       ├── development
+│       │   └── jakub
+│       │       ├── sass
 │       │       │   ├── config.rb
 │       │       │   ├── jakub-all.scss
 │       │       │   └── jakub-all.scss.tmp
-│       │       ├── [01;34msencha-compiler[00m
-│       │       │   └── [01;34mapp[00m
+│       │       ├── sencha-compiler
+│       │       │   └── app
 │       │       │       └── full-page-master-bundle.js
-│       │       └── [01;34mslicer-temp[00m
+│       │       └── slicer-temp
 │       │           ├── bootstrap.js
 │       │           ├── bootstrap.json
 │       │           └── bootstrap.jsonp
-│       └── [01;34mproduction[00m
-│           └── [01;34mjakub[00m
-│               ├── [01;34msass[00m
+│       └── production
+│           └── jakub
+│               ├── sass
 │               │   ├── config.rb
 │               │   ├── jakub-all.scss
 │               │   └── jakub-all.scss.tmp
-│               ├── [01;34msencha-compiler[00m
-│               │   └── [01;34mapp[00m
+│               ├── sencha-compiler
+│               │   └── app
 │               │       └── full-page-master-bundle.js
-│               └── [01;34mslicer-temp[00m
+│               └── slicer-temp
 │                   ├── bootstrap.js
 │                   ├── bootstrap.json
 │                   ├── bootstrap.jsonp
@@ -1729,28 +1732,28 @@
 │                   ├── theme-capture.json
 │                   └── theme-capture.png
 ├── build.xml
-├── [01;34mclassic[00m
-│   ├── [01;34msass[00m
-│   │   ├── [01;34metc[00m
+├── classic
+│   ├── sass
+│   │   ├── etc
 │   │   │   └── Readme.md
-│   │   ├── [01;34msrc[00m
+│   │   ├── src
 │   │   │   ├── Readme.md
-│   │   │   └── [01;34mview[00m
-│   │   │       └── [01;34mmain[00m
+│   │   │   └── view
+│   │   │       └── main
 │   │   │           └── Main.scss
-│   │   └── [01;34mvar[00m
+│   │   └── var
 │   │       └── Readme.md
-│   └── [01;34msrc[00m
-│       └── [01;34mview[00m
-│           └── [01;34mmain[00m
+│   └── src
+│       └── view
+│           └── main
 │               ├── ActivityGrid.js
 │               ├── List.js
 │               ├── Main.js
 │               └── UsersGrid.js
 ├── classic.json
 ├── classic.jsonp
-├── [01;34mext[00m
-│   ├── [01;34mbuild[00m
+├── ext
+│   ├── build
 │   │   ├── ext-all-debug.js
 │   │   ├── ext-all-rtl-debug.js
 │   │   ├── ext-all-rtl-sandbox-debug.js
@@ -1768,48 +1771,48 @@
 │   │   ├── ext-modern.js
 │   │   └── ext.js
 │   ├── build.xml
-│   ├── [01;34mclassic[00m
-│   │   ├── [01;34mclassic[00m
+│   ├── classic
+│   │   ├── classic
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── GlobalEvents.js
 │   │   │   │   ├── Positionable.js
 │   │   │   │   ├── Progress.js
 │   │   │   │   ├── Widget.js
-│   │   │   │   ├── [01;34mapp[00m
+│   │   │   │   ├── app
 │   │   │   │   │   ├── Application.js
 │   │   │   │   │   ├── ViewController.js
-│   │   │   │   │   └── [01;34mdomain[00m
+│   │   │   │   │   └── domain
 │   │   │   │   │       ├── Component.js
 │   │   │   │   │       └── View.js
-│   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   ├── dom
 │   │   │   │   │   ├── Element.js
 │   │   │   │   │   └── Helper.js
-│   │   │   │   ├── [01;34mevent[00m
+│   │   │   │   ├── event
 │   │   │   │   │   ├── Event.js
-│   │   │   │   │   └── [01;34mpublisher[00m
+│   │   │   │   │   └── publisher
 │   │   │   │   │       ├── Dom.js
 │   │   │   │   │       ├── Focus.js
 │   │   │   │   │       └── Gesture.js
-│   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   ├── form
+│   │   │   │   │   └── field
 │   │   │   │   │       ├── Checkbox.js
 │   │   │   │   │       └── Radio.js
 │   │   │   │   ├── init.js
-│   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   ├── list
 │   │   │   │   │   └── Item.js
-│   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   ├── plugin
 │   │   │   │   │   └── Abstract.js
-│   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   ├── scroll
 │   │   │   │   │   └── Scroller.js
-│   │   │   │   └── [01;34msparkline[00m
+│   │   │   │   └── sparkline
 │   │   │   │       └── Base.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   └── [01;34mexample[00m
+│   │   │   ├── sass
+│   │   │   │   └── example
 │   │   │   │       └── fashion.html
-│   │   │   ├── [01;34msrc[00m
+│   │   │   ├── src
 │   │   │   │   ├── Action.js
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── ComponentLoader.js
@@ -1820,25 +1823,25 @@
 │   │   │   │   ├── LoadMask.js
 │   │   │   │   ├── ProgressBar.js
 │   │   │   │   ├── ZIndexManager.js
-│   │   │   │   ├── [01;34mbutton[00m
+│   │   │   │   ├── button
 │   │   │   │   │   ├── Button.js
 │   │   │   │   │   ├── Cycle.js
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── Segmented.js
 │   │   │   │   │   └── Split.js
-│   │   │   │   ├── [01;34mcontainer[00m
+│   │   │   │   ├── container
 │   │   │   │   │   ├── ButtonGroup.js
 │   │   │   │   │   ├── Container.js
 │   │   │   │   │   ├── DockingContainer.js
 │   │   │   │   │   ├── Monitor.js
 │   │   │   │   │   └── Viewport.js
-│   │   │   │   ├── [01;34mdashboard[00m
+│   │   │   │   ├── dashboard
 │   │   │   │   │   ├── Column.js
 │   │   │   │   │   ├── Dashboard.js
 │   │   │   │   │   ├── DropZone.js
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   └── Part.js
-│   │   │   │   ├── [01;34mdd[00m
+│   │   │   │   ├── dd
 │   │   │   │   │   ├── DD.js
 │   │   │   │   │   ├── DDProxy.js
 │   │   │   │   │   ├── DDTarget.js
@@ -1852,16 +1855,16 @@
 │   │   │   │   │   ├── Registry.js
 │   │   │   │   │   ├── ScrollManager.js
 │   │   │   │   │   └── StatusProxy.js
-│   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   ├── dom
 │   │   │   │   │   ├── ButtonElement.js
 │   │   │   │   │   └── Layer.js
 │   │   │   │   ├── enums.js
-│   │   │   │   ├── [01;34mevent[00m
-│   │   │   │   │   └── [01;34mpublisher[00m
+│   │   │   │   ├── event
+│   │   │   │   │   └── publisher
 │   │   │   │   │       └── MouseEnterLeave.js
-│   │   │   │   ├── [01;34mflash[00m
+│   │   │   │   ├── flash
 │   │   │   │   │   └── Component.js
-│   │   │   │   ├── [01;34mform[00m
+│   │   │   │   ├── form
 │   │   │   │   │   ├── Basic.js
 │   │   │   │   │   ├── CheckboxGroup.js
 │   │   │   │   │   ├── CheckboxManager.js
@@ -1873,7 +1876,7 @@
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   ├── RadioGroup.js
 │   │   │   │   │   ├── RadioManager.js
-│   │   │   │   │   ├── [01;34maction[00m
+│   │   │   │   │   ├── action
 │   │   │   │   │   │   ├── Action.js
 │   │   │   │   │   │   ├── DirectAction.js
 │   │   │   │   │   │   ├── DirectLoad.js
@@ -1881,7 +1884,7 @@
 │   │   │   │   │   │   ├── Load.js
 │   │   │   │   │   │   ├── StandardSubmit.js
 │   │   │   │   │   │   └── Submit.js
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Base.js
 │   │   │   │   │   │   ├── Checkbox.js
 │   │   │   │   │   │   ├── ComboBox.js
@@ -1902,11 +1905,11 @@
 │   │   │   │   │   │   ├── Time.js
 │   │   │   │   │   │   ├── Trigger.js
 │   │   │   │   │   │   └── VTypes.js
-│   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   └── trigger
 │   │   │   │   │       ├── Component.js
 │   │   │   │   │       ├── Spinner.js
 │   │   │   │   │       └── Trigger.js
-│   │   │   │   ├── [01;34mfx[00m
+│   │   │   │   ├── fx
 │   │   │   │   │   ├── Anim.js
 │   │   │   │   │   ├── Animator.js
 │   │   │   │   │   ├── CubicBezier.js
@@ -1915,7 +1918,7 @@
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── PropertyHandler.js
 │   │   │   │   │   ├── Queue.js
-│   │   │   │   │   └── [01;34mtarget[00m
+│   │   │   │   │   └── target
 │   │   │   │   │       ├── Component.js
 │   │   │   │   │       ├── CompositeElement.js
 │   │   │   │   │       ├── CompositeElementCSS.js
@@ -1924,7 +1927,7 @@
 │   │   │   │   │       ├── ElementCSS.js
 │   │   │   │   │       ├── Sprite.js
 │   │   │   │   │       └── Target.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   ├── CellContext.js
 │   │   │   │   │   ├── CellEditor.js
 │   │   │   │   │   ├── ColumnComponentLayout.js
@@ -1937,7 +1940,7 @@
 │   │   │   │   │   ├── RowEditorButtons.js
 │   │   │   │   │   ├── Scroller.js
 │   │   │   │   │   ├── ViewDropZone.js
-│   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   ├── column
 │   │   │   │   │   │   ├── Action.js
 │   │   │   │   │   │   ├── ActionProxy.js
 │   │   │   │   │   │   ├── Boolean.js
@@ -1948,7 +1951,7 @@
 │   │   │   │   │   │   ├── RowNumberer.js
 │   │   │   │   │   │   ├── Template.js
 │   │   │   │   │   │   └── Widget.js
-│   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   ├── feature
 │   │   │   │   │   │   ├── AbstractSummary.js
 │   │   │   │   │   │   ├── Feature.js
 │   │   │   │   │   │   ├── GroupStore.js
@@ -1956,9 +1959,9 @@
 │   │   │   │   │   │   ├── GroupingSummary.js
 │   │   │   │   │   │   ├── RowBody.js
 │   │   │   │   │   │   └── Summary.js
-│   │   │   │   │   ├── [01;34mfilters[00m
+│   │   │   │   │   ├── filters
 │   │   │   │   │   │   ├── Filters.js
-│   │   │   │   │   │   └── [01;34mfilter[00m
+│   │   │   │   │   │   └── filter
 │   │   │   │   │   │       ├── Base.js
 │   │   │   │   │   │       ├── Boolean.js
 │   │   │   │   │   │       ├── Date.js
@@ -1967,16 +1970,16 @@
 │   │   │   │   │   │       ├── SingleFilter.js
 │   │   │   │   │   │       ├── String.js
 │   │   │   │   │   │       └── TriFilter.js
-│   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   ├── header
 │   │   │   │   │   │   ├── Container.js
 │   │   │   │   │   │   ├── DragZone.js
 │   │   │   │   │   │   └── DropZone.js
-│   │   │   │   │   ├── [01;34mlocking[00m
+│   │   │   │   │   ├── locking
 │   │   │   │   │   │   ├── HeaderContainer.js
 │   │   │   │   │   │   ├── Lockable.js
 │   │   │   │   │   │   ├── RowSynchronizer.js
 │   │   │   │   │   │   └── View.js
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   ├── BufferedRenderer.js
 │   │   │   │   │   │   ├── CellEditing.js
 │   │   │   │   │   │   ├── Clipboard.js
@@ -1987,13 +1990,13 @@
 │   │   │   │   │   │   ├── RowEditing.js
 │   │   │   │   │   │   ├── RowExpander.js
 │   │   │   │   │   │   └── RowWidget.js
-│   │   │   │   │   ├── [01;34mproperty[00m
+│   │   │   │   │   ├── property
 │   │   │   │   │   │   ├── Grid.js
 │   │   │   │   │   │   ├── HeaderContainer.js
 │   │   │   │   │   │   ├── Property.js
 │   │   │   │   │   │   ├── Reader.js
 │   │   │   │   │   │   └── Store.js
-│   │   │   │   │   └── [01;34mselection[00m
+│   │   │   │   │   └── selection
 │   │   │   │   │       ├── Cells.js
 │   │   │   │   │       ├── Columns.js
 │   │   │   │   │       ├── Replicator.js
@@ -2001,13 +2004,13 @@
 │   │   │   │   │       ├── Selection.js
 │   │   │   │   │       ├── SelectionExtender.js
 │   │   │   │   │       └── SpreadsheetModel.js
-│   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   ├── layout
 │   │   │   │   │   ├── Context.js
 │   │   │   │   │   ├── ContextItem.js
 │   │   │   │   │   ├── Layout.js
 │   │   │   │   │   ├── SizeModel.js
 │   │   │   │   │   ├── SizePolicy.js
-│   │   │   │   │   ├── [01;34mcomponent[00m
+│   │   │   │   │   ├── component
 │   │   │   │   │   │   ├── Auto.js
 │   │   │   │   │   │   ├── Body.js
 │   │   │   │   │   │   ├── BoundList.js
@@ -2015,10 +2018,10 @@
 │   │   │   │   │   │   ├── Dock.js
 │   │   │   │   │   │   ├── FieldSet.js
 │   │   │   │   │   │   ├── ProgressBar.js
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── FieldContainer.js
 │   │   │   │   │   │       └── HtmlEditor.js
-│   │   │   │   │   └── [01;34mcontainer[00m
+│   │   │   │   │   └── container
 │   │   │   │   │       ├── Absolute.js
 │   │   │   │   │       ├── Accordion.js
 │   │   │   │   │       ├── Anchor.js
@@ -2040,13 +2043,13 @@
 │   │   │   │   │       ├── SegmentedButton.js
 │   │   │   │   │       ├── Table.js
 │   │   │   │   │       ├── VBox.js
-│   │   │   │   │       ├── [01;34mborder[00m
+│   │   │   │   │       ├── border
 │   │   │   │   │       │   └── Region.js
-│   │   │   │   │       └── [01;34mboxOverflow[00m
+│   │   │   │   │       └── boxOverflow
 │   │   │   │   │           ├── Menu.js
 │   │   │   │   │           ├── None.js
 │   │   │   │   │           └── Scroller.js
-│   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   ├── menu
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   ├── CheckItem.js
 │   │   │   │   │   ├── ColorPicker.js
@@ -2055,7 +2058,7 @@
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── Menu.js
 │   │   │   │   │   └── Separator.js
-│   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   ├── panel
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   ├── DD.js
 │   │   │   │   │   ├── Header.js
@@ -2065,17 +2068,17 @@
 │   │   │   │   │   ├── Table.js
 │   │   │   │   │   ├── Title.js
 │   │   │   │   │   └── Tool.js
-│   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   ├── picker
 │   │   │   │   │   ├── Color.js
 │   │   │   │   │   ├── Date.js
 │   │   │   │   │   ├── Month.js
 │   │   │   │   │   └── Time.js
-│   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   ├── plugin
 │   │   │   │   │   ├── AbstractClipboard.js
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── Responsive.js
 │   │   │   │   │   └── Viewport.js
-│   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   ├── resizer
 │   │   │   │   │   ├── BorderSplitter.js
 │   │   │   │   │   ├── BorderSplitterTracker.js
 │   │   │   │   │   ├── Handle.js
@@ -2083,102 +2086,102 @@
 │   │   │   │   │   ├── Resizer.js
 │   │   │   │   │   ├── Splitter.js
 │   │   │   │   │   └── SplitterTracker.js
-│   │   │   │   ├── [01;34mrtl[00m
+│   │   │   │   ├── rtl
 │   │   │   │   │   ├── Component.js
-│   │   │   │   │   ├── [01;34mbutton[00m
+│   │   │   │   │   ├── button
 │   │   │   │   │   │   ├── Button.js
 │   │   │   │   │   │   └── Segmented.js
-│   │   │   │   │   ├── [01;34mdd[00m
+│   │   │   │   │   ├── dd
 │   │   │   │   │   │   └── DD.js
-│   │   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   │   ├── dom
 │   │   │   │   │   │   └── Element.js
-│   │   │   │   │   ├── [01;34mevent[00m
+│   │   │   │   │   ├── event
 │   │   │   │   │   │   └── Event.js
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── Labelable.js
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       └── Tag.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── CellEditor.js
 │   │   │   │   │   │   ├── ColumnLayout.js
 │   │   │   │   │   │   ├── NavigationModel.js
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   └── Column.js
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       ├── BufferedRenderer.js
 │   │   │   │   │   │       ├── HeaderResizer.js
 │   │   │   │   │   │       └── RowEditing.js
-│   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   ├── layout
 │   │   │   │   │   │   ├── ContextItem.js
-│   │   │   │   │   │   ├── [01;34mcomponent[00m
+│   │   │   │   │   │   ├── component
 │   │   │   │   │   │   │   └── Dock.js
-│   │   │   │   │   │   └── [01;34mcontainer[00m
+│   │   │   │   │   │   └── container
 │   │   │   │   │   │       ├── Absolute.js
 │   │   │   │   │   │       ├── Border.js
 │   │   │   │   │   │       ├── Box.js
 │   │   │   │   │   │       ├── Column.js
 │   │   │   │   │   │       ├── HBox.js
 │   │   │   │   │   │       ├── VBox.js
-│   │   │   │   │   │       └── [01;34mboxOverflow[00m
+│   │   │   │   │   │       └── boxOverflow
 │   │   │   │   │   │           ├── Menu.js
 │   │   │   │   │   │           └── Scroller.js
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   │   └── Title.js
-│   │   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   │   ├── resizer
 │   │   │   │   │   │   ├── BorderSplitterTracker.js
 │   │   │   │   │   │   ├── ResizeTracker.js
 │   │   │   │   │   │   └── SplitterTracker.js
-│   │   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   │   ├── scroll
 │   │   │   │   │   │   └── Scroller.js
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Multi.js
 │   │   │   │   │   │   └── Widget.js
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Bar.js
-│   │   │   │   │   ├── [01;34mtip[00m
+│   │   │   │   │   ├── tip
 │   │   │   │   │   │   └── QuickTipManager.js
-│   │   │   │   │   ├── [01;34mtree[00m
+│   │   │   │   │   ├── tree
 │   │   │   │   │   │   └── Column.js
-│   │   │   │   │   ├── [01;34mutil[00m
+│   │   │   │   │   ├── util
 │   │   │   │   │   │   ├── FocusableContainer.js
 │   │   │   │   │   │   └── Renderable.js
-│   │   │   │   │   └── [01;34mview[00m
+│   │   │   │   │   └── view
 │   │   │   │   │       ├── NavigationModel.js
 │   │   │   │   │       └── Table.js
-│   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   ├── scroll
 │   │   │   │   │   ├── LockingScroller.js
 │   │   │   │   │   └── TableScroller.js
-│   │   │   │   ├── [01;34mselection[00m
+│   │   │   │   ├── selection
 │   │   │   │   │   ├── CellModel.js
 │   │   │   │   │   ├── CheckboxModel.js
 │   │   │   │   │   ├── DataViewModel.js
 │   │   │   │   │   ├── Model.js
 │   │   │   │   │   ├── RowModel.js
 │   │   │   │   │   └── TreeModel.js
-│   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   ├── slider
 │   │   │   │   │   ├── Multi.js
 │   │   │   │   │   ├── Single.js
 │   │   │   │   │   ├── Thumb.js
 │   │   │   │   │   ├── Tip.js
 │   │   │   │   │   └── Widget.js
-│   │   │   │   ├── [01;34mstate[00m
+│   │   │   │   ├── state
 │   │   │   │   │   ├── CookieProvider.js
 │   │   │   │   │   ├── LocalStorageProvider.js
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── Provider.js
 │   │   │   │   │   └── Stateful.js
-│   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   ├── tab
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   └── Tab.js
-│   │   │   │   ├── [01;34mtip[00m
+│   │   │   │   ├── tip
 │   │   │   │   │   ├── QuickTip.js
 │   │   │   │   │   ├── QuickTipManager.js
 │   │   │   │   │   ├── Tip.js
 │   │   │   │   │   └── ToolTip.js
-│   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   ├── toolbar
 │   │   │   │   │   ├── Breadcrumb.js
 │   │   │   │   │   ├── Fill.js
 │   │   │   │   │   ├── Item.js
@@ -2187,16 +2190,16 @@
 │   │   │   │   │   ├── Spacer.js
 │   │   │   │   │   ├── TextItem.js
 │   │   │   │   │   └── Toolbar.js
-│   │   │   │   ├── [01;34mtree[00m
+│   │   │   │   ├── tree
 │   │   │   │   │   ├── Column.js
 │   │   │   │   │   ├── NavigationModel.js
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   ├── View.js
 │   │   │   │   │   ├── ViewDragZone.js
 │   │   │   │   │   ├── ViewDropZone.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       └── TreeViewDragDrop.js
-│   │   │   │   ├── [01;34mutil[00m
+│   │   │   │   ├── util
 │   │   │   │   │   ├── Animate.js
 │   │   │   │   │   ├── ClickRepeater.js
 │   │   │   │   │   ├── ComponentDragger.js
@@ -2212,7 +2215,7 @@
 │   │   │   │   │   ├── Queue.js
 │   │   │   │   │   ├── Renderable.js
 │   │   │   │   │   └── StoreHolder.js
-│   │   │   │   ├── [01;34mview[00m
+│   │   │   │   ├── view
 │   │   │   │   │   ├── AbstractView.js
 │   │   │   │   │   ├── BoundList.js
 │   │   │   │   │   ├── BoundListKeyNav.js
@@ -2226,28 +2229,28 @@
 │   │   │   │   │   ├── TableLayout.js
 │   │   │   │   │   ├── TagKeyNav.js
 │   │   │   │   │   └── View.js
-│   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   └── window
 │   │   │   │       ├── MessageBox.js
 │   │   │   │       ├── Toast.js
 │   │   │   │       └── Window.js
-│   │   │   └── [01;34mtest[00m
+│   │   │   └── test
 │   │   │       ├── bootstrap.css
 │   │   │       ├── capabilities-pr.json
 │   │   │       ├── capabilities.json
 │   │   │       ├── coverageTest.json
-│   │   │       ├── [01;34mlocal[00m
+│   │   │       ├── local
 │   │   │       │   ├── iframe.html
 │   │   │       │   ├── index.html
-│   │   │       │   └── [01;34mresources[00m
-│   │   │       │       └── [01;34mimages[00m
-│   │   │       │           ├── [01;35mbar.gif[00m
-│   │   │       │           └── [01;35mfoo.gif[00m
+│   │   │       │   └── resources
+│   │   │       │       └── images
+│   │   │       │           ├── bar.gif
+│   │   │       │           └── foo.gif
 │   │   │       ├── orion.html
-│   │   │       ├── [01;34mresources[00m
+│   │   │       ├── resources
 │   │   │       │   ├── ExternalScript.js
-│   │   │       │   └── [01;34mspec[00m
+│   │   │       │   └── spec
 │   │   │       │       └── LoaderTest.js
-│   │   │       ├── [01;34mspecs[00m
+│   │   │       ├── specs
 │   │   │       │   ├── Action.js
 │   │   │       │   ├── Component.js
 │   │   │       │   ├── ComponentLoader.js
@@ -2259,35 +2262,35 @@
 │   │   │       │   ├── ProgressBar.js
 │   │   │       │   ├── ProgressBarWidget.js
 │   │   │       │   ├── ZIndexManager.js
-│   │   │       │   ├── [01;34mapp[00m
+│   │   │       │   ├── app
 │   │   │       │   │   ├── Application.js
 │   │   │       │   │   ├── Controller.js
 │   │   │       │   │   ├── EventBus.js
 │   │   │       │   │   ├── EventDomain.js
 │   │   │       │   │   ├── Util.js
 │   │   │       │   │   ├── ViewController.js
-│   │   │       │   │   ├── [01;34mdomain[00m
+│   │   │       │   │   ├── domain
 │   │   │       │   │   │   ├── Component.js
 │   │   │       │   │   │   ├── Controller.js
 │   │   │       │   │   │   ├── Direct.js
 │   │   │       │   │   │   ├── Global.js
 │   │   │       │   │   │   └── Store.js
-│   │   │       │   │   └── [01;34mroute[00m
+│   │   │       │   │   └── route
 │   │   │       │   │       ├── Queue.js
 │   │   │       │   │       ├── Route.js
 │   │   │       │   │       └── Router.js
-│   │   │       │   ├── [01;34mbutton[00m
+│   │   │       │   ├── button
 │   │   │       │   │   ├── Button.js
 │   │   │       │   │   ├── Cycle.js
 │   │   │       │   │   ├── Segmented.js
 │   │   │       │   │   └── Split.js
-│   │   │       │   ├── [01;34mcontainer[00m
+│   │   │       │   ├── container
 │   │   │       │   │   ├── ButtonGroup.js
 │   │   │       │   │   ├── Container.js
 │   │   │       │   │   └── Monitor.js
-│   │   │       │   ├── [01;34mdom[00m
+│   │   │       │   ├── dom
 │   │   │       │   │   └── Layer.js
-│   │   │       │   ├── [01;34mform[00m
+│   │   │       │   ├── form
 │   │   │       │   │   ├── Basic.js
 │   │   │       │   │   ├── CheckboxGroup.js
 │   │   │       │   │   ├── FieldContainer.js
@@ -2296,13 +2299,13 @@
 │   │   │       │   │   ├── Labelable.js
 │   │   │       │   │   ├── Panel.js
 │   │   │       │   │   ├── RadioGroup.js
-│   │   │       │   │   ├── [01;34maction[00m
+│   │   │       │   │   ├── action
 │   │   │       │   │   │   ├── DirectLoad.js
 │   │   │       │   │   │   ├── DirectSubmit.js
 │   │   │       │   │   │   ├── Load.js
 │   │   │       │   │   │   ├── StandardSubmit.js
 │   │   │       │   │   │   └── Submit.js
-│   │   │       │   │   └── [01;34mfield[00m
+│   │   │       │   │   └── field
 │   │   │       │   │       ├── Base.js
 │   │   │       │   │       ├── Checkbox.js
 │   │   │       │   │       ├── ComboBox.js
@@ -2322,12 +2325,12 @@
 │   │   │       │   │       ├── Time.js
 │   │   │       │   │       ├── Trigger.js
 │   │   │       │   │       └── VTypes.js
-│   │   │       │   ├── [01;34mfx[00m
+│   │   │       │   ├── fx
 │   │   │       │   │   └── Anim.js
-│   │   │       │   ├── [01;34mgrid[00m
+│   │   │       │   ├── grid
 │   │   │       │   │   ├── NavigationModel.js
 │   │   │       │   │   ├── Panel.js
-│   │   │       │   │   ├── [01;34mcolumn[00m
+│   │   │       │   │   ├── column
 │   │   │       │   │   │   ├── Action.js
 │   │   │       │   │   │   ├── Boolean.js
 │   │   │       │   │   │   ├── Check.js
@@ -2337,14 +2340,14 @@
 │   │   │       │   │   │   ├── RowNumberer.js
 │   │   │       │   │   │   ├── Template.js
 │   │   │       │   │   │   └── Widget.js
-│   │   │       │   │   ├── [01;34mfeature[00m
+│   │   │       │   │   ├── feature
 │   │   │       │   │   │   ├── Grouping.js
 │   │   │       │   │   │   ├── GroupingSummary.js
 │   │   │       │   │   │   ├── RowBody.js
 │   │   │       │   │   │   └── Summary.js
-│   │   │       │   │   ├── [01;34mfilters[00m
+│   │   │       │   │   ├── filters
 │   │   │       │   │   │   ├── Filters.js
-│   │   │       │   │   │   └── [01;34mfilter[00m
+│   │   │       │   │   │   └── filter
 │   │   │       │   │   │       ├── Boolean.js
 │   │   │       │   │   │       ├── Date.js
 │   │   │       │   │   │       ├── DateTime.js
@@ -2368,9 +2371,9 @@
 │   │   │       │   │   ├── grid-rowedit.js
 │   │   │       │   │   ├── grid-view.js
 │   │   │       │   │   ├── grid-widgets.js
-│   │   │       │   │   ├── [01;34mheader[00m
+│   │   │       │   │   ├── header
 │   │   │       │   │   │   └── Container.js
-│   │   │       │   │   ├── [01;34mplugin[00m
+│   │   │       │   │   ├── plugin
 │   │   │       │   │   │   ├── BufferedRenderer.js
 │   │   │       │   │   │   ├── CellEditing.js
 │   │   │       │   │   │   ├── Clipboard.js
@@ -2378,19 +2381,19 @@
 │   │   │       │   │   │   ├── RowEditing.js
 │   │   │       │   │   │   ├── RowExpander.js
 │   │   │       │   │   │   └── RowWidget.js
-│   │   │       │   │   ├── [01;34mproperty[00m
+│   │   │       │   │   ├── property
 │   │   │       │   │   │   └── Grid.js
-│   │   │       │   │   └── [01;34mselection[00m
+│   │   │       │   │   └── selection
 │   │   │       │   │       └── SpreadsheetModel.js
-│   │   │       │   ├── [01;34mlayout[00m
-│   │   │       │   │   ├── [01;34mcomponent[00m
+│   │   │       │   ├── layout
+│   │   │       │   │   ├── component
 │   │   │       │   │   │   ├── Component.js
 │   │   │       │   │   │   ├── Dock.js
-│   │   │       │   │   │   └── [01;34mfield[00m
+│   │   │       │   │   │   └── field
 │   │   │       │   │   │       ├── FieldContainer.js
 │   │   │       │   │   │       ├── HtmlEditor.js
 │   │   │       │   │   │       └── Trigger.js
-│   │   │       │   │   ├── [01;34mcontainer[00m
+│   │   │       │   │   ├── container
 │   │   │       │   │   │   ├── Absolute.js
 │   │   │       │   │   │   ├── Accordion.js
 │   │   │       │   │   │   ├── Anchor.js
@@ -2406,77 +2409,77 @@
 │   │   │       │   │   │   ├── HBox.js
 │   │   │       │   │   │   ├── Table.js
 │   │   │       │   │   │   ├── VBox.js
-│   │   │       │   │   │   └── [01;34mboxOverflow[00m
+│   │   │       │   │   │   └── boxOverflow
 │   │   │       │   │   │       └── Menu.js
 │   │   │       │   │   └── mixed.js
-│   │   │       │   ├── [01;34mmenu[00m
+│   │   │       │   ├── menu
 │   │   │       │   │   ├── Bar.js
 │   │   │       │   │   ├── CheckItem.js
 │   │   │       │   │   ├── DatePicker.js
 │   │   │       │   │   ├── Item.js
 │   │   │       │   │   ├── KeyNav.js
 │   │   │       │   │   └── Menu.js
-│   │   │       │   ├── [01;34mmisc[00m
+│   │   │       │   ├── misc
 │   │   │       │   │   └── AlternateClassNames.js
-│   │   │       │   ├── [01;34mmixin[00m
+│   │   │       │   ├── mixin
 │   │   │       │   │   ├── Accessible.js
 │   │   │       │   │   └── Keyboard.js
-│   │   │       │   ├── [01;34moverrides[00m
-│   │   │       │   │   └── [01;34mdom[00m
+│   │   │       │   ├── overrides
+│   │   │       │   │   └── dom
 │   │   │       │   │       └── Element.js
-│   │   │       │   ├── [01;34mpanel[00m
+│   │   │       │   ├── panel
 │   │   │       │   │   ├── Header.js
 │   │   │       │   │   ├── Panel.js
 │   │   │       │   │   ├── Table.js
 │   │   │       │   │   └── Tool.js
-│   │   │       │   ├── [01;34mpicker[00m
+│   │   │       │   ├── picker
 │   │   │       │   │   ├── Color.js
 │   │   │       │   │   ├── Date.js
 │   │   │       │   │   ├── Month.js
 │   │   │       │   │   └── Time.js
-│   │   │       │   ├── [01;34mplugin[00m
+│   │   │       │   ├── plugin
 │   │   │       │   │   ├── Responsive.js
 │   │   │       │   │   └── Viewport.js
-│   │   │       │   ├── [01;34mresizer[00m
+│   │   │       │   ├── resizer
 │   │   │       │   │   ├── Resizer.js
 │   │   │       │   │   └── Splitter.js
-│   │   │       │   ├── [01;34mrtl[00m
-│   │   │       │   │   └── [01;34mdom[00m
+│   │   │       │   ├── rtl
+│   │   │       │   │   └── dom
 │   │   │       │   │       └── Element.js
-│   │   │       │   ├── [01;34mselection[00m
+│   │   │       │   ├── selection
 │   │   │       │   │   ├── CellModel.js
 │   │   │       │   │   ├── CheckboxModel.js
 │   │   │       │   │   ├── Model.js
 │   │   │       │   │   ├── RowModel.js
 │   │   │       │   │   └── TreeModel.js
-│   │   │       │   ├── [01;34mslider[00m
+│   │   │       │   ├── slider
 │   │   │       │   │   ├── Multi.js
 │   │   │       │   │   ├── Single.js
 │   │   │       │   │   ├── Thumb.js
 │   │   │       │   │   ├── Tip.js
 │   │   │       │   │   └── Widget.js
-│   │   │       │   ├── [01;34mstate[00m
+│   │   │       │   ├── state
 │   │   │       │   │   └── Stateful.js
-│   │   │       │   ├── [01;34mtab[00m
+│   │   │       │   ├── tab
 │   │   │       │   │   ├── Bar.js
 │   │   │       │   │   ├── Panel.js
 │   │   │       │   │   └── Tab.js
-│   │   │       │   ├── [01;34mtip[00m
+│   │   │       │   ├── tip
 │   │   │       │   │   ├── QuickTip.js
 │   │   │       │   │   ├── QuickTipManager.js
 │   │   │       │   │   ├── Tip.js
 │   │   │       │   │   └── ToolTip.js
-│   │   │       │   ├── [01;34mtoolbar[00m
+│   │   │       │   ├── toolbar
 │   │   │       │   │   ├── Breadcrumb.js
 │   │   │       │   │   ├── Paging.js
 │   │   │       │   │   └── Toolbar.js
-│   │   │       │   ├── [01;34mtree[00m
+│   │   │       │   ├── tree
 │   │   │       │   │   ├── Column.js
 │   │   │       │   │   ├── Panel.js
 │   │   │       │   │   ├── TreeGrid.js
-│   │   │       │   │   └── [01;34mplugin[00m
+│   │   │       │   │   └── plugin
 │   │   │       │   │       └── TreeViewDragDrop.js
-│   │   │       │   ├── [01;34mutil[00m
+│   │   │       │   ├── util
 │   │   │       │   │   ├── CSS.js
 │   │   │       │   │   ├── ClickRepeater.js
 │   │   │       │   │   ├── Floating.js
@@ -2487,52 +2490,52 @@
 │   │   │       │   │   ├── KeyNav.js
 │   │   │       │   │   ├── ProtoElement.js
 │   │   │       │   │   └── Renderable.js
-│   │   │       │   ├── [01;34mview[00m
+│   │   │       │   ├── view
 │   │   │       │   │   ├── AbstractView.js
 │   │   │       │   │   ├── BoundList.js
 │   │   │       │   │   ├── MultiSelector.js
 │   │   │       │   │   ├── NavigationModel.js
 │   │   │       │   │   ├── NodeCache.js
 │   │   │       │   │   └── View.js
-│   │   │       │   └── [01;34mwindow[00m
+│   │   │       │   └── window
 │   │   │       │       ├── MessageBox.js
 │   │   │       │       ├── Toast.js
 │   │   │       │       └── Window.js
 │   │   │       └── test.json
-│   │   ├── [01;34mlocale[00m
+│   │   ├── locale
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
-│   │   │   │   ├── [01;34maf[00m
+│   │   │   ├── overrides
+│   │   │   │   ├── af
 │   │   │   │   │   └── ext-locale-af.js
-│   │   │   │   ├── [01;34mbg[00m
+│   │   │   │   ├── bg
 │   │   │   │   │   └── ext-locale-bg.js
-│   │   │   │   ├── [01;34mca[00m
+│   │   │   │   ├── ca
 │   │   │   │   │   └── ext-locale-ca.js
-│   │   │   │   ├── [01;34mcs[00m
+│   │   │   │   ├── cs
 │   │   │   │   │   └── ext-locale-cs.js
-│   │   │   │   ├── [01;34mda[00m
+│   │   │   │   ├── da
 │   │   │   │   │   └── ext-locale-da.js
-│   │   │   │   ├── [01;34mde[00m
+│   │   │   │   ├── de
 │   │   │   │   │   └── ext-locale-de.js
-│   │   │   │   ├── [01;34mel_GR[00m
+│   │   │   │   ├── el_GR
 │   │   │   │   │   └── ext-locale-el_GR.js
-│   │   │   │   ├── [01;34men[00m
+│   │   │   │   ├── en
 │   │   │   │   │   └── ext-locale-en.js
-│   │   │   │   ├── [01;34men_AU[00m
+│   │   │   │   ├── en_AU
 │   │   │   │   │   └── ext-locale-en_AU.js
-│   │   │   │   ├── [01;34men_GB[00m
+│   │   │   │   ├── en_GB
 │   │   │   │   │   └── ext-locale-en_GB.js
-│   │   │   │   ├── [01;34mes[00m
+│   │   │   │   ├── es
 │   │   │   │   │   ├── Component.js
-│   │   │   │   │   ├── [01;34mdata[00m
-│   │   │   │   │   │   └── [01;34mvalidator[00m
+│   │   │   │   │   ├── data
+│   │   │   │   │   │   └── validator
 │   │   │   │   │   │       └── Presence.js
 │   │   │   │   │   ├── ext-locale-es.js
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── CheckboxGroup.js
 │   │   │   │   │   │   ├── RadioGroup.js
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── Base.js
 │   │   │   │   │   │       ├── ComboBox.js
 │   │   │   │   │   │       ├── Date.js
@@ -2542,54 +2545,54 @@
 │   │   │   │   │   │       ├── Text.js
 │   │   │   │   │   │       ├── Time.js
 │   │   │   │   │   │       └── VTypes.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── PropertyColumnModel.js
-│   │   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   │   ├── feature
 │   │   │   │   │   │   │   └── Grouping.js
-│   │   │   │   │   │   ├── [01;34mfilters[00m
-│   │   │   │   │   │   │   └── [01;34mfilter[00m
+│   │   │   │   │   │   ├── filters
+│   │   │   │   │   │   │   └── filter
 │   │   │   │   │   │   │       ├── Boolean.js
 │   │   │   │   │   │   │       └── List.js
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   └── Container.js
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── DragDrop.js
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   ├── Date.js
 │   │   │   │   │   │   └── Month.js
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   └── Paging.js
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   ├── AbstractView.js
 │   │   │   │   │   │   └── View.js
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── MessageBox.js
-│   │   │   │   ├── [01;34met[00m
+│   │   │   │   ├── et
 │   │   │   │   │   └── ext-locale-et.js
-│   │   │   │   ├── [01;34mfa[00m
+│   │   │   │   ├── fa
 │   │   │   │   │   └── ext-locale-fa.js
-│   │   │   │   ├── [01;34mfi[00m
+│   │   │   │   ├── fi
 │   │   │   │   │   └── ext-locale-fi.js
-│   │   │   │   ├── [01;34mfr[00m
+│   │   │   │   ├── fr
 │   │   │   │   │   └── ext-locale-fr.js
-│   │   │   │   ├── [01;34mfr_CA[00m
+│   │   │   │   ├── fr_CA
 │   │   │   │   │   └── ext-locale-fr_CA.js
-│   │   │   │   ├── [01;34mgr[00m
+│   │   │   │   ├── gr
 │   │   │   │   │   └── ext-locale-gr.js
-│   │   │   │   ├── [01;34mhe[00m
-│   │   │   │   │   ├── [01;34mcontainer[00m
+│   │   │   │   ├── he
+│   │   │   │   │   ├── container
 │   │   │   │   │   │   └── Viewport.js
 │   │   │   │   │   └── ext-locale-he.js
-│   │   │   │   ├── [01;34mhr[00m
+│   │   │   │   ├── hr
 │   │   │   │   │   └── ext-locale-hr.js
-│   │   │   │   ├── [01;34mhu[00m
+│   │   │   │   ├── hu
 │   │   │   │   │   └── ext-locale-hu.js
-│   │   │   │   ├── [01;34mid[00m
+│   │   │   │   ├── id
 │   │   │   │   │   └── ext-locale-id.js
-│   │   │   │   ├── [01;34mit[00m
+│   │   │   │   ├── it
 │   │   │   │   │   ├── LoadMask.js
-│   │   │   │   │   ├── [01;34mdata[00m
-│   │   │   │   │   │   └── [01;34mvalidator[00m
+│   │   │   │   │   ├── data
+│   │   │   │   │   │   └── validator
 │   │   │   │   │   │       ├── Bound.js
 │   │   │   │   │   │       ├── Email.js
 │   │   │   │   │   │       ├── Exclusion.js
@@ -2599,12 +2602,12 @@
 │   │   │   │   │   │       ├── Presence.js
 │   │   │   │   │   │       └── Range.js
 │   │   │   │   │   ├── ext-locale-it.js
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── Basic.js
 │   │   │   │   │   │   ├── CheckboxGroup.js
 │   │   │   │   │   │   ├── FieldSet.js
 │   │   │   │   │   │   ├── RadioGroup.js
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── Base.js
 │   │   │   │   │   │       ├── ComboBox.js
 │   │   │   │   │   │       ├── Date.js
@@ -2614,73 +2617,73 @@
 │   │   │   │   │   │       ├── Text.js
 │   │   │   │   │   │       ├── Time.js
 │   │   │   │   │   │       └── VTypes.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── PropertyColumnModel.js
 │   │   │   │   │   │   ├── RowEditor.js
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   ├── Boolean.js
 │   │   │   │   │   │   │   └── Number.js
-│   │   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   │   ├── feature
 │   │   │   │   │   │   │   └── Grouping.js
-│   │   │   │   │   │   ├── [01;34mfilters[00m
+│   │   │   │   │   │   ├── filters
 │   │   │   │   │   │   │   ├── Filters.js
-│   │   │   │   │   │   │   └── [01;34mfilter[00m
+│   │   │   │   │   │   │   └── filter
 │   │   │   │   │   │   │       ├── Boolean.js
 │   │   │   │   │   │   │       ├── Date.js
 │   │   │   │   │   │   │       ├── List.js
 │   │   │   │   │   │   │       ├── Number.js
 │   │   │   │   │   │   │       └── String.js
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   └── Container.js
-│   │   │   │   │   │   ├── [01;34mlocking[00m
+│   │   │   │   │   │   ├── locking
 │   │   │   │   │   │   │   └── Lockable.js
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── DragDrop.js
-│   │   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   │   ├── menu
 │   │   │   │   │   │   ├── CheckItem.js
 │   │   │   │   │   │   └── DatePicker.js
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   └── Panel.js
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   ├── Date.js
 │   │   │   │   │   │   ├── Month.js
 │   │   │   │   │   │   └── Time.js
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Tab.js
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   └── Paging.js
-│   │   │   │   │   ├── [01;34mtree[00m
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   ├── tree
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── TreeViewDragDrop.js
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   └── AbstractView.js
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── MessageBox.js
-│   │   │   │   ├── [01;34mja[00m
+│   │   │   │   ├── ja
 │   │   │   │   │   └── ext-locale-ja.js
-│   │   │   │   ├── [01;34mko[00m
+│   │   │   │   ├── ko
 │   │   │   │   │   └── ext-locale-ko.js
-│   │   │   │   ├── [01;34mlt[00m
+│   │   │   │   ├── lt
 │   │   │   │   │   └── ext-locale-lt.js
-│   │   │   │   ├── [01;34mlv[00m
+│   │   │   │   ├── lv
 │   │   │   │   │   └── ext-locale-lv.js
-│   │   │   │   ├── [01;34mmk[00m
+│   │   │   │   ├── mk
 │   │   │   │   │   └── ext-locale-mk.js
-│   │   │   │   ├── [01;34mnl[00m
+│   │   │   │   ├── nl
 │   │   │   │   │   └── ext-locale-nl.js
-│   │   │   │   ├── [01;34mno_NB[00m
+│   │   │   │   ├── no_NB
 │   │   │   │   │   └── ext-locale-no_NB.js
-│   │   │   │   ├── [01;34mno_NN[00m
+│   │   │   │   ├── no_NN
 │   │   │   │   │   └── ext-locale-no_NN.js
-│   │   │   │   ├── [01;34mpl[00m
+│   │   │   │   ├── pl
 │   │   │   │   │   └── ext-locale-pl.js
-│   │   │   │   ├── [01;34mpt[00m
+│   │   │   │   ├── pt
 │   │   │   │   │   └── ext-locale-pt.js
-│   │   │   │   ├── [01;34mpt_BR[00m
+│   │   │   │   ├── pt_BR
 │   │   │   │   │   ├── Component.js
 │   │   │   │   │   ├── ext-locale-pt_BR.js
-│   │   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   ├── form
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── Base.js
 │   │   │   │   │   │       ├── ComboBox.js
 │   │   │   │   │   │       ├── Date.js
@@ -2688,114 +2691,114 @@
 │   │   │   │   │   │       ├── Number.js
 │   │   │   │   │   │       ├── Text.js
 │   │   │   │   │   │       └── VTypes.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── PropertyColumnModel.js
-│   │   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   │   ├── feature
 │   │   │   │   │   │   │   └── Grouping.js
-│   │   │   │   │   │   ├── [01;34mfilters[00m
+│   │   │   │   │   │   ├── filters
 │   │   │   │   │   │   │   ├── Filters.js
-│   │   │   │   │   │   │   └── [01;34mfilter[00m
+│   │   │   │   │   │   │   └── filter
 │   │   │   │   │   │   │       ├── Boolean.js
 │   │   │   │   │   │   │       ├── Date.js
 │   │   │   │   │   │   │       ├── List.js
 │   │   │   │   │   │   │       ├── Number.js
 │   │   │   │   │   │   │       └── String.js
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   └── Container.js
-│   │   │   │   │   │   ├── [01;34mlocking[00m
+│   │   │   │   │   │   ├── locking
 │   │   │   │   │   │   │   └── Lockable.js
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── DragDrop.js
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   └── Panel.js
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   ├── Date.js
 │   │   │   │   │   │   └── Month.js
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Tab.js
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   └── Paging.js
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   ├── AbstractView.js
 │   │   │   │   │   │   └── View.js
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── MessageBox.js
-│   │   │   │   ├── [01;34mpt_PT[00m
+│   │   │   │   ├── pt_PT
 │   │   │   │   │   └── ext-locale-pt_PT.js
-│   │   │   │   ├── [01;34mro[00m
+│   │   │   │   ├── ro
 │   │   │   │   │   └── ext-locale-ro.js
-│   │   │   │   ├── [01;34mru[00m
+│   │   │   │   ├── ru
 │   │   │   │   │   └── ext-locale-ru.js
-│   │   │   │   ├── [01;34msk[00m
+│   │   │   │   ├── sk
 │   │   │   │   │   └── ext-locale-sk.js
-│   │   │   │   ├── [01;34msl[00m
+│   │   │   │   ├── sl
 │   │   │   │   │   └── ext-locale-sl.js
-│   │   │   │   ├── [01;34msr[00m
+│   │   │   │   ├── sr
 │   │   │   │   │   └── ext-locale-sr.js
-│   │   │   │   ├── [01;34msr_RS[00m
+│   │   │   │   ├── sr_RS
 │   │   │   │   │   └── ext-locale-sr_RS.js
-│   │   │   │   ├── [01;34msv_SE[00m
+│   │   │   │   ├── sv_SE
 │   │   │   │   │   ├── Date.js
-│   │   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   ├── form
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── Base.js
 │   │   │   │   │   │       ├── ComboBox.js
 │   │   │   │   │   │       ├── Date.js
 │   │   │   │   │   │       ├── Number.js
 │   │   │   │   │   │       ├── Text.js
 │   │   │   │   │   │       └── VTypes.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── PropertyColumnModel.js
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   └── Container.js
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── DragDrop.js
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Date.js
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Tab.js
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   └── Paging.js
-│   │   │   │   │   ├── [01;34mutil[00m
+│   │   │   │   │   ├── util
 │   │   │   │   │   │   └── Format.js
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   ├── AbstractView.js
 │   │   │   │   │   │   └── View.js
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── MessageBox.js
-│   │   │   │   ├── [01;34mth[00m
+│   │   │   │   ├── th
 │   │   │   │   │   └── ext-locale-th.js
-│   │   │   │   ├── [01;34mtr[00m
+│   │   │   │   ├── tr
 │   │   │   │   │   └── ext-locale-tr.js
-│   │   │   │   ├── [01;34mukr[00m
+│   │   │   │   ├── ukr
 │   │   │   │   │   └── ext-locale-ukr.js
-│   │   │   │   ├── [01;34mvn[00m
+│   │   │   │   ├── vn
 │   │   │   │   │   └── ext-locale-vn.js
-│   │   │   │   ├── [01;34mzh_CN[00m
+│   │   │   │   ├── zh_CN
 │   │   │   │   │   └── ext-locale-zh_CN.js
-│   │   │   │   └── [01;34mzh_TW[00m
+│   │   │   │   └── zh_TW
 │   │   │   │       └── ext-locale-zh_TW.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   └── Readme.md
-│   │   │   └── [01;34msass[00m
-│   │   │       └── [01;34mexample[00m
+│   │   │   └── sass
+│   │   │       └── example
 │   │   │           └── fashion.html
-│   │   ├── [01;34mtheme-aria[00m
+│   │   ├── theme-aria
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mselection[00m
+│   │   │   │   └── selection
 │   │   │   │       └── CheckboxModel.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │   └── images
+│   │   │   │       ├── button
 │   │   │   │       │   ├── default-large-s-arrow-b.png
 │   │   │   │       │   ├── default-large-s-arrow.png
 │   │   │   │       │   ├── default-medium-s-arrow-b.png
@@ -2820,15 +2823,15 @@
 │   │   │   │       │   ├── plain-toolbar-small-arrow.png
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-b.png
 │   │   │   │       │   └── plain-toolbar-small-s-arrow.png
-│   │   │   │       ├── [01;34mdatepicker[00m
+│   │   │   │       ├── datepicker
 │   │   │   │       │   ├── arrow-left.png
 │   │   │   │       │   ├── arrow-right.png
 │   │   │   │       │   └── month-arrow.png
-│   │   │   │       ├── [01;34meditor[00m
+│   │   │   │       ├── editor
 │   │   │   │       │   └── tb-sprite.png
-│   │   │   │       ├── [01;34mfieldset[00m
+│   │   │   │       ├── fieldset
 │   │   │   │       │   └── collapse-tool.png
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── checkbox.png
 │   │   │   │       │   ├── clear-trigger.png
 │   │   │   │       │   ├── date-trigger.png
@@ -2839,7 +2842,7 @@
 │   │   │   │       │   ├── tag-field-item-close.png
 │   │   │   │       │   ├── trigger-template.png
 │   │   │   │       │   └── trigger.png
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── columns.png
 │   │   │   │       │   ├── group-by.png
 │   │   │   │       │   ├── group-collapse.png
@@ -2856,7 +2859,7 @@
 │   │   │   │       │   ├── refresh.png
 │   │   │   │       │   ├── sort_asc.png
 │   │   │   │       │   └── sort_desc.png
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   ├── default-checked.png
 │   │   │   │       │   ├── default-group-checked.png
 │   │   │   │       │   ├── default-menu-parent-left.png
@@ -2865,35 +2868,35 @@
 │   │   │   │       │   ├── default-scroll-bottom.png
 │   │   │   │       │   ├── default-scroll-top.png
 │   │   │   │       │   └── default-unchecked.png
-│   │   │   │       ├── [01;34mshared[00m
+│   │   │   │       ├── shared
 │   │   │   │       │   ├── icon-error.png
 │   │   │   │       │   ├── icon-info.png
 │   │   │   │       │   ├── icon-question.png
 │   │   │   │       │   ├── icon-warning.png
-│   │   │   │       │   ├── [01;35mleft-btn.gif[00m
-│   │   │   │       │   └── [01;35mright-btn.gif[00m
-│   │   │   │       ├── [01;34msizer[00m
+│   │   │   │       │   ├── left-btn.gif
+│   │   │   │       │   └── right-btn.gif
+│   │   │   │       ├── sizer
 │   │   │   │       │   ├── e-handle.png
 │   │   │   │       │   ├── ne-handle.png
 │   │   │   │       │   ├── nw-handle.png
 │   │   │   │       │   ├── s-handle.png
 │   │   │   │       │   ├── se-handle.png
 │   │   │   │       │   └── sw-handle.png
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-bg.png
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   ├── slider-v-bg.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── tab-default-close.png
-│   │   │   │       ├── [01;34mtab-bar[00m
+│   │   │   │       ├── tab-bar
 │   │   │   │       │   ├── default-plain-more-left.png
 │   │   │   │       │   ├── default-plain-more.png
 │   │   │   │       │   ├── default-plain-scroll-bottom.png
 │   │   │   │       │   ├── default-plain-scroll-left.png
 │   │   │   │       │   ├── default-plain-scroll-right.png
 │   │   │   │       │   └── default-plain-scroll-top.png
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-scroll-bottom.png
@@ -2904,10 +2907,10 @@
 │   │   │   │       │   ├── footer-more.png
 │   │   │   │       │   ├── footer-scroll-left.png
 │   │   │   │       │   └── footer-scroll-right.png
-│   │   │   │       ├── [01;34mtools[00m
+│   │   │   │       ├── tools
 │   │   │   │       │   ├── tool-sprites-dark.png
 │   │   │   │       │   └── tool-sprites.png
-│   │   │   │       └── [01;34mtree[00m
+│   │   │   │       └── tree
 │   │   │   │           ├── arrows-rtl.png
 │   │   │   │           ├── arrows.png
 │   │   │   │           ├── elbow-end-minus-rtl.png
@@ -2934,16 +2937,16 @@
 │   │   │   │           ├── folder.png
 │   │   │   │           ├── leaf-rtl.png
 │   │   │   │           └── leaf.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mall[00m
+│   │   │   │   ├── all
 │   │   │   │   │   ├── ext-all-access-rtl.scss
 │   │   │   │   │   └── ext-all-access.scss
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -2954,93 +2957,93 @@
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   ├── slicer.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Readme.md
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldSet.scss
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       └── Tag.scss
-│   │   │   │   │   └── [01;34mpanel[00m
+│   │   │   │   │   └── panel
 │   │   │   │   │       ├── Title.scss
 │   │   │   │   │       └── Tool.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── LoadMask.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── CheckboxGroup.scss
 │   │   │   │       │   ├── FieldSet.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Checkbox.scss
 │   │   │   │       │       ├── Display.scss
 │   │   │   │       │       ├── HtmlEditor.scss
 │   │   │   │       │       └── Tag.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── RowWrap.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       └── RowEditing.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   ├── Table.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   └── Multi.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── Panel.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-base[00m
+│   │   ├── theme-base
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   ├── background-gradient.scss
 │   │   │   │   │   │   ├── background-opacity.scss
 │   │   │   │   │   │   ├── border-management.scss
@@ -3055,7 +3058,7 @@
 │   │   │   │   │   │   ├── slicer.scss
 │   │   │   │   │   │   └── theme-background-image.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── custom.js
 │   │   │   │   │   ├── manifest.js
 │   │   │   │   │   ├── render.js
@@ -3063,24 +3066,24 @@
 │   │   │   │   │   ├── slicer.css
 │   │   │   │   │   └── theme.html
 │   │   │   │   ├── overrides.rb
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── LoadMask.scss
 │   │   │   │   │   ├── ProgressBar.scss
 │   │   │   │   │   ├── Readme.md
-│   │   │   │   │   ├── [01;34mbutton[00m
+│   │   │   │   │   ├── button
 │   │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   │   └── Segmented.scss
-│   │   │   │   │   ├── [01;34mcontainer[00m
+│   │   │   │   │   ├── container
 │   │   │   │   │   │   └── ButtonGroup.scss
-│   │   │   │   │   ├── [01;34mdd[00m
+│   │   │   │   │   ├── dd
 │   │   │   │   │   │   ├── DD.scss
 │   │   │   │   │   │   └── StatusProxy.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldContainer.scss
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   ├── Labelable.scss
-│   │   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   │   ├── field
 │   │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   │   ├── Display.scss
 │   │   │   │   │   │   │   ├── File.scss
@@ -3089,32 +3092,32 @@
 │   │   │   │   │   │   │   ├── Tag.scss
 │   │   │   │   │   │   │   ├── Text.scss
 │   │   │   │   │   │   │   └── TextArea.scss
-│   │   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   │   └── trigger
 │   │   │   │   │   │       └── Component.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   ├── Action.scss
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   └── Column.scss
-│   │   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   │   ├── feature
 │   │   │   │   │   │   │   ├── Grouping.scss
 │   │   │   │   │   │   │   ├── RowBody.scss
 │   │   │   │   │   │   │   └── RowWrap.scss
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   ├── Container.scss
 │   │   │   │   │   │   │   └── DropZone.scss
-│   │   │   │   │   │   ├── [01;34mlocking[00m
+│   │   │   │   │   │   ├── locking
 │   │   │   │   │   │   │   └── Lockable.scss
-│   │   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   │   ├── plugin
 │   │   │   │   │   │   │   ├── Editing.scss
 │   │   │   │   │   │   │   ├── RowEditing.scss
 │   │   │   │   │   │   │   └── RowExpander.scss
-│   │   │   │   │   │   └── [01;34mselection[00m
+│   │   │   │   │   │   └── selection
 │   │   │   │   │   │       └── SpreadsheetModel.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
-│   │   │   │   │   │   ├── [01;34mcomponent[00m
+│   │   │   │   │   ├── layout
+│   │   │   │   │   │   ├── component
 │   │   │   │   │   │   │   └── Dock.scss
-│   │   │   │   │   │   └── [01;34mcontainer[00m
+│   │   │   │   │   │   └── container
 │   │   │   │   │   │       ├── Absolute.scss
 │   │   │   │   │   │       ├── Auto.scss
 │   │   │   │   │   │       ├── Border.scss
@@ -3125,345 +3128,345 @@
 │   │   │   │   │   │       ├── Fit.scss
 │   │   │   │   │   │       ├── Form.scss
 │   │   │   │   │   │       └── Table.scss
-│   │   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   │   ├── menu
 │   │   │   │   │   │   └── Menu.scss
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   ├── Header.scss
 │   │   │   │   │   │   ├── Panel.scss
 │   │   │   │   │   │   ├── Table.scss
 │   │   │   │   │   │   ├── Title.scss
 │   │   │   │   │   │   └── Tool.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   ├── Color.scss
 │   │   │   │   │   │   └── Date.scss
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   └── Viewport.scss
-│   │   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   │   ├── resizer
 │   │   │   │   │   │   ├── Resizer.scss
 │   │   │   │   │   │   ├── Splitter.scss
 │   │   │   │   │   │   └── SplitterTracker.scss
-│   │   │   │   │   ├── [01;34mrtl[00m
-│   │   │   │   │   │   └── [01;34mutil[00m
+│   │   │   │   │   ├── rtl
+│   │   │   │   │   │   └── util
 │   │   │   │   │   │       └── Renderable.scss
-│   │   │   │   │   ├── [01;34mselection[00m
+│   │   │   │   │   ├── selection
 │   │   │   │   │   │   └── FlexModel.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   └── Multi.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   ├── Bar.scss
 │   │   │   │   │   │   └── Tab.scss
-│   │   │   │   │   ├── [01;34mtip[00m
+│   │   │   │   │   ├── tip
 │   │   │   │   │   │   └── Tip.scss
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   ├── Breadcrumb.scss
 │   │   │   │   │   │   └── Toolbar.scss
-│   │   │   │   │   ├── [01;34mtree[00m
+│   │   │   │   │   ├── tree
 │   │   │   │   │   │   └── View.scss
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   ├── BoundList.scss
 │   │   │   │   │   │   ├── Table.scss
 │   │   │   │   │   │   └── View.scss
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       ├── MessageBox.scss
 │   │   │   │   │       └── Window.scss
 │   │   │   │   ├── utils.rb
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       └── Readme.md
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-classic[00m
+│   │   ├── theme-classic
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   ├── grid
+│   │   │   │   │   ├── column
 │   │   │   │   │   │   └── Widget.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       └── Editing.js
-│   │   │   │   └── [01;34mtoolbar[00m
+│   │   │   │   └── toolbar
 │   │   │   │       ├── Breadcrumb.js
 │   │   │   │       └── Toolbar.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mboundlist[00m
+│   │   │   │   └── images
+│   │   │   │       ├── boundlist
 │   │   │   │       │   └── trigger-arrow.png
-│   │   │   │       ├── [01;34mbox[00m
-│   │   │   │       │   ├── [01;35mcorners-blue.gif[00m
-│   │   │   │       │   ├── [01;35mcorners.gif[00m
-│   │   │   │       │   ├── [01;35ml-blue.gif[00m
-│   │   │   │       │   ├── [01;35ml.gif[00m
-│   │   │   │       │   ├── [01;35mr-blue.gif[00m
-│   │   │   │       │   ├── [01;35mr.gif[00m
-│   │   │   │       │   ├── [01;35mtb-blue.gif[00m
-│   │   │   │       │   └── [01;35mtb.gif[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-open.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-open.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-over-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-rtl.gif[00m
-│   │   │   │       │   └── [01;35mdefault-split-arrow.gif[00m
-│   │   │   │       ├── [01;34mbutton[00m
-│   │   │   │       │   ├── [01;35marrow-rtl.gif[00m
-│   │   │   │       │   ├── [01;35marrow.gif[00m
-│   │   │   │       │   ├── [01;35mbtn.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-cs.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-lr.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-tb.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-b-noline.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-b.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-bo.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-light-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-light.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-noline-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-noline.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-o-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-o.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-rtl.gif[00m
-│   │   │   │       │   └── [01;35ms-arrow.gif[00m
-│   │   │   │       ├── [01;34mdd[00m
-│   │   │   │       │   ├── [01;35mdrop-add.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   └── [01;35mdrop-yes.gif[00m
-│   │   │   │       ├── [01;34meditor[00m
-│   │   │   │       │   └── [01;35mtb-sprite.gif[00m
-│   │   │   │       ├── [01;34mform[00m
-│   │   │   │       │   ├── [01;35mcheckbox.gif[00m
-│   │   │   │       │   ├── [01;35mclear-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mclear-trigger.gif[00m
-│   │   │   │       │   ├── [01;35mdate-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdate-trigger.gif[00m
-│   │   │   │       │   ├── [01;35merror-tip-corners.gif[00m
-│   │   │   │       │   ├── [01;35mexclamation.gif[00m
-│   │   │   │       │   ├── [01;35mradio.gif[00m
-│   │   │   │       │   ├── [01;35msearch-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35msearch-trigger.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-small-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-small.gif[00m
-│   │   │   │       │   ├── [01;35mspinner.gif[00m
-│   │   │   │       │   ├── [01;35mtag-field-item-close.gif[00m
-│   │   │   │       │   ├── [01;35mtext-bg.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-square-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-square.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-tpl-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-tpl.gif[00m
-│   │   │   │       │   └── [01;35mtrigger.gif[00m
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;35marrow-left-white.gif[00m
-│   │   │   │       │   ├── [01;35marrow-right-white.gif[00m
-│   │   │   │       │   ├── [01;35mcell-special-bg.gif[00m
+│   │   │   │       ├── box
+│   │   │   │       │   ├── corners-blue.gif
+│   │   │   │       │   ├── corners.gif
+│   │   │   │       │   ├── l-blue.gif
+│   │   │   │       │   ├── l.gif
+│   │   │   │       │   ├── r-blue.gif
+│   │   │   │       │   ├── r.gif
+│   │   │   │       │   ├── tb-blue.gif
+│   │   │   │       │   └── tb.gif
+│   │   │   │       ├── breadcrumb
+│   │   │   │       │   ├── default-arrow-open-rtl.gif
+│   │   │   │       │   ├── default-arrow-open.gif
+│   │   │   │       │   ├── default-arrow-rtl.gif
+│   │   │   │       │   ├── default-arrow.gif
+│   │   │   │       │   ├── default-scroll-left.gif
+│   │   │   │       │   ├── default-scroll-right.gif
+│   │   │   │       │   ├── default-split-arrow-open-rtl.gif
+│   │   │   │       │   ├── default-split-arrow-open.gif
+│   │   │   │       │   ├── default-split-arrow-over-rtl.gif
+│   │   │   │       │   ├── default-split-arrow-over.gif
+│   │   │   │       │   ├── default-split-arrow-rtl.gif
+│   │   │   │       │   └── default-split-arrow.gif
+│   │   │   │       ├── button
+│   │   │   │       │   ├── arrow-rtl.gif
+│   │   │   │       │   ├── arrow.gif
+│   │   │   │       │   ├── btn.gif
+│   │   │   │       │   ├── group-cs.gif
+│   │   │   │       │   ├── group-lr.gif
+│   │   │   │       │   ├── group-tb.gif
+│   │   │   │       │   ├── s-arrow-b-noline.gif
+│   │   │   │       │   ├── s-arrow-b.gif
+│   │   │   │       │   ├── s-arrow-bo.gif
+│   │   │   │       │   ├── s-arrow-light-rtl.gif
+│   │   │   │       │   ├── s-arrow-light.gif
+│   │   │   │       │   ├── s-arrow-noline-rtl.gif
+│   │   │   │       │   ├── s-arrow-noline.gif
+│   │   │   │       │   ├── s-arrow-o-rtl.gif
+│   │   │   │       │   ├── s-arrow-o.gif
+│   │   │   │       │   ├── s-arrow-rtl.gif
+│   │   │   │       │   └── s-arrow.gif
+│   │   │   │       ├── dd
+│   │   │   │       │   ├── drop-add.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   └── drop-yes.gif
+│   │   │   │       ├── editor
+│   │   │   │       │   └── tb-sprite.gif
+│   │   │   │       ├── form
+│   │   │   │       │   ├── checkbox.gif
+│   │   │   │       │   ├── clear-trigger-rtl.gif
+│   │   │   │       │   ├── clear-trigger.gif
+│   │   │   │       │   ├── date-trigger-rtl.gif
+│   │   │   │       │   ├── date-trigger.gif
+│   │   │   │       │   ├── error-tip-corners.gif
+│   │   │   │       │   ├── exclamation.gif
+│   │   │   │       │   ├── radio.gif
+│   │   │   │       │   ├── search-trigger-rtl.gif
+│   │   │   │       │   ├── search-trigger.gif
+│   │   │   │       │   ├── spinner-rtl.gif
+│   │   │   │       │   ├── spinner-small-rtl.gif
+│   │   │   │       │   ├── spinner-small.gif
+│   │   │   │       │   ├── spinner.gif
+│   │   │   │       │   ├── tag-field-item-close.gif
+│   │   │   │       │   ├── text-bg.gif
+│   │   │   │       │   ├── trigger-rtl.gif
+│   │   │   │       │   ├── trigger-square-rtl.gif
+│   │   │   │       │   ├── trigger-square.gif
+│   │   │   │       │   ├── trigger-tpl-rtl.gif
+│   │   │   │       │   ├── trigger-tpl.gif
+│   │   │   │       │   └── trigger.gif
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── arrow-left-white.gif
+│   │   │   │       │   ├── arrow-right-white.gif
+│   │   │   │       │   ├── cell-special-bg.gif
 │   │   │   │       │   ├── cell-special-bg.png
-│   │   │   │       │   ├── [01;35mcell-special-selected-bg.gif[00m
+│   │   │   │       │   ├── cell-special-selected-bg.gif
 │   │   │   │       │   ├── cell-special-selected-bg.png
-│   │   │   │       │   ├── [01;35mcol-move-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mcol-move-top.gif[00m
-│   │   │   │       │   ├── [01;35mcolumns.gif[00m
-│   │   │   │       │   ├── [01;35mdd-insert-arrow-left.gif[00m
+│   │   │   │       │   ├── col-move-bottom.gif
+│   │   │   │       │   ├── col-move-top.gif
+│   │   │   │       │   ├── columns.gif
+│   │   │   │       │   ├── dd-insert-arrow-left.gif
 │   │   │   │       │   ├── dd-insert-arrow-left.png
-│   │   │   │       │   ├── [01;35mdd-insert-arrow-right.gif[00m
+│   │   │   │       │   ├── dd-insert-arrow-right.gif
 │   │   │   │       │   ├── dd-insert-arrow-right.png
-│   │   │   │       │   ├── [01;35mdirty-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdirty.gif[00m
-│   │   │   │       │   ├── [01;35mdone.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-yes.gif[00m
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── dirty-rtl.gif
+│   │   │   │       │   ├── dirty.gif
+│   │   │   │       │   ├── done.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   ├── drop-yes.gif
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
 │   │   │   │       │   │   └── less_than.png
-│   │   │   │       │   ├── [01;35mfooter-bg.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-blue-hd.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-blue-split.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-hrow.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-loading.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-split.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-vista-hd.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hd-btn-left.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hd-btn.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hrow.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-rowheader.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-by.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-collapse.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-expand-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-expand.gif[00m
-│   │   │   │       │   ├── [01;35mhd-pop.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-asc.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-desc.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-lock.gif[00m
+│   │   │   │       │   ├── footer-bg.gif
+│   │   │   │       │   ├── grid-blue-hd.gif
+│   │   │   │       │   ├── grid-blue-split.gif
+│   │   │   │       │   ├── grid-hrow.gif
+│   │   │   │       │   ├── grid-loading.gif
+│   │   │   │       │   ├── grid-split.gif
+│   │   │   │       │   ├── grid-vista-hd.gif
+│   │   │   │       │   ├── grid3-hd-btn-left.gif
+│   │   │   │       │   ├── grid3-hd-btn.gif
+│   │   │   │       │   ├── grid3-hrow-over.gif
+│   │   │   │       │   ├── grid3-hrow.gif
+│   │   │   │       │   ├── grid3-rowheader.gif
+│   │   │   │       │   ├── group-by.gif
+│   │   │   │       │   ├── group-collapse.gif
+│   │   │   │       │   ├── group-expand-sprite.gif
+│   │   │   │       │   ├── group-expand.gif
+│   │   │   │       │   ├── hd-pop.gif
+│   │   │   │       │   ├── hmenu-asc.gif
+│   │   │   │       │   ├── hmenu-desc.gif
+│   │   │   │       │   ├── hmenu-lock.gif
 │   │   │   │       │   ├── hmenu-lock.png
-│   │   │   │       │   ├── [01;35mhmenu-unlock.gif[00m
+│   │   │   │       │   ├── hmenu-unlock.gif
 │   │   │   │       │   ├── hmenu-unlock.png
-│   │   │   │       │   ├── [01;35minvalid_line.gif[00m
-│   │   │   │       │   ├── [01;35mloading.gif[00m
-│   │   │   │       │   ├── [01;35mmso-hd.gif[00m
-│   │   │   │       │   ├── [01;35mnowait.gif[00m
-│   │   │   │       │   ├── [01;35mpage-first-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-first.gif[00m
-│   │   │   │       │   ├── [01;35mpage-last-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-last.gif[00m
-│   │   │   │       │   ├── [01;35mpage-next-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-next.gif[00m
-│   │   │   │       │   ├── [01;35mpage-prev-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-prev.gif[00m
-│   │   │   │       │   ├── [01;35mpick-button.gif[00m
-│   │   │   │       │   ├── [01;35mproperty-cell-bg.gif[00m
-│   │   │   │       │   ├── [01;35mproperty-cell-selected-bg.gif[00m
-│   │   │   │       │   ├── [01;35mrefresh-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mrefresh.gif[00m
-│   │   │   │       │   ├── [01;35mrow-check-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mrow-expand-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mrow-sel.gif[00m
-│   │   │   │       │   ├── [01;35msort-hd.gif[00m
-│   │   │   │       │   ├── [01;35msort_asc.gif[00m
-│   │   │   │       │   ├── [01;35msort_desc.gif[00m
-│   │   │   │       │   └── [01;35mwait.gif[00m
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   ├── [01;35mmini-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mmini-left.gif[00m
-│   │   │   │       │   ├── [01;35mmini-right.gif[00m
-│   │   │   │       │   └── [01;35mmini-top.gif[00m
-│   │   │   │       ├── [01;34mmenu[00m
-│   │   │   │       │   ├── [01;35mdefault-checked.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-group-checked.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menu-parent-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menu-parent.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menubar-menu-parent.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-top.gif[00m
-│   │   │   │       │   └── [01;35mdefault-unchecked.gif[00m
-│   │   │   │       ├── [01;34mshared[00m
-│   │   │   │       │   ├── [01;35mblue-loading.gif[00m
-│   │   │   │       │   ├── [01;35mcalendar.gif[00m
-│   │   │   │       │   ├── [01;35mglass-bg.gif[00m
-│   │   │   │       │   ├── [01;35mhd-sprite.gif[00m
-│   │   │   │       │   ├── [01;35micon-error.gif[00m
-│   │   │   │       │   ├── [01;35micon-info.gif[00m
-│   │   │   │       │   ├── [01;35micon-question.gif[00m
-│   │   │   │       │   ├── [01;35micon-warning.gif[00m
-│   │   │   │       │   ├── [01;35mlarge-loading.gif[00m
-│   │   │   │       │   ├── [01;35mleft-btn.gif[00m
-│   │   │   │       │   ├── [01;35mloading-balls.gif[00m
-│   │   │   │       │   ├── [01;35mright-btn.gif[00m
+│   │   │   │       │   ├── invalid_line.gif
+│   │   │   │       │   ├── loading.gif
+│   │   │   │       │   ├── mso-hd.gif
+│   │   │   │       │   ├── nowait.gif
+│   │   │   │       │   ├── page-first-disabled.gif
+│   │   │   │       │   ├── page-first.gif
+│   │   │   │       │   ├── page-last-disabled.gif
+│   │   │   │       │   ├── page-last.gif
+│   │   │   │       │   ├── page-next-disabled.gif
+│   │   │   │       │   ├── page-next.gif
+│   │   │   │       │   ├── page-prev-disabled.gif
+│   │   │   │       │   ├── page-prev.gif
+│   │   │   │       │   ├── pick-button.gif
+│   │   │   │       │   ├── property-cell-bg.gif
+│   │   │   │       │   ├── property-cell-selected-bg.gif
+│   │   │   │       │   ├── refresh-disabled.gif
+│   │   │   │       │   ├── refresh.gif
+│   │   │   │       │   ├── row-check-sprite.gif
+│   │   │   │       │   ├── row-expand-sprite.gif
+│   │   │   │       │   ├── row-over.gif
+│   │   │   │       │   ├── row-sel.gif
+│   │   │   │       │   ├── sort-hd.gif
+│   │   │   │       │   ├── sort_asc.gif
+│   │   │   │       │   ├── sort_desc.gif
+│   │   │   │       │   └── wait.gif
+│   │   │   │       ├── layout
+│   │   │   │       │   ├── mini-bottom.gif
+│   │   │   │       │   ├── mini-left.gif
+│   │   │   │       │   ├── mini-right.gif
+│   │   │   │       │   └── mini-top.gif
+│   │   │   │       ├── menu
+│   │   │   │       │   ├── default-checked.gif
+│   │   │   │       │   ├── default-group-checked.gif
+│   │   │   │       │   ├── default-menu-parent-left.gif
+│   │   │   │       │   ├── default-menu-parent.gif
+│   │   │   │       │   ├── default-menubar-menu-parent.gif
+│   │   │   │       │   ├── default-scroll-bottom.gif
+│   │   │   │       │   ├── default-scroll-top.gif
+│   │   │   │       │   └── default-unchecked.gif
+│   │   │   │       ├── shared
+│   │   │   │       │   ├── blue-loading.gif
+│   │   │   │       │   ├── calendar.gif
+│   │   │   │       │   ├── glass-bg.gif
+│   │   │   │       │   ├── hd-sprite.gif
+│   │   │   │       │   ├── icon-error.gif
+│   │   │   │       │   ├── icon-info.gif
+│   │   │   │       │   ├── icon-question.gif
+│   │   │   │       │   ├── icon-warning.gif
+│   │   │   │       │   ├── large-loading.gif
+│   │   │   │       │   ├── left-btn.gif
+│   │   │   │       │   ├── loading-balls.gif
+│   │   │   │       │   ├── right-btn.gif
 │   │   │   │       │   ├── shadow-c.png
 │   │   │   │       │   ├── shadow-lr.png
 │   │   │   │       │   ├── shadow.png
-│   │   │   │       │   └── [01;35mwarning.gif[00m
-│   │   │   │       ├── [01;34msizer[00m
-│   │   │   │       │   ├── [01;35me-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35me-handle.gif[00m
-│   │   │   │       │   ├── [01;35mne-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mne-handle.gif[00m
-│   │   │   │       │   ├── [01;35mnw-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mnw-handle.gif[00m
-│   │   │   │       │   ├── [01;35ms-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35ms-handle.gif[00m
-│   │   │   │       │   ├── [01;35mse-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mse-handle.gif[00m
-│   │   │   │       │   ├── [01;35msquare.gif[00m
-│   │   │   │       │   ├── [01;35msw-handle-dark.gif[00m
-│   │   │   │       │   └── [01;35msw-handle.gif[00m
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       │   └── warning.gif
+│   │   │   │       ├── sizer
+│   │   │   │       │   ├── e-handle-dark.gif
+│   │   │   │       │   ├── e-handle.gif
+│   │   │   │       │   ├── ne-handle-dark.gif
+│   │   │   │       │   ├── ne-handle.gif
+│   │   │   │       │   ├── nw-handle-dark.gif
+│   │   │   │       │   ├── nw-handle.gif
+│   │   │   │       │   ├── s-handle-dark.gif
+│   │   │   │       │   ├── s-handle.gif
+│   │   │   │       │   ├── se-handle-dark.gif
+│   │   │   │       │   ├── se-handle.gif
+│   │   │   │       │   ├── square.gif
+│   │   │   │       │   ├── sw-handle-dark.gif
+│   │   │   │       │   └── sw-handle.gif
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-bg.png
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   ├── slider-v-bg.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
-│   │   │   │       │   └── [01;35mtab-default-close.gif[00m
-│   │   │   │       ├── [01;34mtab-bar[00m
-│   │   │   │       │   ├── [01;35mdefault-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-more.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom-right.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left-top.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right-top.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-top-left.gif[00m
-│   │   │   │       │   └── [01;35mdefault-scroll-top-right.gif[00m
-│   │   │   │       ├── [01;34mtoolbar[00m
-│   │   │   │       │   ├── [01;35mdefault-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-more.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-top.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-more.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-scroll-left.gif[00m
-│   │   │   │       │   └── [01;35mfooter-scroll-right.gif[00m
-│   │   │   │       ├── [01;34mtools[00m
-│   │   │   │       │   ├── [01;35mtool-sprite-tpl.gif[00m
-│   │   │   │       │   ├── [01;35mtool-sprites.gif[00m
-│   │   │   │       │   └── [01;35mtools-sprites-trans.gif[00m
-│   │   │   │       ├── [01;34mtree[00m
-│   │   │   │       │   ├── [01;35marrows-rtl.gif[00m
-│   │   │   │       │   ├── [01;35marrows.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-above.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-add.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-append.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-below.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-between.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-over.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-under.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-yes.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-minus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-minus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-plus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-plus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end.gif[00m
-│   │   │   │       │   ├── [01;35melbow-line-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-line.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-nl-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-nl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-nl-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-nl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-open.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mfolder.gif[00m
-│   │   │   │       │   ├── [01;35mleaf-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mleaf.gif[00m
-│   │   │   │       │   ├── [01;35mloading.gif[00m
-│   │   │   │       │   └── [01;35ms.gif[00m
-│   │   │   │       └── [01;34mutil[00m
-│   │   │   │           └── [01;34msplitter[00m
-│   │   │   │               ├── [01;35mmini-bottom.gif[00m
-│   │   │   │               ├── [01;35mmini-left.gif[00m
-│   │   │   │               ├── [01;35mmini-right.gif[00m
-│   │   │   │               └── [01;35mmini-top.gif[00m
-│   │   │   ├── [01;34msass[00m
+│   │   │   │       ├── tab
+│   │   │   │       │   └── tab-default-close.gif
+│   │   │   │       ├── tab-bar
+│   │   │   │       │   ├── default-more-left.gif
+│   │   │   │       │   ├── default-more.gif
+│   │   │   │       │   ├── default-scroll-bottom-left.gif
+│   │   │   │       │   ├── default-scroll-bottom-right.gif
+│   │   │   │       │   ├── default-scroll-left-bottom.gif
+│   │   │   │       │   ├── default-scroll-left-top.gif
+│   │   │   │       │   ├── default-scroll-right-bottom.gif
+│   │   │   │       │   ├── default-scroll-right-top.gif
+│   │   │   │       │   ├── default-scroll-top-left.gif
+│   │   │   │       │   └── default-scroll-top-right.gif
+│   │   │   │       ├── toolbar
+│   │   │   │       │   ├── default-more-left.gif
+│   │   │   │       │   ├── default-more.gif
+│   │   │   │       │   ├── default-scroll-bottom.gif
+│   │   │   │       │   ├── default-scroll-left.gif
+│   │   │   │       │   ├── default-scroll-right.gif
+│   │   │   │       │   ├── default-scroll-top.gif
+│   │   │   │       │   ├── footer-more-left.gif
+│   │   │   │       │   ├── footer-more.gif
+│   │   │   │       │   ├── footer-scroll-left.gif
+│   │   │   │       │   └── footer-scroll-right.gif
+│   │   │   │       ├── tools
+│   │   │   │       │   ├── tool-sprite-tpl.gif
+│   │   │   │       │   ├── tool-sprites.gif
+│   │   │   │       │   └── tools-sprites-trans.gif
+│   │   │   │       ├── tree
+│   │   │   │       │   ├── arrows-rtl.gif
+│   │   │   │       │   ├── arrows.gif
+│   │   │   │       │   ├── drop-above.gif
+│   │   │   │       │   ├── drop-add.gif
+│   │   │   │       │   ├── drop-append.gif
+│   │   │   │       │   ├── drop-below.gif
+│   │   │   │       │   ├── drop-between.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   ├── drop-over.gif
+│   │   │   │       │   ├── drop-under.gif
+│   │   │   │       │   ├── drop-yes.gif
+│   │   │   │       │   ├── elbow-end-minus-rtl.gif
+│   │   │   │       │   ├── elbow-end-minus.gif
+│   │   │   │       │   ├── elbow-end-plus-rtl.gif
+│   │   │   │       │   ├── elbow-end-plus.gif
+│   │   │   │       │   ├── elbow-end-rtl.gif
+│   │   │   │       │   ├── elbow-end.gif
+│   │   │   │       │   ├── elbow-line-rtl.gif
+│   │   │   │       │   ├── elbow-line.gif
+│   │   │   │       │   ├── elbow-minus-nl-rtl.gif
+│   │   │   │       │   ├── elbow-minus-nl.gif
+│   │   │   │       │   ├── elbow-minus-rtl.gif
+│   │   │   │       │   ├── elbow-minus.gif
+│   │   │   │       │   ├── elbow-plus-nl-rtl.gif
+│   │   │   │       │   ├── elbow-plus-nl.gif
+│   │   │   │       │   ├── elbow-plus-rtl.gif
+│   │   │   │       │   ├── elbow-plus.gif
+│   │   │   │       │   ├── elbow-rtl.gif
+│   │   │   │       │   ├── elbow.gif
+│   │   │   │       │   ├── folder-open-rtl.gif
+│   │   │   │       │   ├── folder-open.gif
+│   │   │   │       │   ├── folder-rtl.gif
+│   │   │   │       │   ├── folder.gif
+│   │   │   │       │   ├── leaf-rtl.gif
+│   │   │   │       │   ├── leaf.gif
+│   │   │   │       │   ├── loading.gif
+│   │   │   │       │   └── s.gif
+│   │   │   │       └── util
+│   │   │   │           └── splitter
+│   │   │   │               ├── mini-bottom.gif
+│   │   │   │               ├── mini-left.gif
+│   │   │   │               ├── mini-right.gif
+│   │   │   │               └── mini-top.gif
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -3473,41 +3476,41 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Readme.md
-│   │   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   │   ├── dom
 │   │   │   │   │   │   └── Element.scss
-│   │   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   ├── form
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       └── HtmlEditor.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   │   └── [01;34mcolumn[00m
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   └── column
 │   │   │   │   │   │       ├── Column.scss
 │   │   │   │   │   │       └── Widget.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
-│   │   │   │   │   │   └── [01;34mcontainer[00m
+│   │   │   │   │   ├── layout
+│   │   │   │   │   │   └── container
 │   │   │   │   │   │       └── Accordion.scss
-│   │   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   │   ├── resizer
 │   │   │   │   │   │   └── Resizer.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   └── Multi.scss
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── MessageBox.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── LoadMask.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mdd[00m
+│   │   │   │       ├── dd
 │   │   │   │       │   └── StatusProxy.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   ├── Labelable.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Display.scss
 │   │   │   │       │       ├── HtmlEditor.scss
@@ -3515,72 +3518,72 @@
 │   │   │   │       │       ├── Tag.scss
 │   │   │   │       │       ├── Text.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   ├── Column.scss
 │   │   │   │       │   │   └── Widget.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   ├── [01;34mplugin[00m
+│   │   │   │       │   ├── plugin
 │   │   │   │       │   │   ├── Editing.scss
 │   │   │   │       │   │   ├── RowEditing.scss
 │   │   │   │       │   │   └── RowExpander.scss
-│   │   │   │       │   └── [01;34mproperty[00m
+│   │   │   │       │   └── property
 │   │   │   │       │       └── Grid.scss
 │   │   │   │       ├── grid-field.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   ├── Color.scss
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   └── Multi.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── View.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           ├── MessageBox.scss
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-classic-sandbox[00m
+│   │   ├── theme-classic-sandbox
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -3593,28 +3596,28 @@
 │   │   │   │   │   ├── shortcuts.js
 │   │   │   │   │   ├── slicer.css
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       └── Readme.md
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-crisp[00m
+│   │   ├── theme-crisp
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mview[00m
+│   │   │   │   └── view
 │   │   │   │       └── Table.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
+│   │   │   │   └── images
+│   │   │   │       ├── breadcrumb
 │   │   │   │       │   ├── default-arrow-open-rtl.png
 │   │   │   │       │   ├── default-arrow-open.png
 │   │   │   │       │   ├── default-arrow-rtl.png
@@ -3627,7 +3630,7 @@
 │   │   │   │       │   ├── default-split-arrow-over.png
 │   │   │   │       │   ├── default-split-arrow-rtl.png
 │   │   │   │       │   └── default-split-arrow.png
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   ├── default-large-arrow-rtl.png
 │   │   │   │       │   ├── default-large-arrow.png
 │   │   │   │       │   ├── default-large-s-arrow-b-rtl.png
@@ -3686,15 +3689,15 @@
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-b.png
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │   │   │       │   └── plain-toolbar-small-s-arrow.png
-│   │   │   │       ├── [01;34mdatepicker[00m
+│   │   │   │       ├── datepicker
 │   │   │   │       │   ├── arrow-left.png
 │   │   │   │       │   ├── arrow-right.png
 │   │   │   │       │   └── month-arrow.png
-│   │   │   │       ├── [01;34meditor[00m
+│   │   │   │       ├── editor
 │   │   │   │       │   └── tb-sprite.png
-│   │   │   │       ├── [01;34mfieldset[00m
+│   │   │   │       ├── fieldset
 │   │   │   │       │   └── collapse-tool.png
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── checkbox.png
 │   │   │   │       │   ├── clear-trigger-rtl.png
 │   │   │   │       │   ├── clear-trigger.png
@@ -3713,9 +3716,9 @@
 │   │   │   │       │   ├── tag-field-item-close.png
 │   │   │   │       │   ├── trigger-rtl.png
 │   │   │   │       │   └── trigger.png
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── columns.png
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
@@ -3735,7 +3738,7 @@
 │   │   │   │       │   ├── refresh.png
 │   │   │   │       │   ├── sort_asc.png
 │   │   │   │       │   └── sort_desc.png
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   ├── default-checked.png
 │   │   │   │       │   ├── default-group-checked.png
 │   │   │   │       │   ├── default-menu-parent-left.png
@@ -3744,14 +3747,14 @@
 │   │   │   │       │   ├── default-scroll-bottom.png
 │   │   │   │       │   ├── default-scroll-top.png
 │   │   │   │       │   └── default-unchecked.png
-│   │   │   │       ├── [01;34mshared[00m
+│   │   │   │       ├── shared
 │   │   │   │       │   ├── icon-error.png
 │   │   │   │       │   ├── icon-info.png
 │   │   │   │       │   ├── icon-question.png
 │   │   │   │       │   └── icon-warning.png
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── tab-default-close.png
-│   │   │   │       ├── [01;34mtab-bar[00m
+│   │   │   │       ├── tab-bar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-plain-more-left.png
@@ -3764,7 +3767,7 @@
 │   │   │   │       │   ├── default-scroll-left.png
 │   │   │   │       │   ├── default-scroll-right.png
 │   │   │   │       │   └── default-scroll-top.png
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-scroll-bottom.png
@@ -3775,10 +3778,10 @@
 │   │   │   │       │   ├── footer-more.png
 │   │   │   │       │   ├── footer-scroll-left.png
 │   │   │   │       │   └── footer-scroll-right.png
-│   │   │   │       ├── [01;34mtools[00m
+│   │   │   │       ├── tools
 │   │   │   │       │   ├── tool-sprites-dark.png
 │   │   │   │       │   └── tool-sprites.png
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   ├── arrows-rtl.png
 │   │   │   │       │   ├── arrows.png
 │   │   │   │       │   ├── elbow-end-minus-rtl.png
@@ -3805,19 +3808,19 @@
 │   │   │   │       │   ├── folder.png
 │   │   │   │       │   ├── leaf-rtl.png
 │   │   │   │       │   └── leaf.png
-│   │   │   │       └── [01;34mutil[00m
-│   │   │   │           └── [01;34msplitter[00m
+│   │   │   │       └── util
+│   │   │   │           └── splitter
 │   │   │   │               ├── mini-bottom.png
 │   │   │   │               ├── mini-left.png
 │   │   │   │               ├── mini-right.png
 │   │   │   │               └── mini-top.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -3827,70 +3830,70 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── Labelable.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       └── Tag.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   └── Filters.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   └── [01;34mlocking[00m
+│   │   │   │       │   └── locking
 │   │   │   │       │       └── Lockable.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           ├── Toast.scss
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-crisp-touch[00m
+│   │   ├── theme-crisp-touch
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
+│   │   │   │   └── images
+│   │   │   │       ├── breadcrumb
 │   │   │   │       │   ├── default-arrow-open-rtl.png
 │   │   │   │       │   ├── default-arrow-open.png
 │   │   │   │       │   ├── default-arrow-rtl.png
@@ -3903,7 +3906,7 @@
 │   │   │   │       │   ├── default-split-arrow-over.png
 │   │   │   │       │   ├── default-split-arrow-rtl.png
 │   │   │   │       │   └── default-split-arrow.png
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   ├── default-large-arrow-rtl.png
 │   │   │   │       │   ├── default-large-arrow.png
 │   │   │   │       │   ├── default-large-s-arrow-b-rtl.png
@@ -3963,15 +3966,15 @@
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-b.png
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │   │   │       │   └── plain-toolbar-small-s-arrow.png
-│   │   │   │       ├── [01;34mdatepicker[00m
+│   │   │   │       ├── datepicker
 │   │   │   │       │   ├── arrow-left.png
 │   │   │   │       │   ├── arrow-right.png
 │   │   │   │       │   └── month-arrow.png
-│   │   │   │       ├── [01;34meditor[00m
+│   │   │   │       ├── editor
 │   │   │   │       │   └── tb-sprite.png
-│   │   │   │       ├── [01;34mfieldset[00m
+│   │   │   │       ├── fieldset
 │   │   │   │       │   └── collapse-tool.png
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── checkbox.png
 │   │   │   │       │   ├── clear-trigger-rtl.png
 │   │   │   │       │   ├── clear-trigger.png
@@ -3988,9 +3991,9 @@
 │   │   │   │       │   ├── tag-field-item-close.png
 │   │   │   │       │   ├── trigger-rtl.png
 │   │   │   │       │   └── trigger.png
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── columns.png
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
@@ -4010,7 +4013,7 @@
 │   │   │   │       │   ├── refresh.png
 │   │   │   │       │   ├── sort_asc.png
 │   │   │   │       │   └── sort_desc.png
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   ├── default-checked.png
 │   │   │   │       │   ├── default-group-checked.png
 │   │   │   │       │   ├── default-menu-parent-left.png
@@ -4019,19 +4022,19 @@
 │   │   │   │       │   ├── default-scroll-bottom.png
 │   │   │   │       │   ├── default-scroll-top.png
 │   │   │   │       │   └── default-unchecked.png
-│   │   │   │       ├── [01;34mshared[00m
+│   │   │   │       ├── shared
 │   │   │   │       │   ├── icon-error.png
 │   │   │   │       │   ├── icon-info.png
 │   │   │   │       │   ├── icon-question.png
 │   │   │   │       │   └── icon-warning.png
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-bg.png
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   ├── slider-v-bg.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── tab-default-close.png
-│   │   │   │       ├── [01;34mtab-bar[00m
+│   │   │   │       ├── tab-bar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-plain-more-left.png
@@ -4044,7 +4047,7 @@
 │   │   │   │       │   ├── default-scroll-left.png
 │   │   │   │       │   ├── default-scroll-right.png
 │   │   │   │       │   └── default-scroll-top.png
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-scroll-bottom.png
@@ -4055,10 +4058,10 @@
 │   │   │   │       │   ├── footer-more.png
 │   │   │   │       │   ├── footer-scroll-left.png
 │   │   │   │       │   └── footer-scroll-right.png
-│   │   │   │       ├── [01;34mtools[00m
+│   │   │   │       ├── tools
 │   │   │   │       │   ├── tool-sprites-dark.png
 │   │   │   │       │   └── tool-sprites.png
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   ├── arrows-rtl.png
 │   │   │   │       │   ├── arrows.png
 │   │   │   │       │   ├── elbow-end-minus-rtl.png
@@ -4085,19 +4088,19 @@
 │   │   │   │       │   ├── folder.png
 │   │   │   │       │   ├── leaf-rtl.png
 │   │   │   │       │   └── leaf.png
-│   │   │   │       └── [01;34mutil[00m
-│   │   │   │           └── [01;34msplitter[00m
+│   │   │   │       └── util
+│   │   │   │           └── splitter
 │   │   │   │               ├── mini-bottom.png
 │   │   │   │               ├── mini-left.png
 │   │   │   │               ├── mini-right.png
 │   │   │   │               └── mini-top.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -4107,307 +4110,307 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       └── RowExpander.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       └── [01;34mtab[00m
+│   │   │   │       └── tab
 │   │   │   │           ├── Bar.scss
 │   │   │   │           └── Tab.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-gray[00m
+│   │   ├── theme-gray
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mboundlist[00m
+│   │   │   │   └── images
+│   │   │   │       ├── boundlist
 │   │   │   │       │   └── trigger-arrow.png
-│   │   │   │       ├── [01;34mbox[00m
-│   │   │   │       │   ├── [01;35mcorners-blue.gif[00m
-│   │   │   │       │   ├── [01;35mcorners.gif[00m
-│   │   │   │       │   ├── [01;35ml-blue.gif[00m
-│   │   │   │       │   ├── [01;35ml.gif[00m
-│   │   │   │       │   ├── [01;35mr-blue.gif[00m
-│   │   │   │       │   ├── [01;35mr.gif[00m
-│   │   │   │       │   ├── [01;35mtb-blue.gif[00m
-│   │   │   │       │   └── [01;35mtb.gif[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-open.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-arrow.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-open.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-over-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-split-arrow-rtl.gif[00m
-│   │   │   │       │   └── [01;35mdefault-split-arrow.gif[00m
-│   │   │   │       ├── [01;34mbutton[00m
-│   │   │   │       │   ├── [01;35marrow.gif[00m
-│   │   │   │       │   ├── [01;35mbtn-arrow.gif[00m
-│   │   │   │       │   ├── [01;35mbtn-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mbtn.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-cs.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-lr.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-tb.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-b-noline.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-b.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-bo.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-light-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-light.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-noline-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-noline.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-o-rtl.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-o.gif[00m
-│   │   │   │       │   ├── [01;35ms-arrow-rtl.gif[00m
-│   │   │   │       │   └── [01;35ms-arrow.gif[00m
-│   │   │   │       ├── [01;34mdd[00m
-│   │   │   │       │   ├── [01;35mdrop-add.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   └── [01;35mdrop-yes.gif[00m
-│   │   │   │       ├── [01;34meditor[00m
-│   │   │   │       │   └── [01;35mtb-sprite.gif[00m
-│   │   │   │       ├── [01;34mform[00m
-│   │   │   │       │   ├── [01;35mbox-select-item-close.gif[00m
-│   │   │   │       │   ├── [01;35mcheckbox.gif[00m
-│   │   │   │       │   ├── [01;35mclear-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mclear-trigger.gif[00m
-│   │   │   │       │   ├── [01;35mdate-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdate-trigger.gif[00m
-│   │   │   │       │   ├── [01;35merror-tip-corners.gif[00m
-│   │   │   │       │   ├── [01;35mexclamation.gif[00m
-│   │   │   │       │   ├── [01;35mradio.gif[00m
-│   │   │   │       │   ├── [01;35msearch-trigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35msearch-trigger.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-small-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mspinner-small.gif[00m
-│   │   │   │       │   ├── [01;35mspinner.gif[00m
-│   │   │   │       │   ├── [01;35mtag-field-item-close.gif[00m
-│   │   │   │       │   ├── [01;35mtext-bg.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-square-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-square.gif[00m
-│   │   │   │       │   ├── [01;35mtrigger-tpl.gif[00m
-│   │   │   │       │   └── [01;35mtrigger.gif[00m
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;35marrow-left-white.gif[00m
-│   │   │   │       │   ├── [01;35marrow-right-white.gif[00m
-│   │   │   │       │   ├── [01;35mcell-special-bg.gif[00m
+│   │   │   │       ├── box
+│   │   │   │       │   ├── corners-blue.gif
+│   │   │   │       │   ├── corners.gif
+│   │   │   │       │   ├── l-blue.gif
+│   │   │   │       │   ├── l.gif
+│   │   │   │       │   ├── r-blue.gif
+│   │   │   │       │   ├── r.gif
+│   │   │   │       │   ├── tb-blue.gif
+│   │   │   │       │   └── tb.gif
+│   │   │   │       ├── breadcrumb
+│   │   │   │       │   ├── default-arrow-open-rtl.gif
+│   │   │   │       │   ├── default-arrow-open.gif
+│   │   │   │       │   ├── default-arrow-rtl.gif
+│   │   │   │       │   ├── default-arrow.gif
+│   │   │   │       │   ├── default-split-arrow-open-rtl.gif
+│   │   │   │       │   ├── default-split-arrow-open.gif
+│   │   │   │       │   ├── default-split-arrow-over-rtl.gif
+│   │   │   │       │   ├── default-split-arrow-over.gif
+│   │   │   │       │   ├── default-split-arrow-rtl.gif
+│   │   │   │       │   └── default-split-arrow.gif
+│   │   │   │       ├── button
+│   │   │   │       │   ├── arrow.gif
+│   │   │   │       │   ├── btn-arrow.gif
+│   │   │   │       │   ├── btn-sprite.gif
+│   │   │   │       │   ├── btn.gif
+│   │   │   │       │   ├── group-cs.gif
+│   │   │   │       │   ├── group-lr.gif
+│   │   │   │       │   ├── group-tb.gif
+│   │   │   │       │   ├── s-arrow-b-noline.gif
+│   │   │   │       │   ├── s-arrow-b.gif
+│   │   │   │       │   ├── s-arrow-bo.gif
+│   │   │   │       │   ├── s-arrow-light-rtl.gif
+│   │   │   │       │   ├── s-arrow-light.gif
+│   │   │   │       │   ├── s-arrow-noline-rtl.gif
+│   │   │   │       │   ├── s-arrow-noline.gif
+│   │   │   │       │   ├── s-arrow-o-rtl.gif
+│   │   │   │       │   ├── s-arrow-o.gif
+│   │   │   │       │   ├── s-arrow-rtl.gif
+│   │   │   │       │   └── s-arrow.gif
+│   │   │   │       ├── dd
+│   │   │   │       │   ├── drop-add.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   └── drop-yes.gif
+│   │   │   │       ├── editor
+│   │   │   │       │   └── tb-sprite.gif
+│   │   │   │       ├── form
+│   │   │   │       │   ├── box-select-item-close.gif
+│   │   │   │       │   ├── checkbox.gif
+│   │   │   │       │   ├── clear-trigger-rtl.gif
+│   │   │   │       │   ├── clear-trigger.gif
+│   │   │   │       │   ├── date-trigger-rtl.gif
+│   │   │   │       │   ├── date-trigger.gif
+│   │   │   │       │   ├── error-tip-corners.gif
+│   │   │   │       │   ├── exclamation.gif
+│   │   │   │       │   ├── radio.gif
+│   │   │   │       │   ├── search-trigger-rtl.gif
+│   │   │   │       │   ├── search-trigger.gif
+│   │   │   │       │   ├── spinner-rtl.gif
+│   │   │   │       │   ├── spinner-small-rtl.gif
+│   │   │   │       │   ├── spinner-small.gif
+│   │   │   │       │   ├── spinner.gif
+│   │   │   │       │   ├── tag-field-item-close.gif
+│   │   │   │       │   ├── text-bg.gif
+│   │   │   │       │   ├── trigger-rtl.gif
+│   │   │   │       │   ├── trigger-square-rtl.gif
+│   │   │   │       │   ├── trigger-square.gif
+│   │   │   │       │   ├── trigger-tpl.gif
+│   │   │   │       │   └── trigger.gif
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── arrow-left-white.gif
+│   │   │   │       │   ├── arrow-right-white.gif
+│   │   │   │       │   ├── cell-special-bg.gif
 │   │   │   │       │   ├── cell-special-bg.png
-│   │   │   │       │   ├── [01;35mcell-special-selected-bg.gif[00m
+│   │   │   │       │   ├── cell-special-selected-bg.gif
 │   │   │   │       │   ├── cell-special-selected-bg.png
-│   │   │   │       │   ├── [01;35mcol-move-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mcol-move-top.gif[00m
-│   │   │   │       │   ├── [01;35mcolumns.gif[00m
-│   │   │   │       │   ├── [01;35mdd-insert-arrow-left.gif[00m
+│   │   │   │       │   ├── col-move-bottom.gif
+│   │   │   │       │   ├── col-move-top.gif
+│   │   │   │       │   ├── columns.gif
+│   │   │   │       │   ├── dd-insert-arrow-left.gif
 │   │   │   │       │   ├── dd-insert-arrow-left.png
-│   │   │   │       │   ├── [01;35mdd-insert-arrow-right.gif[00m
+│   │   │   │       │   ├── dd-insert-arrow-right.gif
 │   │   │   │       │   ├── dd-insert-arrow-right.png
-│   │   │   │       │   ├── [01;35mdirty-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mdirty.gif[00m
-│   │   │   │       │   ├── [01;35mdone.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-yes.gif[00m
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── dirty-rtl.gif
+│   │   │   │       │   ├── dirty.gif
+│   │   │   │       │   ├── done.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   ├── drop-yes.gif
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
 │   │   │   │       │   │   └── less_than.png
-│   │   │   │       │   ├── [01;35mfooter-bg.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-blue-hd.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-blue-split.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-hrow.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-loading.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-split.gif[00m
-│   │   │   │       │   ├── [01;35mgrid-vista-hd.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hd-btn-left.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hd-btn.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-hrow.gif[00m
-│   │   │   │       │   ├── [01;35mgrid3-rowheader.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-by.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-collapse.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-expand-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mgroup-expand.gif[00m
-│   │   │   │       │   ├── [01;35mhd-pop.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-asc.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-desc.gif[00m
-│   │   │   │       │   ├── [01;35mhmenu-lock.gif[00m
+│   │   │   │       │   ├── footer-bg.gif
+│   │   │   │       │   ├── grid-blue-hd.gif
+│   │   │   │       │   ├── grid-blue-split.gif
+│   │   │   │       │   ├── grid-hrow.gif
+│   │   │   │       │   ├── grid-loading.gif
+│   │   │   │       │   ├── grid-split.gif
+│   │   │   │       │   ├── grid-vista-hd.gif
+│   │   │   │       │   ├── grid3-hd-btn-left.gif
+│   │   │   │       │   ├── grid3-hd-btn.gif
+│   │   │   │       │   ├── grid3-hrow-over.gif
+│   │   │   │       │   ├── grid3-hrow.gif
+│   │   │   │       │   ├── grid3-rowheader.gif
+│   │   │   │       │   ├── group-by.gif
+│   │   │   │       │   ├── group-collapse.gif
+│   │   │   │       │   ├── group-expand-sprite.gif
+│   │   │   │       │   ├── group-expand.gif
+│   │   │   │       │   ├── hd-pop.gif
+│   │   │   │       │   ├── hmenu-asc.gif
+│   │   │   │       │   ├── hmenu-desc.gif
+│   │   │   │       │   ├── hmenu-lock.gif
 │   │   │   │       │   ├── hmenu-lock.png
-│   │   │   │       │   ├── [01;35mhmenu-unlock.gif[00m
+│   │   │   │       │   ├── hmenu-unlock.gif
 │   │   │   │       │   ├── hmenu-unlock.png
-│   │   │   │       │   ├── [01;35minvalid_line.gif[00m
-│   │   │   │       │   ├── [01;35mloading.gif[00m
-│   │   │   │       │   ├── [01;35mmso-hd.gif[00m
-│   │   │   │       │   ├── [01;35mnowait.gif[00m
-│   │   │   │       │   ├── [01;35mpage-first-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-first.gif[00m
-│   │   │   │       │   ├── [01;35mpage-last-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-last.gif[00m
-│   │   │   │       │   ├── [01;35mpage-next-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-next.gif[00m
-│   │   │   │       │   ├── [01;35mpage-prev-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mpage-prev.gif[00m
-│   │   │   │       │   ├── [01;35mpick-button.gif[00m
-│   │   │   │       │   ├── [01;35mproperty-cell-bg.gif[00m
-│   │   │   │       │   ├── [01;35mproperty-cell-selected-bg.gif[00m
-│   │   │   │       │   ├── [01;35mrefresh-disabled.gif[00m
-│   │   │   │       │   ├── [01;35mrefresh.gif[00m
-│   │   │   │       │   ├── [01;35mrow-check-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mrow-expand-sprite.gif[00m
-│   │   │   │       │   ├── [01;35mrow-over.gif[00m
-│   │   │   │       │   ├── [01;35mrow-sel.gif[00m
-│   │   │   │       │   ├── [01;35msort-hd.gif[00m
-│   │   │   │       │   ├── [01;35msort_asc.gif[00m
-│   │   │   │       │   ├── [01;35msort_desc.gif[00m
-│   │   │   │       │   └── [01;35mwait.gif[00m
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   ├── [01;35mmini-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mmini-left.gif[00m
-│   │   │   │       │   ├── [01;35mmini-right.gif[00m
-│   │   │   │       │   └── [01;35mmini-top.gif[00m
-│   │   │   │       ├── [01;34mmenu[00m
-│   │   │   │       │   ├── [01;35mdefault-checked.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-group-checked.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menu-parent-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menu-parent.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-menubar-menu-parent.gif[00m
-│   │   │   │       │   └── [01;35mdefault-unchecked.gif[00m
-│   │   │   │       ├── [01;34mshared[00m
-│   │   │   │       │   ├── [01;35mblue-loading.gif[00m
-│   │   │   │       │   ├── [01;35mcalendar.gif[00m
-│   │   │   │       │   ├── [01;35mglass-bg.gif[00m
-│   │   │   │       │   ├── [01;35mhd-sprite.gif[00m
-│   │   │   │       │   ├── [01;35micon-error.gif[00m
-│   │   │   │       │   ├── [01;35micon-info.gif[00m
-│   │   │   │       │   ├── [01;35micon-question.gif[00m
-│   │   │   │       │   ├── [01;35micon-warning.gif[00m
-│   │   │   │       │   ├── [01;35mlarge-loading.gif[00m
-│   │   │   │       │   ├── [01;35mleft-btn.gif[00m
-│   │   │   │       │   ├── [01;35mloading-balls.gif[00m
-│   │   │   │       │   ├── [01;35mright-btn.gif[00m
+│   │   │   │       │   ├── invalid_line.gif
+│   │   │   │       │   ├── loading.gif
+│   │   │   │       │   ├── mso-hd.gif
+│   │   │   │       │   ├── nowait.gif
+│   │   │   │       │   ├── page-first-disabled.gif
+│   │   │   │       │   ├── page-first.gif
+│   │   │   │       │   ├── page-last-disabled.gif
+│   │   │   │       │   ├── page-last.gif
+│   │   │   │       │   ├── page-next-disabled.gif
+│   │   │   │       │   ├── page-next.gif
+│   │   │   │       │   ├── page-prev-disabled.gif
+│   │   │   │       │   ├── page-prev.gif
+│   │   │   │       │   ├── pick-button.gif
+│   │   │   │       │   ├── property-cell-bg.gif
+│   │   │   │       │   ├── property-cell-selected-bg.gif
+│   │   │   │       │   ├── refresh-disabled.gif
+│   │   │   │       │   ├── refresh.gif
+│   │   │   │       │   ├── row-check-sprite.gif
+│   │   │   │       │   ├── row-expand-sprite.gif
+│   │   │   │       │   ├── row-over.gif
+│   │   │   │       │   ├── row-sel.gif
+│   │   │   │       │   ├── sort-hd.gif
+│   │   │   │       │   ├── sort_asc.gif
+│   │   │   │       │   ├── sort_desc.gif
+│   │   │   │       │   └── wait.gif
+│   │   │   │       ├── layout
+│   │   │   │       │   ├── mini-bottom.gif
+│   │   │   │       │   ├── mini-left.gif
+│   │   │   │       │   ├── mini-right.gif
+│   │   │   │       │   └── mini-top.gif
+│   │   │   │       ├── menu
+│   │   │   │       │   ├── default-checked.gif
+│   │   │   │       │   ├── default-group-checked.gif
+│   │   │   │       │   ├── default-menu-parent-left.gif
+│   │   │   │       │   ├── default-menu-parent.gif
+│   │   │   │       │   ├── default-menubar-menu-parent.gif
+│   │   │   │       │   └── default-unchecked.gif
+│   │   │   │       ├── shared
+│   │   │   │       │   ├── blue-loading.gif
+│   │   │   │       │   ├── calendar.gif
+│   │   │   │       │   ├── glass-bg.gif
+│   │   │   │       │   ├── hd-sprite.gif
+│   │   │   │       │   ├── icon-error.gif
+│   │   │   │       │   ├── icon-info.gif
+│   │   │   │       │   ├── icon-question.gif
+│   │   │   │       │   ├── icon-warning.gif
+│   │   │   │       │   ├── large-loading.gif
+│   │   │   │       │   ├── left-btn.gif
+│   │   │   │       │   ├── loading-balls.gif
+│   │   │   │       │   ├── right-btn.gif
 │   │   │   │       │   ├── shadow-c.png
 │   │   │   │       │   ├── shadow-lr.png
 │   │   │   │       │   ├── shadow.png
-│   │   │   │       │   └── [01;35mwarning.gif[00m
-│   │   │   │       ├── [01;34msizer[00m
-│   │   │   │       │   ├── [01;35me-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35me-handle.gif[00m
-│   │   │   │       │   ├── [01;35mne-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mne-handle.gif[00m
-│   │   │   │       │   ├── [01;35mnw-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mnw-handle.gif[00m
-│   │   │   │       │   ├── [01;35ms-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35ms-handle.gif[00m
-│   │   │   │       │   ├── [01;35mse-handle-dark.gif[00m
-│   │   │   │       │   ├── [01;35mse-handle.gif[00m
-│   │   │   │       │   ├── [01;35msquare.gif[00m
-│   │   │   │       │   ├── [01;35msw-handle-dark.gif[00m
-│   │   │   │       │   └── [01;35msw-handle.gif[00m
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       │   └── warning.gif
+│   │   │   │       ├── sizer
+│   │   │   │       │   ├── e-handle-dark.gif
+│   │   │   │       │   ├── e-handle.gif
+│   │   │   │       │   ├── ne-handle-dark.gif
+│   │   │   │       │   ├── ne-handle.gif
+│   │   │   │       │   ├── nw-handle-dark.gif
+│   │   │   │       │   ├── nw-handle.gif
+│   │   │   │       │   ├── s-handle-dark.gif
+│   │   │   │       │   ├── s-handle.gif
+│   │   │   │       │   ├── se-handle-dark.gif
+│   │   │   │       │   ├── se-handle.gif
+│   │   │   │       │   ├── square.gif
+│   │   │   │       │   ├── sw-handle-dark.gif
+│   │   │   │       │   └── sw-handle.gif
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
-│   │   │   │       │   └── [01;35mtab-default-close.gif[00m
-│   │   │   │       ├── [01;34mtab-bar[00m
-│   │   │   │       │   ├── [01;35mdefault-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-more.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-bottom-right.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left-top.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right-bottom.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right-top.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-top-left.gif[00m
-│   │   │   │       │   └── [01;35mdefault-scroll-top-right.gif[00m
-│   │   │   │       ├── [01;34mtoolbar[00m
-│   │   │   │       │   ├── [01;35mdefault-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-more.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-left.gif[00m
-│   │   │   │       │   ├── [01;35mdefault-scroll-right.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-more-left.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-more.gif[00m
-│   │   │   │       │   ├── [01;35mfooter-scroll-left.gif[00m
-│   │   │   │       │   └── [01;35mfooter-scroll-right.gif[00m
-│   │   │   │       ├── [01;34mtools[00m
-│   │   │   │       │   ├── [01;35mtool-sprite-tpl.gif[00m
-│   │   │   │       │   ├── [01;35mtool-sprites.gif[00m
-│   │   │   │       │   └── [01;35mtools-sprites-trans.gif[00m
-│   │   │   │       ├── [01;34mtree[00m
-│   │   │   │       │   ├── [01;35marrows-rtl.gif[00m
-│   │   │   │       │   ├── [01;35marrows.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-above.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-add.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-append.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-below.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-between.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-over.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-under.gif[00m
-│   │   │   │       │   ├── [01;35mdrop-yes.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-minus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-minus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-plus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-plus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-end.gif[00m
-│   │   │   │       │   ├── [01;35melbow-line-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-line.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-nl-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-nl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-minus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-nl-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-nl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow-plus.gif[00m
-│   │   │   │       │   ├── [01;35melbow-rtl.gif[00m
-│   │   │   │       │   ├── [01;35melbow.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-open-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-open.gif[00m
-│   │   │   │       │   ├── [01;35mfolder-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mfolder.gif[00m
-│   │   │   │       │   ├── [01;35mleaf-rtl.gif[00m
-│   │   │   │       │   ├── [01;35mleaf.gif[00m
-│   │   │   │       │   ├── [01;35mloading.gif[00m
-│   │   │   │       │   └── [01;35ms.gif[00m
-│   │   │   │       ├── [01;34mutil[00m
-│   │   │   │       │   └── [01;34msplitter[00m
-│   │   │   │       │       ├── [01;35mmini-bottom.gif[00m
-│   │   │   │       │       ├── [01;35mmini-left.gif[00m
-│   │   │   │       │       ├── [01;35mmini-right.gif[00m
-│   │   │   │       │       └── [01;35mmini-top.gif[00m
-│   │   │   │       └── [01;34mwindow[00m
-│   │   │   │           ├── [01;35micon-error.gif[00m
-│   │   │   │           ├── [01;35micon-info.gif[00m
-│   │   │   │           ├── [01;35micon-question.gif[00m
-│   │   │   │           └── [01;35micon-warning.gif[00m
-│   │   │   ├── [01;34msass[00m
+│   │   │   │       ├── tab
+│   │   │   │       │   └── tab-default-close.gif
+│   │   │   │       ├── tab-bar
+│   │   │   │       │   ├── default-more-left.gif
+│   │   │   │       │   ├── default-more.gif
+│   │   │   │       │   ├── default-scroll-bottom-left.gif
+│   │   │   │       │   ├── default-scroll-bottom-right.gif
+│   │   │   │       │   ├── default-scroll-left-bottom.gif
+│   │   │   │       │   ├── default-scroll-left-top.gif
+│   │   │   │       │   ├── default-scroll-right-bottom.gif
+│   │   │   │       │   ├── default-scroll-right-top.gif
+│   │   │   │       │   ├── default-scroll-top-left.gif
+│   │   │   │       │   └── default-scroll-top-right.gif
+│   │   │   │       ├── toolbar
+│   │   │   │       │   ├── default-more-left.gif
+│   │   │   │       │   ├── default-more.gif
+│   │   │   │       │   ├── default-scroll-left.gif
+│   │   │   │       │   ├── default-scroll-right.gif
+│   │   │   │       │   ├── footer-more-left.gif
+│   │   │   │       │   ├── footer-more.gif
+│   │   │   │       │   ├── footer-scroll-left.gif
+│   │   │   │       │   └── footer-scroll-right.gif
+│   │   │   │       ├── tools
+│   │   │   │       │   ├── tool-sprite-tpl.gif
+│   │   │   │       │   ├── tool-sprites.gif
+│   │   │   │       │   └── tools-sprites-trans.gif
+│   │   │   │       ├── tree
+│   │   │   │       │   ├── arrows-rtl.gif
+│   │   │   │       │   ├── arrows.gif
+│   │   │   │       │   ├── drop-above.gif
+│   │   │   │       │   ├── drop-add.gif
+│   │   │   │       │   ├── drop-append.gif
+│   │   │   │       │   ├── drop-below.gif
+│   │   │   │       │   ├── drop-between.gif
+│   │   │   │       │   ├── drop-no.gif
+│   │   │   │       │   ├── drop-over.gif
+│   │   │   │       │   ├── drop-under.gif
+│   │   │   │       │   ├── drop-yes.gif
+│   │   │   │       │   ├── elbow-end-minus-rtl.gif
+│   │   │   │       │   ├── elbow-end-minus.gif
+│   │   │   │       │   ├── elbow-end-plus-rtl.gif
+│   │   │   │       │   ├── elbow-end-plus.gif
+│   │   │   │       │   ├── elbow-end-rtl.gif
+│   │   │   │       │   ├── elbow-end.gif
+│   │   │   │       │   ├── elbow-line-rtl.gif
+│   │   │   │       │   ├── elbow-line.gif
+│   │   │   │       │   ├── elbow-minus-nl-rtl.gif
+│   │   │   │       │   ├── elbow-minus-nl.gif
+│   │   │   │       │   ├── elbow-minus-rtl.gif
+│   │   │   │       │   ├── elbow-minus.gif
+│   │   │   │       │   ├── elbow-plus-nl-rtl.gif
+│   │   │   │       │   ├── elbow-plus-nl.gif
+│   │   │   │       │   ├── elbow-plus-rtl.gif
+│   │   │   │       │   ├── elbow-plus.gif
+│   │   │   │       │   ├── elbow-rtl.gif
+│   │   │   │       │   ├── elbow.gif
+│   │   │   │       │   ├── folder-open-rtl.gif
+│   │   │   │       │   ├── folder-open.gif
+│   │   │   │       │   ├── folder-rtl.gif
+│   │   │   │       │   ├── folder.gif
+│   │   │   │       │   ├── leaf-rtl.gif
+│   │   │   │       │   ├── leaf.gif
+│   │   │   │       │   ├── loading.gif
+│   │   │   │       │   └── s.gif
+│   │   │   │       ├── util
+│   │   │   │       │   └── splitter
+│   │   │   │       │       ├── mini-bottom.gif
+│   │   │   │       │       ├── mini-left.gif
+│   │   │   │       │       ├── mini-right.gif
+│   │   │   │       │       └── mini-top.gif
+│   │   │   │       └── window
+│   │   │   │           ├── icon-error.gif
+│   │   │   │           ├── icon-info.gif
+│   │   │   │           ├── icon-question.gif
+│   │   │   │           └── icon-warning.gif
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -4417,83 +4420,83 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       └── Tag.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   └── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   └── column
 │   │   │   │       │       └── Column.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       └── Accordion.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   └── BoundList.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-neptune[00m
+│   │   ├── theme-neptune
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mcontainer[00m
+│   │   │   │   ├── container
 │   │   │   │   │   └── ButtonGroup.js
-│   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   ├── form
+│   │   │   │   │   └── field
 │   │   │   │   │       └── HtmlEditor.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   ├── RowEditor.js
-│   │   │   │   │   └── [01;34mcolumn[00m
+│   │   │   │   │   └── column
 │   │   │   │   │       └── RowNumberer.js
-│   │   │   │   ├── [01;34mlayout[00m
-│   │   │   │   │   └── [01;34mcomponent[00m
+│   │   │   │   ├── layout
+│   │   │   │   │   └── component
 │   │   │   │   │       └── Dock.js
-│   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   ├── menu
 │   │   │   │   │   ├── Menu.js
 │   │   │   │   │   └── Separator.js
-│   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   ├── panel
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   └── Table.js
-│   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   ├── picker
 │   │   │   │   │   └── Month.js
-│   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   ├── resizer
 │   │   │   │   │   └── Splitter.js
-│   │   │   │   └── [01;34mtoolbar[00m
+│   │   │   │   └── toolbar
 │   │   │   │       ├── Paging.js
 │   │   │   │       └── Toolbar.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
+│   │   │   │   └── images
+│   │   │   │       ├── breadcrumb
 │   │   │   │       │   ├── default-arrow-open-rtl.png
 │   │   │   │       │   ├── default-arrow-open.png
 │   │   │   │       │   ├── default-arrow-rtl.png
@@ -4506,7 +4509,7 @@
 │   │   │   │       │   ├── default-split-arrow-over.png
 │   │   │   │       │   ├── default-split-arrow-rtl.png
 │   │   │   │       │   └── default-split-arrow.png
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   ├── default-large-arrow-rtl.png
 │   │   │   │       │   ├── default-large-arrow.png
 │   │   │   │       │   ├── default-large-s-arrow-b-rtl.png
@@ -4566,19 +4569,19 @@
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-b.png
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │   │   │       │   └── plain-toolbar-small-s-arrow.png
-│   │   │   │       ├── [01;34mdatepicker[00m
+│   │   │   │       ├── datepicker
 │   │   │   │       │   ├── arrow-left.png
 │   │   │   │       │   ├── arrow-right.png
 │   │   │   │       │   └── month-arrow.png
-│   │   │   │       ├── [01;34mdd[00m
+│   │   │   │       ├── dd
 │   │   │   │       │   ├── drop-add.png
 │   │   │   │       │   ├── drop-no.png
 │   │   │   │       │   └── drop-yes.png
-│   │   │   │       ├── [01;34meditor[00m
+│   │   │   │       ├── editor
 │   │   │   │       │   └── tb-sprite.png
-│   │   │   │       ├── [01;34mfieldset[00m
+│   │   │   │       ├── fieldset
 │   │   │   │       │   └── collapse-tool.png
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── checkbox.png
 │   │   │   │       │   ├── clear-trigger-rtl.png
 │   │   │   │       │   ├── clear-trigger.png
@@ -4593,7 +4596,7 @@
 │   │   │   │       │   ├── tag-field-item-close.png
 │   │   │   │       │   ├── trigger-rtl.png
 │   │   │   │       │   └── trigger.png
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── col-move-bottom.png
 │   │   │   │       │   ├── col-move-top.png
 │   │   │   │       │   ├── columns.png
@@ -4603,7 +4606,7 @@
 │   │   │   │       │   ├── dirty.png
 │   │   │   │       │   ├── drop-no.png
 │   │   │   │       │   ├── drop-yes.png
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
@@ -4616,7 +4619,7 @@
 │   │   │   │       │   ├── hmenu-desc.png
 │   │   │   │       │   ├── hmenu-lock.png
 │   │   │   │       │   ├── hmenu-unlock.png
-│   │   │   │       │   ├── [01;35mloading.gif[00m
+│   │   │   │       │   ├── loading.gif
 │   │   │   │       │   ├── page-first.png
 │   │   │   │       │   ├── page-last.png
 │   │   │   │       │   ├── page-next.png
@@ -4625,9 +4628,9 @@
 │   │   │   │       │   ├── refresh.png
 │   │   │   │       │   ├── sort_asc.png
 │   │   │   │       │   └── sort_desc.png
-│   │   │   │       ├── [01;34mloadmask[00m
-│   │   │   │       │   └── [01;35mloading.gif[00m
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── loadmask
+│   │   │   │       │   └── loading.gif
+│   │   │   │       ├── menu
 │   │   │   │       │   ├── default-checked.png
 │   │   │   │       │   ├── default-group-checked.png
 │   │   │   │       │   ├── default-menu-parent-left.png
@@ -4636,26 +4639,26 @@
 │   │   │   │       │   ├── default-scroll-bottom.png
 │   │   │   │       │   ├── default-scroll-top.png
 │   │   │   │       │   └── default-unchecked.png
-│   │   │   │       ├── [01;34mshared[00m
+│   │   │   │       ├── shared
 │   │   │   │       │   ├── icon-error.png
 │   │   │   │       │   ├── icon-info.png
 │   │   │   │       │   ├── icon-question.png
 │   │   │   │       │   └── icon-warning.png
-│   │   │   │       ├── [01;34msizer[00m
+│   │   │   │       ├── sizer
 │   │   │   │       │   ├── e-handle.png
 │   │   │   │       │   ├── ne-handle.png
 │   │   │   │       │   ├── nw-handle.png
 │   │   │   │       │   ├── s-handle.png
 │   │   │   │       │   ├── se-handle.png
 │   │   │   │       │   └── sw-handle.png
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-bg.png
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   ├── slider-v-bg.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── tab-default-close.png
-│   │   │   │       ├── [01;34mtab-bar[00m
+│   │   │   │       ├── tab-bar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-plain-more-left.png
@@ -4668,7 +4671,7 @@
 │   │   │   │       │   ├── default-scroll-left.png
 │   │   │   │       │   ├── default-scroll-right.png
 │   │   │   │       │   └── default-scroll-top.png
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-scroll-bottom.png
@@ -4679,26 +4682,26 @@
 │   │   │   │       │   ├── footer-more.png
 │   │   │   │       │   ├── footer-scroll-left.png
 │   │   │   │       │   └── footer-scroll-right.png
-│   │   │   │       ├── [01;34mtools[00m
+│   │   │   │       ├── tools
 │   │   │   │       │   ├── tool-sprites-dark.png
 │   │   │   │       │   └── tool-sprites.png
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   ├── arrows-rtl.png
 │   │   │   │       │   ├── arrows.png
 │   │   │   │       │   ├── drop-above.png
-│   │   │   │       │   ├── [01;35mdrop-add.gif[00m
+│   │   │   │       │   ├── drop-add.gif
 │   │   │   │       │   ├── drop-add.png
 │   │   │   │       │   ├── drop-append.png
 │   │   │   │       │   ├── drop-below.png
-│   │   │   │       │   ├── [01;35mdrop-between.gif[00m
+│   │   │   │       │   ├── drop-between.gif
 │   │   │   │       │   ├── drop-between.png
-│   │   │   │       │   ├── [01;35mdrop-no.gif[00m
+│   │   │   │       │   ├── drop-no.gif
 │   │   │   │       │   ├── drop-no.png
-│   │   │   │       │   ├── [01;35mdrop-over.gif[00m
+│   │   │   │       │   ├── drop-over.gif
 │   │   │   │       │   ├── drop-over.png
-│   │   │   │       │   ├── [01;35mdrop-under.gif[00m
+│   │   │   │       │   ├── drop-under.gif
 │   │   │   │       │   ├── drop-under.png
-│   │   │   │       │   ├── [01;35mdrop-yes.gif[00m
+│   │   │   │       │   ├── drop-yes.gif
 │   │   │   │       │   ├── drop-yes.png
 │   │   │   │       │   ├── elbow-end-minus-rtl.png
 │   │   │   │       │   ├── elbow-end-minus.png
@@ -4724,26 +4727,26 @@
 │   │   │   │       │   ├── folder.png
 │   │   │   │       │   ├── leaf-rtl.png
 │   │   │   │       │   ├── leaf.png
-│   │   │   │       │   └── [01;35mloading.gif[00m
-│   │   │   │       └── [01;34mutil[00m
-│   │   │   │           └── [01;34msplitter[00m
+│   │   │   │       │   └── loading.gif
+│   │   │   │       └── util
+│   │   │   │           └── splitter
 │   │   │   │               ├── mini-bottom.png
 │   │   │   │               ├── mini-left.png
 │   │   │   │               ├── mini-right.png
 │   │   │   │               └── mini-top.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   └── button-colors.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   └── background-gradient.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -4754,106 +4757,106 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Readme.md
-│   │   │   │   │   ├── [01;34mbutton[00m
+│   │   │   │   │   ├── button
 │   │   │   │   │   │   └── Button.scss
-│   │   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   ├── form
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       ├── File.scss
 │   │   │   │   │   │       └── HtmlEditor.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   └── Column.scss
-│   │   │   │   │   │   └── [01;34mheader[00m
+│   │   │   │   │   │   └── header
 │   │   │   │   │   │       └── Container.scss
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   └── [01;34mresizer[00m
+│   │   │   │   │   └── resizer
 │   │   │   │   │       └── Resizer.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── LoadMask.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mdd[00m
+│   │   │   │       ├── dd
 │   │   │   │       │   └── StatusProxy.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   ├── Labelable.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Checkbox.scss
 │   │   │   │       │       ├── Display.scss
 │   │   │   │       │       ├── Tag.scss
 │   │   │   │       │       ├── Text.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   ├── Action.scss
 │   │   │   │       │   │   ├── Check.scss
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   └── Filters.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       └── RowEditing.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   ├── Color.scss
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mselection[00m
+│   │   │   │       ├── selection
 │   │   │   │       │   └── CheckboxModel.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── Breadcrumb.scss
 │   │   │   │       │   ├── Paging.scss
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── View.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           ├── Toast.scss
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-neptune-touch[00m
+│   │   ├── theme-neptune-touch
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       ├── [01;34mbreadcrumb[00m
+│   │   │   │   └── images
+│   │   │   │       ├── breadcrumb
 │   │   │   │       │   ├── default-arrow-open-rtl.png
 │   │   │   │       │   ├── default-arrow-open.png
 │   │   │   │       │   ├── default-arrow-rtl.png
@@ -4866,7 +4869,7 @@
 │   │   │   │       │   ├── default-split-arrow-over.png
 │   │   │   │       │   ├── default-split-arrow-rtl.png
 │   │   │   │       │   └── default-split-arrow.png
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   ├── default-large-arrow-rtl.png
 │   │   │   │       │   ├── default-large-arrow.png
 │   │   │   │       │   ├── default-large-s-arrow-b-rtl.png
@@ -4925,15 +4928,15 @@
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-b.png
 │   │   │   │       │   ├── plain-toolbar-small-s-arrow-rtl.png
 │   │   │   │       │   └── plain-toolbar-small-s-arrow.png
-│   │   │   │       ├── [01;34mdatepicker[00m
+│   │   │   │       ├── datepicker
 │   │   │   │       │   ├── arrow-left.png
 │   │   │   │       │   ├── arrow-right.png
 │   │   │   │       │   └── month-arrow.png
-│   │   │   │       ├── [01;34meditor[00m
+│   │   │   │       ├── editor
 │   │   │   │       │   └── tb-sprite.png
-│   │   │   │       ├── [01;34mfieldset[00m
+│   │   │   │       ├── fieldset
 │   │   │   │       │   └── collapse-tool.png
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── checkbox.png
 │   │   │   │       │   ├── clear-trigger-rtl.png
 │   │   │   │       │   ├── clear-trigger.png
@@ -4950,9 +4953,9 @@
 │   │   │   │       │   ├── tag-field-item-close.png
 │   │   │   │       │   ├── trigger-rtl.png
 │   │   │   │       │   └── trigger.png
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── columns.png
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   ├── equals.png
 │   │   │   │       │   │   ├── find.png
 │   │   │   │       │   │   ├── greater_than.png
@@ -4972,7 +4975,7 @@
 │   │   │   │       │   ├── refresh.png
 │   │   │   │       │   ├── sort_asc.png
 │   │   │   │       │   └── sort_desc.png
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   ├── default-checked.png
 │   │   │   │       │   ├── default-group-checked.png
 │   │   │   │       │   ├── default-menu-parent-left.png
@@ -4981,19 +4984,19 @@
 │   │   │   │       │   ├── default-scroll-bottom.png
 │   │   │   │       │   ├── default-scroll-top.png
 │   │   │   │       │   └── default-unchecked.png
-│   │   │   │       ├── [01;34mshared[00m
+│   │   │   │       ├── shared
 │   │   │   │       │   ├── icon-error.png
 │   │   │   │       │   ├── icon-info.png
 │   │   │   │       │   ├── icon-question.png
 │   │   │   │       │   └── icon-warning.png
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── slider-bg.png
 │   │   │   │       │   ├── slider-thumb.png
 │   │   │   │       │   ├── slider-v-bg.png
 │   │   │   │       │   └── slider-v-thumb.png
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── tab-default-close.png
-│   │   │   │       ├── [01;34mtab-bar[00m
+│   │   │   │       ├── tab-bar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-plain-more-left.png
@@ -5006,7 +5009,7 @@
 │   │   │   │       │   ├── default-scroll-left.png
 │   │   │   │       │   ├── default-scroll-right.png
 │   │   │   │       │   └── default-scroll-top.png
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── default-more-left.png
 │   │   │   │       │   ├── default-more.png
 │   │   │   │       │   ├── default-scroll-bottom.png
@@ -5017,10 +5020,10 @@
 │   │   │   │       │   ├── footer-more.png
 │   │   │   │       │   ├── footer-scroll-left.png
 │   │   │   │       │   └── footer-scroll-right.png
-│   │   │   │       ├── [01;34mtools[00m
+│   │   │   │       ├── tools
 │   │   │   │       │   ├── tool-sprites-dark.png
 │   │   │   │       │   └── tool-sprites.png
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   ├── arrows-rtl.png
 │   │   │   │       │   ├── arrows.png
 │   │   │   │       │   ├── elbow-end-minus-rtl.png
@@ -5047,19 +5050,19 @@
 │   │   │   │       │   ├── folder.png
 │   │   │   │       │   ├── leaf-rtl.png
 │   │   │   │       │   └── leaf.png
-│   │   │   │       └── [01;34mutil[00m
-│   │   │   │           └── [01;34msplitter[00m
+│   │   │   │       └── util
+│   │   │   │           └── splitter
 │   │   │   │               ├── mini-bottom.png
 │   │   │   │               ├── mini-left.png
 │   │   │   │               ├── mini-right.png
 │   │   │   │               └── mini-top.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -5069,289 +5072,289 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Readme.md
-│   │   │   │       └── [01;34mtip[00m
+│   │   │   │       └── tip
 │   │   │   │           └── Tip.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-neutral[00m
+│   │   ├── theme-neutral
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
+│   │   │   │   └── images
 │   │   │   │       ├── magnify.png
-│   │   │   │       └── [01;34mwindow[00m
-│   │   │   │           └── [01;34mtoast[00m
+│   │   │   │       └── window
+│   │   │   │           └── toast
 │   │   │   │               ├── fade-blue.png
 │   │   │   │               ├── fader.png
 │   │   │   │               ├── icon16_error.png
 │   │   │   │               └── icon16_info.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   └── button-colors.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   ├── font-icon.js
 │   │   │   │   │   │   └── font-icon.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Editor.scss
 │   │   │   │   │   ├── LoadMask.scss
 │   │   │   │   │   ├── ProgressBar.scss
 │   │   │   │   │   ├── Readme.md
-│   │   │   │   │   ├── [01;34mapp[00m
-│   │   │   │   │   │   └── [01;34mbindinspector[00m
+│   │   │   │   │   ├── app
+│   │   │   │   │   │   └── bindinspector
 │   │   │   │   │   │       └── Inspector.scss
-│   │   │   │   │   ├── [01;34mbutton[00m
+│   │   │   │   │   ├── button
 │   │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   │   ├── Button_large.scss
 │   │   │   │   │   │   ├── Button_medium.scss
 │   │   │   │   │   │   └── Button_small.scss
-│   │   │   │   │   ├── [01;34mcontainer[00m
+│   │   │   │   │   ├── container
 │   │   │   │   │   │   └── ButtonGroup.scss
-│   │   │   │   │   ├── [01;34mdashboard[00m
+│   │   │   │   │   ├── dashboard
 │   │   │   │   │   │   └── Dashboard.scss
-│   │   │   │   │   ├── [01;34mdd[00m
+│   │   │   │   │   ├── dd
 │   │   │   │   │   │   └── StatusProxy.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── CheckboxGroup.scss
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   ├── Labelable.scss
-│   │   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   │   ├── field
 │   │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   │   ├── Date.scss
 │   │   │   │   │   │   │   ├── Display.scss
 │   │   │   │   │   │   │   ├── HtmlEditor.scss
 │   │   │   │   │   │   │   ├── Tag.scss
 │   │   │   │   │   │   │   └── Text.scss
-│   │   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   │   └── trigger
 │   │   │   │   │   │       └── Spinner.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   ├── Action.scss
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   ├── Column.scss
 │   │   │   │   │   │   │   ├── RowNumberer.scss
 │   │   │   │   │   │   │   └── Widget.scss
-│   │   │   │   │   │   ├── [01;34mfeature[00m
+│   │   │   │   │   │   ├── feature
 │   │   │   │   │   │   │   ├── Grouping.scss
 │   │   │   │   │   │   │   ├── RowBody.scss
 │   │   │   │   │   │   │   ├── RowWrap.scss
 │   │   │   │   │   │   │   └── Summary.scss
-│   │   │   │   │   │   ├── [01;34mfilters[00m
+│   │   │   │   │   │   ├── filters
 │   │   │   │   │   │   │   └── Filters.scss
-│   │   │   │   │   │   ├── [01;34mheader[00m
+│   │   │   │   │   │   ├── header
 │   │   │   │   │   │   │   ├── Container.scss
 │   │   │   │   │   │   │   └── DropZone.scss
-│   │   │   │   │   │   ├── [01;34mlocking[00m
+│   │   │   │   │   │   ├── locking
 │   │   │   │   │   │   │   └── Lockable.scss
-│   │   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   │   ├── plugin
 │   │   │   │   │   │   │   ├── CellEditing.scss
 │   │   │   │   │   │   │   ├── Editing.scss
 │   │   │   │   │   │   │   ├── RowEditing.scss
 │   │   │   │   │   │   │   └── RowExpander.scss
-│   │   │   │   │   │   ├── [01;34mproperty[00m
+│   │   │   │   │   │   ├── property
 │   │   │   │   │   │   │   └── Grid.scss
-│   │   │   │   │   │   └── [01;34mselection[00m
+│   │   │   │   │   │   └── selection
 │   │   │   │   │   │       └── SpreadsheetModel.scss
 │   │   │   │   │   ├── grid-field.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
-│   │   │   │   │   │   └── [01;34mcontainer[00m
+│   │   │   │   │   ├── layout
+│   │   │   │   │   │   └── container
 │   │   │   │   │   │       ├── Accordion.scss
 │   │   │   │   │   │       ├── Border.scss
 │   │   │   │   │   │       ├── Box.scss
 │   │   │   │   │   │       └── Form.scss
-│   │   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   │   ├── menu
 │   │   │   │   │   │   └── Menu.scss
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   ├── Header.scss
 │   │   │   │   │   │   ├── Panel.scss
 │   │   │   │   │   │   ├── Title.scss
 │   │   │   │   │   │   └── Tool.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   ├── Color.scss
 │   │   │   │   │   │   └── Date.scss
-│   │   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   │   ├── resizer
 │   │   │   │   │   │   ├── Resizer.scss
 │   │   │   │   │   │   └── Splitter.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   └── Multi.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   ├── Bar.scss
 │   │   │   │   │   │   └── Tab.scss
-│   │   │   │   │   ├── [01;34mtip[00m
+│   │   │   │   │   ├── tip
 │   │   │   │   │   │   └── Tip.scss
-│   │   │   │   │   ├── [01;34mtoolbar[00m
+│   │   │   │   │   ├── toolbar
 │   │   │   │   │   │   ├── Breadcrumb.scss
 │   │   │   │   │   │   ├── Paging.scss
 │   │   │   │   │   │   └── Toolbar.scss
-│   │   │   │   │   ├── [01;34mtree[00m
+│   │   │   │   │   ├── tree
 │   │   │   │   │   │   ├── View.scss
 │   │   │   │   │   │   └── ViewDropZone.scss
-│   │   │   │   │   ├── [01;34mview[00m
+│   │   │   │   │   ├── view
 │   │   │   │   │   │   ├── BoundList.scss
 │   │   │   │   │   │   ├── DropZone.scss
 │   │   │   │   │   │   ├── MultiSelector.scss
 │   │   │   │   │   │   └── Table.scss
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       ├── MessageBox.scss
 │   │   │   │   │       ├── Toast.scss
 │   │   │   │   │       └── Window.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── LoadMask.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcalendar[00m
-│   │   │   │       │   └── [01;34mpanel[00m
+│   │   │   │       ├── calendar
+│   │   │   │       │   └── panel
 │   │   │   │       │       └── Panel.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mdashboard[00m
+│   │   │   │       ├── dashboard
 │   │   │   │       │   └── Dashboard.scss
-│   │   │   │       ├── [01;34mdd[00m
+│   │   │   │       ├── dd
 │   │   │   │       │   └── StatusProxy.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── CheckboxGroup.scss
 │   │   │   │       │   ├── FieldSet.scss
-│   │   │   │       │   ├── [01;34mfield[00m
+│   │   │   │       │   ├── field
 │   │   │   │       │   │   ├── Base.scss
 │   │   │   │       │   │   ├── Checkbox.scss
 │   │   │   │       │   │   ├── Display.scss
 │   │   │   │       │   │   ├── HtmlEditor.scss
 │   │   │   │       │   │   └── Tag.scss
-│   │   │   │       │   └── [01;34mtrigger[00m
+│   │   │   │       │   └── trigger
 │   │   │   │       │       └── Spinner.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   ├── Action.scss
 │   │   │   │       │   │   ├── Check.scss
 │   │   │   │       │   │   ├── Column.scss
 │   │   │   │       │   │   ├── RowNumberer.scss
 │   │   │   │       │   │   └── Widget.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   ├── Grouping.scss
 │   │   │   │       │   │   └── RowBody.scss
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   └── Filters.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   ├── Container.scss
 │   │   │   │       │   │   └── DropZone.scss
-│   │   │   │       │   ├── [01;34mlocking[00m
+│   │   │   │       │   ├── locking
 │   │   │   │       │   │   └── Lockable.scss
-│   │   │   │       │   ├── [01;34mplugin[00m
+│   │   │   │       │   ├── plugin
 │   │   │   │       │   │   ├── Editing.scss
 │   │   │   │       │   │   ├── RowEditing.scss
 │   │   │   │       │   │   └── RowExpander.scss
-│   │   │   │       │   ├── [01;34mproperty[00m
+│   │   │   │       │   ├── property
 │   │   │   │       │   │   └── Grid.scss
-│   │   │   │       │   └── [01;34mselection[00m
+│   │   │   │       │   └── selection
 │   │   │   │       │       └── SpreadsheetModel.scss
 │   │   │   │       ├── grid-field.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mlist[00m
+│   │   │   │       ├── list
 │   │   │   │       │   └── TreeItem.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Header.scss
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   ├── Color.scss
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mpivot[00m
+│   │   │   │       ├── pivot
 │   │   │   │       │   ├── Grid.scss
-│   │   │   │       │   └── [01;34mplugin[00m
-│   │   │   │       │       └── [01;34mconfigurator[00m
+│   │   │   │       │   └── plugin
+│   │   │   │       │       └── configurator
 │   │   │   │       │           ├── Column.scss
 │   │   │   │       │           └── Container.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mselection[00m
+│   │   │   │       ├── selection
 │   │   │   │       │   └── CheckboxModel.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   └── Multi.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   ├── Breadcrumb.scss
 │   │   │   │       │   ├── Paging.scss
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── View.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   ├── MultiSelector.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           ├── MessageBox.scss
 │   │   │   │           ├── Toast.scss
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-triton[00m
+│   │   ├── theme-triton
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Component.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   ├── form
+│   │   │   │   │   └── field
 │   │   │   │   │       └── Checkbox.js
-│   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   ├── grid
+│   │   │   │   │   ├── column
 │   │   │   │   │   │   ├── Check.js
 │   │   │   │   │   │   ├── Column.js
 │   │   │   │   │   │   └── RowNumberer.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       └── RowExpander.js
-│   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   ├── list
 │   │   │   │   │   └── TreeItem.js
-│   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   ├── menu
 │   │   │   │   │   ├── Item.js
 │   │   │   │   │   └── Menu.js
-│   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   ├── picker
 │   │   │   │   │   ├── Date.js
 │   │   │   │   │   └── Month.js
-│   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   ├── resizer
 │   │   │   │   │   └── Splitter.js
-│   │   │   │   ├── [01;34mselection[00m
+│   │   │   │   ├── selection
 │   │   │   │   │   ├── CheckboxModel.js
 │   │   │   │   │   └── SpreadsheetModel.js
-│   │   │   │   └── [01;34mtoolbar[00m
+│   │   │   │   └── toolbar
 │   │   │   │       └── Paging.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   │   └── fonts
 │   │   │   │       ├── OpenSans-Bold.ttf
 │   │   │   │       ├── OpenSans-BoldItalic.ttf
 │   │   │   │       ├── OpenSans-ExtraBold.ttf
@@ -5362,13 +5365,13 @@
 │   │   │   │       ├── OpenSans-Regular.ttf
 │   │   │   │       ├── OpenSans-Semibold.ttf
 │   │   │   │       └── OpenSans-SemiboldItalic.ttf
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -5377,125 +5380,125 @@
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Component.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldSet.scss
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       └── Tag.scss
-│   │   │   │   │   ├── [01;34mmenu[00m
+│   │   │   │   │   ├── menu
 │   │   │   │   │   │   └── Menu.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Tab.scss
-│   │   │   │   │   └── [01;34mwindow[00m
+│   │   │   │   │   └── window
 │   │   │   │   │       └── Toast.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── LoadMask.scss
 │   │   │   │       ├── ProgressBar.scss
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mcontainer[00m
+│   │   │   │       ├── container
 │   │   │   │       │   └── ButtonGroup.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Checkbox.scss
 │   │   │   │       │       ├── HtmlEditor.scss
 │   │   │   │       │       └── Tag.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   ├── Action.scss
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   ├── [01;34mfilters[00m
+│   │   │   │       │   ├── filters
 │   │   │   │       │   │   └── Filters.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   ├── [01;34mlocking[00m
+│   │   │   │       │   ├── locking
 │   │   │   │       │   │   └── Lockable.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       └── RowExpander.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       ├── Accordion.scss
 │   │   │   │       │       └── Border.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   ├── Resizer.scss
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mselection[00m
+│   │   │   │       ├── selection
 │   │   │   │       │   └── CheckboxModel.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   └── Multi.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── View.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           ├── MessageBox.scss
 │   │   │   │           └── Window.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtouch-sizing[00m
+│   │   ├── touch-sizing
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mform[00m
-│   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   ├── form
+│   │   │   │   │   └── trigger
 │   │   │   │   │       └── Spinner.js
-│   │   │   │   ├── [01;34mgrid[00m
-│   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   ├── grid
+│   │   │   │   │   ├── column
 │   │   │   │   │   │   └── RowNumberer.js
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   └── RowExpander.js
-│   │   │   │   │   └── [01;34mselection[00m
+│   │   │   │   │   └── selection
 │   │   │   │   │       └── SpreadsheetModel.js
-│   │   │   │   ├── [01;34mresizer[00m
+│   │   │   │   ├── resizer
 │   │   │   │   │   └── Splitter.js
-│   │   │   │   └── [01;34mselection[00m
+│   │   │   │   └── selection
 │   │   │   │       └── CheckboxModel.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── ProgressBar.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mbutton[00m
+│   │   │   │       ├── button
 │   │   │   │       │   └── Button.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   ├── Labelable.scss
-│   │   │   │       │   └── [01;34mfield[00m
+│   │   │   │       │   └── field
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Checkbox.scss
 │   │   │   │       │       ├── HtmlEditor.scss
@@ -5503,77 +5506,77 @@
 │   │   │   │       │       ├── Tag.scss
 │   │   │   │       │       ├── Text.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mfeature[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── feature
 │   │   │   │       │   │   └── Grouping.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Container.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       └── RowExpander.scss
-│   │   │   │       ├── [01;34mlayout[00m
-│   │   │   │       │   └── [01;34mcontainer[00m
+│   │   │   │       ├── layout
+│   │   │   │       │   └── container
 │   │   │   │       │       └── Accordion.scss
-│   │   │   │       ├── [01;34mmenu[00m
+│   │   │   │       ├── menu
 │   │   │   │       │   └── Menu.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   ├── Panel.scss
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Date.scss
-│   │   │   │       ├── [01;34mresizer[00m
+│   │   │   │       ├── resizer
 │   │   │   │       │   └── Splitter.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   └── Multi.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       ├── [01;34mtip[00m
+│   │   │   │       ├── tip
 │   │   │   │       │   └── Tip.scss
-│   │   │   │       ├── [01;34mtoolbar[00m
+│   │   │   │       ├── toolbar
 │   │   │   │       │   └── Toolbar.scss
-│   │   │   │       ├── [01;34mtree[00m
+│   │   │   │       ├── tree
 │   │   │   │       │   └── View.scss
-│   │   │   │       ├── [01;34mview[00m
+│   │   │   │       ├── view
 │   │   │   │       │   ├── BoundList.scss
 │   │   │   │       │   ├── MultiSelector.scss
 │   │   │   │       │   └── Table.scss
-│   │   │   │       └── [01;34mwindow[00m
+│   │   │   │       └── window
 │   │   │   │           └── MessageBox.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   └── [01;34mux[00m
-│   │       └── [01;34msass[00m
-│   │           └── [01;34mexample[00m
+│   │   └── ux
+│   │       └── sass
+│   │           └── example
 │   │               └── sass-page.html
-│   ├── [01;34mcmd[00m
+│   ├── cmd
 │   │   └── sencha.cfg
 │   ├── ext-bootstrap.js
-│   ├── [01;34mlicenses[00m
+│   ├── licenses
 │   │   ├── file-header.js
 │   │   ├── file-header.txt
 │   │   └── license.txt
-│   ├── [01;34mmodern[00m
-│   │   ├── [01;34mmodern[00m
+│   ├── modern
+│   │   ├── modern
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Progress.js
 │   │   │   │   ├── Widget.js
-│   │   │   │   ├── [01;34mapp[00m
+│   │   │   │   ├── app
 │   │   │   │   │   └── Application.js
-│   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   ├── dom
 │   │   │   │   │   └── Element.js
 │   │   │   │   ├── init.js
-│   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   ├── list
 │   │   │   │   │   ├── Tree.js
 │   │   │   │   │   └── TreeItem.js
-│   │   │   │   └── [01;34msparkline[00m
+│   │   │   │   └── sparkline
 │   │   │   │       └── Base.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   └── [01;34mexample[00m
+│   │   │   ├── sass
+│   │   │   │   └── example
 │   │   │   │       └── fashion.html
-│   │   │   ├── [01;34msrc[00m
+│   │   │   ├── src
 │   │   │   │   ├── AbstractComponent.js
 │   │   │   │   ├── ActionSheet.js
 │   │   │   │   ├── Anim.js
@@ -5599,18 +5602,18 @@
 │   │   │   │   ├── Toast.js
 │   │   │   │   ├── Toolbar.js
 │   │   │   │   ├── Video.js
-│   │   │   │   ├── [01;34mbehavior[00m
+│   │   │   │   ├── behavior
 │   │   │   │   │   ├── Behavior.js
 │   │   │   │   │   ├── Draggable.js
 │   │   │   │   │   ├── Droppable.js
 │   │   │   │   │   ├── Sortable.js
 │   │   │   │   │   └── Translatable.js
-│   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   ├── carousel
 │   │   │   │   │   ├── Carousel.js
 │   │   │   │   │   ├── Indicator.js
 │   │   │   │   │   ├── Infinite.js
 │   │   │   │   │   └── Item.js
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   ├── DataView.js
 │   │   │   │   │   ├── IndexBar.js
 │   │   │   │   │   ├── ItemHeader.js
@@ -5620,15 +5623,15 @@
 │   │   │   │   │   ├── ListItemDisclosure.js
 │   │   │   │   │   ├── NestedList.js
 │   │   │   │   │   ├── SimpleListItem.js
-│   │   │   │   │   ├── [01;34mcomponent[00m
+│   │   │   │   │   ├── component
 │   │   │   │   │   │   ├── Container.js
 │   │   │   │   │   │   └── DataItem.js
-│   │   │   │   │   ├── [01;34melement[00m
+│   │   │   │   │   ├── element
 │   │   │   │   │   │   ├── Container.js
 │   │   │   │   │   │   └── List.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       └── ItemTip.js
-│   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   ├── field
 │   │   │   │   │   ├── Checkbox.js
 │   │   │   │   │   ├── CheckboxInput.js
 │   │   │   │   │   ├── DatePicker.js
@@ -5656,7 +5659,7 @@
 │   │   │   │   │   ├── TextInput.js
 │   │   │   │   │   ├── Toggle.js
 │   │   │   │   │   ├── Url.js
-│   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   └── trigger
 │   │   │   │   │       ├── Clear.js
 │   │   │   │   │       ├── Date.js
 │   │   │   │   │       ├── Expand.js
@@ -5665,11 +5668,11 @@
 │   │   │   │   │       ├── SpinDown.js
 │   │   │   │   │       ├── SpinUp.js
 │   │   │   │   │       └── Trigger.js
-│   │   │   │   ├── [01;34mform[00m
+│   │   │   │   ├── form
 │   │   │   │   │   ├── FieldContainer.js
 │   │   │   │   │   ├── FieldSet.js
 │   │   │   │   │   └── Panel.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   ├── Grid.js
 │   │   │   │   │   ├── HeaderContainer.js
 │   │   │   │   │   ├── HeaderGroup.js
@@ -5678,7 +5681,7 @@
 │   │   │   │   │   ├── RowBody.js
 │   │   │   │   │   ├── RowHeader.js
 │   │   │   │   │   ├── Tree.js
-│   │   │   │   │   ├── [01;34mcell[00m
+│   │   │   │   │   ├── cell
 │   │   │   │   │   │   ├── Base.js
 │   │   │   │   │   │   ├── Boolean.js
 │   │   │   │   │   │   ├── Cell.js
@@ -5691,7 +5694,7 @@
 │   │   │   │   │   │   ├── Text.js
 │   │   │   │   │   │   ├── Tree.js
 │   │   │   │   │   │   └── Widget.js
-│   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   ├── column
 │   │   │   │   │   │   ├── Boolean.js
 │   │   │   │   │   │   ├── Check.js
 │   │   │   │   │   │   ├── Column.js
@@ -5700,7 +5703,7 @@
 │   │   │   │   │   │   ├── RowNumberer.js
 │   │   │   │   │   │   ├── Selection.js
 │   │   │   │   │   │   └── Tree.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       ├── ColumnResizing.js
 │   │   │   │   │       ├── Editable.js
 │   │   │   │   │       ├── MultiSelection.js
@@ -5708,7 +5711,7 @@
 │   │   │   │   │       ├── RowExpander.js
 │   │   │   │   │       ├── SummaryRow.js
 │   │   │   │   │       └── ViewOptions.js
-│   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   ├── layout
 │   │   │   │   │   ├── Abstract.js
 │   │   │   │   │   ├── Box.js
 │   │   │   │   │   ├── Card.js
@@ -5718,46 +5721,46 @@
 │   │   │   │   │   ├── Float.js
 │   │   │   │   │   ├── HBox.js
 │   │   │   │   │   ├── VBox.js
-│   │   │   │   │   └── [01;34mwrapper[00m
+│   │   │   │   │   └── wrapper
 │   │   │   │   │       ├── BoxDock.js
 │   │   │   │   │       ├── Dock.js
 │   │   │   │   │       └── Inner.js
-│   │   │   │   ├── [01;34mmixin[00m
+│   │   │   │   ├── mixin
 │   │   │   │   │   └── Progressable.js
-│   │   │   │   ├── [01;34mnavigation[00m
+│   │   │   │   ├── navigation
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   └── View.js
-│   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   ├── panel
 │   │   │   │   │   ├── Header.js
 │   │   │   │   │   ├── Title.js
 │   │   │   │   │   └── Tool.js
-│   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   ├── picker
 │   │   │   │   │   ├── Date.js
 │   │   │   │   │   ├── Picker.js
 │   │   │   │   │   └── Slot.js
-│   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   ├── plugin
 │   │   │   │   │   ├── ListPaging.js
 │   │   │   │   │   ├── PullRefresh.js
 │   │   │   │   │   ├── Responsive.js
 │   │   │   │   │   ├── SortableList.js
-│   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   └── field
 │   │   │   │   │       └── PlaceHolderLabel.js
-│   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   ├── slider
 │   │   │   │   │   ├── Slider.js
 │   │   │   │   │   ├── Thumb.js
 │   │   │   │   │   └── Toggle.js
-│   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   ├── tab
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   ├── Panel.js
 │   │   │   │   │   └── Tab.js
-│   │   │   │   ├── [01;34mtable[00m
+│   │   │   │   ├── table
 │   │   │   │   │   ├── Cell.js
 │   │   │   │   │   ├── Row.js
 │   │   │   │   │   └── Table.js
-│   │   │   │   ├── [01;34mtip[00m
+│   │   │   │   ├── tip
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   └── ToolTip.js
-│   │   │   │   ├── [01;34mutil[00m
+│   │   │   │   ├── util
 │   │   │   │   │   ├── Audio.js
 │   │   │   │   │   ├── BufferedCollection.js
 │   │   │   │   │   ├── Draggable.js
@@ -5770,20 +5773,20 @@
 │   │   │   │   │   ├── TranslatableGroup.js
 │   │   │   │   │   ├── TranslatableList.js
 │   │   │   │   │   └── Wrapper.js
-│   │   │   │   └── [01;34mviewport[00m
+│   │   │   │   └── viewport
 │   │   │   │       ├── Android.js
 │   │   │   │       ├── Default.js
 │   │   │   │       ├── Ios.js
 │   │   │   │       ├── Viewport.js
 │   │   │   │       └── WindowsPhone.js
-│   │   │   └── [01;34mtest[00m
+│   │   │   └── test
 │   │   │       ├── bootstrap.css
 │   │   │       ├── capabilities.json
-│   │   │       ├── [01;34mlocal[00m
+│   │   │       ├── local
 │   │   │       │   ├── iframe.html
 │   │   │       │   └── index.html
 │   │   │       ├── orion.html
-│   │   │       ├── [01;34mspecs[00m
+│   │   │       ├── specs
 │   │   │       │   ├── Button.js
 │   │   │       │   ├── Component.js
 │   │   │       │   ├── Container.js
@@ -5794,15 +5797,15 @@
 │   │   │       │   ├── TitleBar.js
 │   │   │       │   ├── Toolbar.js
 │   │   │       │   ├── Widget.js
-│   │   │       │   ├── [01;34mdataview[00m
+│   │   │       │   ├── dataview
 │   │   │       │   │   └── List.js
-│   │   │       │   ├── [01;34mdraw[00m
+│   │   │       │   ├── draw
 │   │   │       │   │   ├── Matrix.js
 │   │   │       │   │   └── RMQ.js
-│   │   │       │   ├── [01;34menv[00m
+│   │   │       │   ├── env
 │   │   │       │   │   ├── BrowserAndOS.js
 │   │   │       │   │   └── Feature.js
-│   │   │       │   ├── [01;34mfield[00m
+│   │   │       │   ├── field
 │   │   │       │   │   ├── Checkbox.js
 │   │   │       │   │   ├── DatePicker.js
 │   │   │       │   │   ├── Number.js
@@ -5812,72 +5815,72 @@
 │   │   │       │   │   ├── Spinner.js
 │   │   │       │   │   ├── Text.js
 │   │   │       │   │   └── Toggle.js
-│   │   │       │   ├── [01;34mform[00m
+│   │   │       │   ├── form
 │   │   │       │   │   ├── Field.js
 │   │   │       │   │   ├── FieldSet.js
 │   │   │       │   │   ├── Number.js
 │   │   │       │   │   └── Panel.js
-│   │   │       │   ├── [01;34mgrid[00m
+│   │   │       │   ├── grid
 │   │   │       │   │   ├── Grid.js
 │   │   │       │   │   ├── RowBody.js
 │   │   │       │   │   ├── Tree.js
-│   │   │       │   │   ├── [01;34mcolumn[00m
+│   │   │       │   │   ├── column
 │   │   │       │   │   │   ├── Boolean.js
 │   │   │       │   │   │   ├── Check.js
 │   │   │       │   │   │   ├── Column.js
 │   │   │       │   │   │   ├── Date.js
 │   │   │       │   │   │   ├── Number.js
 │   │   │       │   │   │   └── RowNumberer.js
-│   │   │       │   │   └── [01;34mplugin[00m
+│   │   │       │   │   └── plugin
 │   │   │       │   │       └── SummaryRow.js
-│   │   │       │   ├── [01;34mnavigation[00m
+│   │   │       │   ├── navigation
 │   │   │       │   │   └── View.js
-│   │   │       │   ├── [01;34mpicker[00m
+│   │   │       │   ├── picker
 │   │   │       │   │   ├── Picker.js
 │   │   │       │   │   └── Slot.js
-│   │   │       │   ├── [01;34mplugin[00m
+│   │   │       │   ├── plugin
 │   │   │       │   │   ├── ListPaging.js
 │   │   │       │   │   └── PullRefresh.js
-│   │   │       │   ├── [01;34mslider[00m
+│   │   │       │   ├── slider
 │   │   │       │   │   └── Slider.js
-│   │   │       │   ├── [01;34mtip[00m
+│   │   │       │   ├── tip
 │   │   │       │   │   └── ToolTip.js
-│   │   │       │   ├── [01;34mutil[00m
+│   │   │       │   ├── util
 │   │   │       │   │   └── Point.js
-│   │   │       │   └── [01;34mviewport[00m
+│   │   │       │   └── viewport
 │   │   │       │       └── Default.js
 │   │   │       └── test.json
-│   │   ├── [01;34mtheme-base[00m
+│   │   ├── theme-base
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mdocs[00m
+│   │   │   ├── docs
 │   │   │   │   ├── package.png
-│   │   │   │   └── [01;34mscreenshots[00m
+│   │   │   │   └── screenshots
 │   │   │   │       └── screenshot-1.png
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       └── [01;34mtree[00m
-│   │   │   │           └── [01;35mloading.gif[00m
-│   │   │   ├── [01;34msass[00m
+│   │   │   │   └── images
+│   │   │   │       └── tree
+│   │   │   │           └── loading.gif
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   ├── blueprint.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   ├── calc-math.scss
 │   │   │   │   │   │   └── color.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   ├── animation.scss
 │   │   │   │   │   │   ├── border.scss
 │   │   │   │   │   │   ├── font-icon.js
@@ -5887,9 +5890,9 @@
 │   │   │   │   │   │   ├── icon.scss
 │   │   │   │   │   │   └── transform.scss
 │   │   │   │   │   ├── mixins.scss
-│   │   │   │   │   └── [01;34mrecipes[00m
+│   │   │   │   │   └── recipes
 │   │   │   │   │       └── gradients.scss
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Container.scss
@@ -5904,16 +5907,16 @@
 │   │   │   │   │   ├── Sheet.scss
 │   │   │   │   │   ├── Toast.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   │   ├── carousel
 │   │   │   │   │   │   └── Carousel.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   ├── DataView.scss
 │   │   │   │   │   │   ├── IndexBar.scss
 │   │   │   │   │   │   ├── ItemHeader.scss
 │   │   │   │   │   │   ├── List.scss
 │   │   │   │   │   │   ├── ListItem.scss
 │   │   │   │   │   │   └── SimpleListItem.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   ├── Field.scss
 │   │   │   │   │   │   ├── Hidden.scss
@@ -5927,117 +5930,117 @@
 │   │   │   │   │   │   ├── Text.scss
 │   │   │   │   │   │   ├── TextArea.scss
 │   │   │   │   │   │   ├── TextInput.scss
-│   │   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   │   └── trigger
 │   │   │   │   │   │       └── Trigger.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldContainer.scss
 │   │   │   │   │   │   └── FieldSet.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── Grid.scss
 │   │   │   │   │   │   ├── HeaderContainer.scss
 │   │   │   │   │   │   ├── HeaderGroup.scss
 │   │   │   │   │   │   ├── Row.scss
 │   │   │   │   │   │   ├── RowBody.scss
 │   │   │   │   │   │   ├── RowHeader.scss
-│   │   │   │   │   │   ├── [01;34mcell[00m
+│   │   │   │   │   │   ├── cell
 │   │   │   │   │   │   │   ├── Base.scss
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   └── Expander.scss
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   └── Column.scss
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       ├── ColumnResizing.scss
 │   │   │   │   │   │       ├── PagingToolbar.scss
 │   │   │   │   │   │       ├── SummaryRow.scss
 │   │   │   │   │   │       └── ViewOptions.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   ├── layout
 │   │   │   │   │   │   ├── Abstract.scss
 │   │   │   │   │   │   ├── Box.scss
 │   │   │   │   │   │   ├── Card.scss
 │   │   │   │   │   │   ├── Fit.scss
 │   │   │   │   │   │   └── Float.scss
-│   │   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   │   ├── list
 │   │   │   │   │   │   └── Tree.scss
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   └── Title.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   ├── ListPaging.scss
 │   │   │   │   │   │   └── PullRefresh.scss
-│   │   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   │   ├── scroll
 │   │   │   │   │   │   └── Scroller.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   └── Thumb.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mtable[00m
+│   │   │   │   │   ├── table
 │   │   │   │   │   │   └── Table.scss
-│   │   │   │   │   └── [01;34mviewport[00m
+│   │   │   │   │   └── viewport
 │   │   │   │   │       ├── Default.scss
 │   │   │   │   │       └── Viewport.scss
 │   │   │   │   ├── utils.rb
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Panel.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       └── [01;34mgrid[00m
-│   │   │   │           └── [01;34mplugin[00m
+│   │   │   │       └── grid
+│   │   │   │           └── plugin
 │   │   │   │               └── ColumnResizing.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-blackberry[00m
+│   │   ├── theme-blackberry
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mdocs[00m
+│   │   │   ├── docs
 │   │   │   │   ├── package.png
-│   │   │   │   └── [01;34mscreenshots[00m
+│   │   │   │   └── screenshots
 │   │   │   │       └── screenshot-1.png
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Menu.js
 │   │   │   │   ├── MessageBox.js
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── TitleBar.js
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   ├── IndexBar.js
 │   │   │   │   │   └── NestedList.js
-│   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   ├── field
 │   │   │   │   │   ├── Checkbox.js
 │   │   │   │   │   ├── Field.js
 │   │   │   │   │   ├── Password.js
 │   │   │   │   │   ├── Picker.js
 │   │   │   │   │   ├── Search.js
 │   │   │   │   │   └── Toggle.js
-│   │   │   │   ├── [01;34mfile[00m
+│   │   │   │   ├── file
 │   │   │   │   │   └── Input.js
 │   │   │   │   ├── init.js
-│   │   │   │   ├── [01;34mnavigation[00m
+│   │   │   │   ├── navigation
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   └── View.js
-│   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   ├── slider
 │   │   │   │   │   └── Thumb.js
-│   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   ├── tab
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   └── Panel.js
-│   │   │   │   └── [01;34mviewport[00m
+│   │   │   │   └── viewport
 │   │   │   │       └── Default.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
+│   │   │   │   └── images
 │   │   │   │       ├── check.png
 │   │   │   │       ├── clear_icon.png
 │   │   │   │       ├── disclosure.png
 │   │   │   │       ├── disclosure2.png
 │   │   │   │       ├── dotgrid.png
-│   │   │   │       ├── [01;34micons[00m
+│   │   │   │       ├── icons
 │   │   │   │       │   ├── ic_add.png
 │   │   │   │       │   ├── ic_add_bookmarks.png
 │   │   │   │       │   ├── ic_add_folder.png
@@ -6149,7 +6152,7 @@
 │   │   │   │       │   ├── ic_view_post.png
 │   │   │   │       │   ├── ic_zoom_in.png
 │   │   │   │       │   └── ic_zoom_out.png
-│   │   │   │       ├── [01;34micons-light[00m
+│   │   │   │       ├── icons-light
 │   │   │   │       │   ├── ic_add.png
 │   │   │   │       │   ├── ic_add_bookmarks.png
 │   │   │   │       │   ├── ic_add_folder.png
@@ -6261,7 +6264,7 @@
 │   │   │   │       │   ├── ic_view_post.png
 │   │   │   │       │   ├── ic_zoom_in.png
 │   │   │   │       │   └── ic_zoom_out.png
-│   │   │   │       ├── [01;35mloading.gif[00m
+│   │   │   │       ├── loading.gif
 │   │   │   │       ├── pullarrow.png
 │   │   │   │       ├── reveal_icon.png
 │   │   │   │       ├── select_mask.png
@@ -6279,20 +6282,20 @@
 │   │   │   │       ├── togglethumbbg.png
 │   │   │   │       ├── togglethumbmask.png
 │   │   │   │       └── trackmask_outer.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── custom.js
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Mask.scss
@@ -6304,82 +6307,82 @@
 │   │   │   │   │   ├── Sheet.scss
 │   │   │   │   │   ├── Toast.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   │   ├── carousel
 │   │   │   │   │   │   └── Carousel.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   └── List.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   ├── Field.scss
 │   │   │   │   │   │   ├── Picker.scss
 │   │   │   │   │   │   ├── Radio.scss
 │   │   │   │   │   │   └── Spinner.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   └── Grid.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   ├── layout
 │   │   │   │   │   │   └── Dock.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   └── PullRefresh.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   └── Toggle.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   └── [01;34mtheme[00m
-│   │   │   │   │       └── [01;34mblackberry[00m
+│   │   │   │   │   └── theme
+│   │   │   │   │       └── blackberry
 │   │   │   │   │           └── ApplicationMenu.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
 │   │   │   │       └── Readme.md
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       ├── Readme.md
-│   │   │       └── [01;34mux[00m
+│   │   │       └── ux
 │   │   │           ├── ActionOverFlowMenuButton.js
 │   │   │           ├── ApplicationMenu.js
 │   │   │           ├── ContextMenu.js
 │   │   │           ├── MenuButton.js
 │   │   │           └── TabMenuButton.js
-│   │   ├── [01;34mtheme-cupertino[00m
+│   │   ├── theme-cupertino
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mdocs[00m
+│   │   │   ├── docs
 │   │   │   │   ├── package.png
-│   │   │   │   └── [01;34mscreenshots[00m
+│   │   │   │   └── screenshots
 │   │   │   │       └── screenshot-1.png
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── TitleBar.js
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   ├── List.js
 │   │   │   │   │   └── NestedList.js
 │   │   │   │   └── init.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mfonts[00m
-│   │   │   │   │   └── [01;34mios7[00m
+│   │   │   │   ├── fonts
+│   │   │   │   │   └── ios7
 │   │   │   │   │       ├── ios7.eot
 │   │   │   │   │       ├── ios7.svg
 │   │   │   │   │       ├── ios7.ttf
 │   │   │   │   │       └── ios7.woff
-│   │   │   │   └── [01;34mimages[00m
+│   │   │   │   └── images
 │   │   │   │       └── clear_icon.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -6388,7 +6391,7 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Mask.scss
@@ -6400,12 +6403,12 @@
 │   │   │   │   │   ├── Sheet.scss
 │   │   │   │   │   ├── Toast.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   │   ├── carousel
 │   │   │   │   │   │   └── Indicator.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   ├── IndexBar.scss
 │   │   │   │   │   │   └── List.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   ├── Field.scss
 │   │   │   │   │   │   ├── Radio.scss
@@ -6413,71 +6416,71 @@
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   ├── Spinner.scss
 │   │   │   │   │   │   └── TextArea.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   └── Grid.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   ├── PullRefresh.scss
-│   │   │   │   │   │   └── [01;34mfield[00m
+│   │   │   │   │   │   └── field
 │   │   │   │   │   │       └── PlaceHolderLabel.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   └── Toggle.scss
-│   │   │   │   │   └── [01;34mtab[00m
+│   │   │   │   │   └── tab
 │   │   │   │   │       └── Panel.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   └── List.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   └── Panel.scss
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   └── Grid.scss
-│   │   │   │       └── [01;34mpicker[00m
+│   │   │   │       └── picker
 │   │   │   │           └── Picker.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-device-base[00m
+│   │   ├── theme-device-base
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   ├── List.js
 │   │   │   │   │   └── NestedList.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   ├── Grid.js
 │   │   │   │   │   ├── HeaderContainer.js
-│   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   └── plugin
 │   │   │   │   │       └── SummaryRow.js
-│   │   │   │   └── [01;34mutil[00m
+│   │   │   │   └── util
 │   │   │   │       └── PositionMap.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── custom.js
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── MessageBox.scss
@@ -6485,61 +6488,61 @@
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   ├── IndexBar.scss
 │   │   │   │   │   │   └── List.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   └── Spinner.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   └── Grid.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   └── [01;34mtab[00m
+│   │   │   │   │   └── tab
 │   │   │   │   │       └── Panel.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       └── Readme.md
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       ├── Component.scss
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-ios[00m
+│   │   ├── theme-ios
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mclassic[00m
+│   │   │   ├── classic
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mmodern[00m
+│   │   │   ├── modern
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── TitleBar.js
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   └── NestedList.js
-│   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   ├── field
 │   │   │   │   │   └── Checkbox.js
-│   │   │   │   ├── [01;34mform[00m
+│   │   │   │   ├── form
 │   │   │   │   │   └── FieldContainer.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   └── Grid.js
 │   │   │   │   ├── init.js
-│   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   ├── panel
 │   │   │   │   │   └── Header.js
-│   │   │   │   └── [01;34mtab[00m
+│   │   │   │   └── tab
 │   │   │   │       └── Tab.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   └── [01;34mfunctions[00m
+│   │   │   │   │   └── functions
 │   │   │   │   │       └── button-colors.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -6547,11 +6550,11 @@
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Menu.scss
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Mask.scss
@@ -6563,20 +6566,20 @@
 │   │   │   │       ├── TitleBar.scss
 │   │   │   │       ├── Toast.scss
 │   │   │   │       ├── Toolbar.scss
-│   │   │   │       ├── [01;34mcarousel[00m
+│   │   │   │       ├── carousel
 │   │   │   │       │   └── Carousel.scss
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   ├── IndexBar.scss
 │   │   │   │       │   ├── ItemHeader.scss
 │   │   │   │       │   └── ListItem.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Checkbox.scss
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Radio.scss
 │   │   │   │       │   ├── Select.scss
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Text.scss
-│   │   │   │       │   └── [01;34mtrigger[00m
+│   │   │   │       │   └── trigger
 │   │   │   │       │       ├── Clear.scss
 │   │   │   │       │       ├── Date.scss
 │   │   │   │       │       ├── Reveal.scss
@@ -6584,85 +6587,85 @@
 │   │   │   │       │       ├── SpinDown.scss
 │   │   │   │       │       ├── SpinUp.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   └── FieldSet.scss
-│   │   │   │       ├── [01;34mgrid[00m
-│   │   │   │       │   ├── [01;34mcell[00m
+│   │   │   │       ├── grid
+│   │   │   │       │   ├── cell
 │   │   │   │       │   │   └── Expander.scss
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       ├── PagingToolbar.scss
 │   │   │   │       │       └── ViewOptions.scss
-│   │   │   │       ├── [01;34mlist[00m
+│   │   │   │       ├── list
 │   │   │   │       │   └── TreeItem.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Picker.scss
-│   │   │   │       ├── [01;34mpivot[00m
-│   │   │   │       │   └── [01;34mplugin[00m
-│   │   │   │       │       └── [01;34mconfigurator[00m
+│   │   │   │       ├── pivot
+│   │   │   │       │   └── plugin
+│   │   │   │       │       └── configurator
 │   │   │   │       │           ├── Column.scss
 │   │   │   │       │           └── Container.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Thumb.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       └── [01;34mtip[00m
+│   │   │   │       └── tip
 │   │   │   │           └── ToolTip.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-material[00m
+│   │   ├── theme-material
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Button.js
 │   │   │   │   ├── Init.js
 │   │   │   │   ├── MessageBox.js
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── TitleBar.js
-│   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   ├── dataview
 │   │   │   │   │   ├── IndexBar.js
 │   │   │   │   │   ├── List.js
 │   │   │   │   │   └── NestedList.js
-│   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   ├── field
 │   │   │   │   │   ├── Checkbox.js
 │   │   │   │   │   └── Field.js
-│   │   │   │   ├── [01;34mform[00m
+│   │   │   │   ├── form
 │   │   │   │   │   └── FieldContainer.js
-│   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   ├── grid
 │   │   │   │   │   └── Grid.js
-│   │   │   │   ├── [01;34mnavigation[00m
+│   │   │   │   ├── navigation
 │   │   │   │   │   └── Bar.js
-│   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   ├── panel
 │   │   │   │   │   └── Header.js
-│   │   │   │   └── [01;34mtab[00m
+│   │   │   │   └── tab
 │   │   │   │       └── Tab.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   ├── resources
+│   │   │   │   └── fonts
 │   │   │   │       ├── MaterialIcons-Regular.ttf
-│   │   │   │       └── [01;34mroboto[00m
+│   │   │   │       └── roboto
 │   │   │   │           ├── Roboto-Bold.ttf
 │   │   │   │           ├── Roboto-Italic.ttf
 │   │   │   │           ├── Roboto-Light.ttf
 │   │   │   │           ├── Roboto-Medium.ttf
 │   │   │   │           └── Roboto-Regular.ttf
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   ├── button-colors.scss
 │   │   │   │   │   │   └── color.scss
-│   │   │   │   │   └── [01;34mmixins[00m
+│   │   │   │   │   └── mixins
 │   │   │   │   │       ├── icons.scss
 │   │   │   │   │       └── shadows.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -6670,9 +6673,9 @@
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34mextensions[00m
+│   │   │   │   ├── extensions
 │   │   │   │   │   └── string.js
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Menu.scss
@@ -6681,24 +6684,24 @@
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── Sheet.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   │   ├── carousel
 │   │   │   │   │   │   └── Carousel.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   ├── IndexBar.scss
 │   │   │   │   │   │   ├── ItemHeader.scss
 │   │   │   │   │   │   └── ListItem.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── Grid.scss
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       └── ColumnResizing.scss
-│   │   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   │   ├── list
 │   │   │   │   │   │   └── TreeItem.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   └── Toggle.scss
-│   │   │   │   │   └── [01;34mtab[00m
+│   │   │   │   │   └── tab
 │   │   │   │   │       └── Bar.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Mask.scss
@@ -6710,20 +6713,20 @@
 │   │   │   │       ├── TitleBar.scss
 │   │   │   │       ├── Toast.scss
 │   │   │   │       ├── Toolbar.scss
-│   │   │   │       ├── [01;34mcalendar[00m
-│   │   │   │       │   ├── [01;34mform[00m
+│   │   │   │       ├── calendar
+│   │   │   │       │   ├── form
 │   │   │   │       │   │   └── CalendarPicker.scss
-│   │   │   │       │   └── [01;34mview[00m
+│   │   │   │       │   └── view
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Days.scss
 │   │   │   │       │       └── Weeks.scss
-│   │   │   │       ├── [01;34mcarousel[00m
+│   │   │   │       ├── carousel
 │   │   │   │       │   └── Carousel.scss
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   ├── IndexBar.scss
 │   │   │   │       │   ├── ItemHeader.scss
 │   │   │   │       │   └── ListItem.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Checkbox.scss
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Radio.scss
@@ -6731,7 +6734,7 @@
 │   │   │   │       │   ├── Spinner.scss
 │   │   │   │       │   ├── Text.scss
 │   │   │   │       │   ├── TextArea.scss
-│   │   │   │       │   └── [01;34mtrigger[00m
+│   │   │   │       │   └── trigger
 │   │   │   │       │       ├── Clear.scss
 │   │   │   │       │       ├── Date.scss
 │   │   │   │       │       ├── Reveal.scss
@@ -6739,87 +6742,87 @@
 │   │   │   │       │       ├── SpinDown.scss
 │   │   │   │       │       ├── SpinUp.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   └── Panel.scss
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── Grid.scss
 │   │   │   │       │   ├── RowHeader.scss
-│   │   │   │       │   ├── [01;34mcell[00m
+│   │   │   │       │   ├── cell
 │   │   │   │       │   │   ├── Expander.scss
 │   │   │   │       │   │   └── Summary.scss
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       ├── PagingToolbar.scss
 │   │   │   │       │       └── ViewOptions.scss
-│   │   │   │       ├── [01;34mlayout[00m
+│   │   │   │       ├── layout
 │   │   │   │       │   └── Card.scss
-│   │   │   │       ├── [01;34mlist[00m
+│   │   │   │       ├── list
 │   │   │   │       │   └── TreeItem.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Picker.scss
-│   │   │   │       ├── [01;34mpivot[00m
+│   │   │   │       ├── pivot
 │   │   │   │       │   ├── Grid.scss
-│   │   │   │       │   └── [01;34mplugin[00m
-│   │   │   │       │       └── [01;34mconfigurator[00m
+│   │   │   │       │   └── plugin
+│   │   │   │       │       └── configurator
 │   │   │   │       │           ├── Column.scss
 │   │   │   │       │           ├── Container.scss
 │   │   │   │       │           └── Panel.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Thumb.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       └── [01;34mtip[00m
+│   │   │   │       └── tip
 │   │   │   │           └── ToolTip.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       ├── Readme.md
-│   │   │       └── [01;34mtheme[00m
+│   │   │       └── theme
 │   │   │           └── Material.js
-│   │   ├── [01;34mtheme-mountainview[00m
+│   │   ├── theme-mountainview
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mdocs[00m
+│   │   │   ├── docs
 │   │   │   │   ├── package.png
-│   │   │   │   └── [01;34mscreenshots[00m
+│   │   │   │   └── screenshots
 │   │   │   │       └── screenshot-1.png
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── MessageBox.js
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   ├── field
 │   │   │   │   │   ├── Field.js
 │   │   │   │   │   └── Toggle.js
 │   │   │   │   ├── init.js
-│   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   ├── picker
 │   │   │   │   │   └── Picker.js
-│   │   │   │   └── [01;34mtab[00m
+│   │   │   │   └── tab
 │   │   │   │       └── Bar.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
-│   │   │   │       └── [01;34mpictos[00m
+│   │   │   │   └── images
+│   │   │   │       └── pictos
 │   │   │   │           ├── help.png
 │   │   │   │           ├── info.png
 │   │   │   │           ├── minus_black2.png
 │   │   │   │           └── warning_black.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -6828,7 +6831,7 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Menu.scss
@@ -6839,9 +6842,9 @@
 │   │   │   │   │   ├── Sheet.scss
 │   │   │   │   │   ├── Toast.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   └── List.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   ├── Field.scss
 │   │   │   │   │   │   ├── Radio.scss
@@ -6849,63 +6852,63 @@
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   ├── Spinner.scss
 │   │   │   │   │   │   └── TextArea.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   └── Grid.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   └── Toggle.scss
-│   │   │   │   │   └── [01;34mtab[00m
+│   │   │   │   │   └── tab
 │   │   │   │   │       └── Panel.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Readme.md
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   └── List.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   └── Panel.scss
-│   │   │   │       └── [01;34mpicker[00m
+│   │   │   │       └── picker
 │   │   │   │           └── Picker.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-neptune[00m
+│   │   ├── theme-neptune
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mdocs[00m
+│   │   │   ├── docs
 │   │   │   │   ├── package.png
-│   │   │   │   └── [01;34mscreenshots[00m
+│   │   │   │   └── screenshots
 │   │   │   │       └── screenshot-1.png
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── TitleBar.js
 │   │   │   │   ├── init.js
-│   │   │   │   └── [01;34mtip[00m
+│   │   │   │   └── tip
 │   │   │   │       └── ToolTip.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mimages[00m
+│   │   │   │   └── images
 │   │   │   │       ├── check.png
 │   │   │   │       ├── clear_icon.png
 │   │   │   │       ├── disclosure.png
 │   │   │   │       ├── disclosure2.png
 │   │   │   │       ├── dotgrid.png
-│   │   │   │       ├── [01;35mloading.gif[00m
-│   │   │   │       ├── [01;34mpictos[00m
+│   │   │   │       ├── loading.gif
+│   │   │   │       ├── pictos
 │   │   │   │       │   ├── action.png
 │   │   │   │       │   ├── add.png
 │   │   │   │       │   ├── add1.png
@@ -7259,24 +7262,24 @@
 │   │   │   │       ├── togglethumbbg.png
 │   │   │   │       ├── togglethumbmask.png
 │   │   │   │       └── trackmask_outer.png
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   ├── button-colors.scss
 │   │   │   │   │   │   ├── px-to-em.js
 │   │   │   │   │   │   ├── px-to-em.scss
 │   │   │   │   │   │   ├── px-to-rem.scss
 │   │   │   │   │   │   └── toolbar-colors.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   │   └── border-management.scss
 │   │   │   │   │   └── mixins.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -7285,7 +7288,7 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── Button.scss
 │   │   │   │   │   ├── Component.scss
 │   │   │   │   │   ├── Mask.scss
@@ -7299,15 +7302,15 @@
 │   │   │   │   │   ├── TitleBar.scss
 │   │   │   │   │   ├── Toast.scss
 │   │   │   │   │   ├── Toolbar.scss
-│   │   │   │   │   ├── [01;34mcarousel[00m
+│   │   │   │   │   ├── carousel
 │   │   │   │   │   │   └── Carousel.scss
-│   │   │   │   │   ├── [01;34mdataview[00m
+│   │   │   │   │   ├── dataview
 │   │   │   │   │   │   ├── DataView.scss
 │   │   │   │   │   │   ├── IndexBar.scss
 │   │   │   │   │   │   ├── ItemHeader.scss
 │   │   │   │   │   │   ├── ListItem.scss
 │   │   │   │   │   │   └── SimpleListItem.scss
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Checkbox.scss
 │   │   │   │   │   │   ├── Field.scss
 │   │   │   │   │   │   ├── Radio.scss
@@ -7316,7 +7319,7 @@
 │   │   │   │   │   │   ├── Text.scss
 │   │   │   │   │   │   ├── TextArea.scss
 │   │   │   │   │   │   ├── Toggle.scss
-│   │   │   │   │   │   └── [01;34mtrigger[00m
+│   │   │   │   │   │   └── trigger
 │   │   │   │   │   │       ├── Clear.scss
 │   │   │   │   │   │       ├── Date.scss
 │   │   │   │   │   │       ├── Expand.scss
@@ -7325,51 +7328,51 @@
 │   │   │   │   │   │       ├── SpinDown.scss
 │   │   │   │   │   │       ├── SpinUp.scss
 │   │   │   │   │   │       └── Trigger.scss
-│   │   │   │   │   ├── [01;34mform[00m
+│   │   │   │   │   ├── form
 │   │   │   │   │   │   ├── FieldContainer.scss
 │   │   │   │   │   │   ├── FieldSet.scss
 │   │   │   │   │   │   └── Panel.scss
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── Grid.scss
 │   │   │   │   │   │   ├── HeaderContainer.scss
 │   │   │   │   │   │   ├── Row.scss
 │   │   │   │   │   │   ├── RowBody.scss
 │   │   │   │   │   │   ├── RowHeader.scss
-│   │   │   │   │   │   ├── [01;34mcell[00m
+│   │   │   │   │   │   ├── cell
 │   │   │   │   │   │   │   ├── Base.scss
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   ├── Expander.scss
 │   │   │   │   │   │   │   ├── Summary.scss
 │   │   │   │   │   │   │   └── Widget.scss
-│   │   │   │   │   │   ├── [01;34mcolumn[00m
+│   │   │   │   │   │   ├── column
 │   │   │   │   │   │   │   ├── Check.scss
 │   │   │   │   │   │   │   └── Column.scss
-│   │   │   │   │   │   └── [01;34mplugin[00m
+│   │   │   │   │   │   └── plugin
 │   │   │   │   │   │       ├── ColumnResizing.scss
 │   │   │   │   │   │       ├── PagingToolbar.scss
 │   │   │   │   │   │       ├── SummaryRow.scss
 │   │   │   │   │   │       └── ViewOptions.scss
-│   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   ├── layout
 │   │   │   │   │   │   ├── Card.scss
 │   │   │   │   │   │   └── Default.scss
-│   │   │   │   │   ├── [01;34mpanel[00m
+│   │   │   │   │   ├── panel
 │   │   │   │   │   │   └── Tool.scss
-│   │   │   │   │   ├── [01;34mpicker[00m
+│   │   │   │   │   ├── picker
 │   │   │   │   │   │   └── Picker.scss
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   ├── ListPaging.scss
 │   │   │   │   │   │   └── PullRefresh.scss
-│   │   │   │   │   ├── [01;34mslider[00m
+│   │   │   │   │   ├── slider
 │   │   │   │   │   │   ├── Slider.scss
 │   │   │   │   │   │   ├── Thumb.scss
 │   │   │   │   │   │   └── Toggle.scss
-│   │   │   │   │   ├── [01;34mtab[00m
+│   │   │   │   │   ├── tab
 │   │   │   │   │   │   ├── Bar.scss
 │   │   │   │   │   │   ├── Panel.scss
 │   │   │   │   │   │   └── Tab.scss
-│   │   │   │   │   └── [01;34mtip[00m
+│   │   │   │   │   └── tip
 │   │   │   │   │       └── ToolTip.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Mask.scss
@@ -7382,23 +7385,23 @@
 │   │   │   │       ├── TitleBar.scss
 │   │   │   │       ├── Toast.scss
 │   │   │   │       ├── Toolbar.scss
-│   │   │   │       ├── [01;34mcalendar[00m
+│   │   │   │       ├── calendar
 │   │   │   │       │   ├── List.scss
-│   │   │   │       │   ├── [01;34mform[00m
+│   │   │   │       │   ├── form
 │   │   │   │       │   │   └── CalendarPicker.scss
-│   │   │   │       │   ├── [01;34mpanel[00m
+│   │   │   │       │   ├── panel
 │   │   │   │       │   │   └── Panel.scss
-│   │   │   │       │   └── [01;34mview[00m
+│   │   │   │       │   └── view
 │   │   │   │       │       └── Base.scss
-│   │   │   │       ├── [01;34mcarousel[00m
+│   │   │   │       ├── carousel
 │   │   │   │       │   └── Carousel.scss
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   ├── DataView.scss
 │   │   │   │       │   ├── IndexBar.scss
 │   │   │   │       │   ├── ItemHeader.scss
 │   │   │   │       │   ├── ListItem.scss
 │   │   │   │       │   └── SimpleListItem.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Checkbox.scss
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Radio.scss
@@ -7407,7 +7410,7 @@
 │   │   │   │       │   ├── Text.scss
 │   │   │   │       │   ├── TextArea.scss
 │   │   │   │       │   ├── Toggle.scss
-│   │   │   │       │   └── [01;34mtrigger[00m
+│   │   │   │       │   └── trigger
 │   │   │   │       │       ├── Clear.scss
 │   │   │   │       │       ├── Date.scss
 │   │   │   │       │       ├── Expand.scss
@@ -7416,65 +7419,65 @@
 │   │   │   │       │       ├── SpinDown.scss
 │   │   │   │       │       ├── SpinUp.scss
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   ├── FieldSet.scss
 │   │   │   │       │   └── Panel.scss
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── Grid.scss
 │   │   │   │       │   ├── HeaderContainer.scss
 │   │   │   │       │   ├── Row.scss
 │   │   │   │       │   ├── RowBody.scss
 │   │   │   │       │   ├── RowHeader.scss
-│   │   │   │       │   ├── [01;34mcell[00m
+│   │   │   │       │   ├── cell
 │   │   │   │       │   │   ├── Base.scss
 │   │   │   │       │   │   ├── Check.scss
 │   │   │   │       │   │   ├── Expander.scss
 │   │   │   │       │   │   ├── Summary.scss
 │   │   │   │       │   │   └── Widget.scss
-│   │   │   │       │   ├── [01;34mcolumn[00m
+│   │   │   │       │   ├── column
 │   │   │   │       │   │   ├── Check.scss
 │   │   │   │       │   │   └── Column.scss
-│   │   │   │       │   └── [01;34mplugin[00m
+│   │   │   │       │   └── plugin
 │   │   │   │       │       ├── ColumnResizing.scss
 │   │   │   │       │       ├── PagingToolbar.scss
 │   │   │   │       │       ├── SummaryRow.scss
 │   │   │   │       │       └── ViewOptions.scss
-│   │   │   │       ├── [01;34mlayout[00m
+│   │   │   │       ├── layout
 │   │   │   │       │   └── Card.scss
-│   │   │   │       ├── [01;34mlist[00m
+│   │   │   │       ├── list
 │   │   │   │       │   └── TreeItem.scss
-│   │   │   │       ├── [01;34mpanel[00m
+│   │   │   │       ├── panel
 │   │   │   │       │   └── Tool.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Picker.scss
-│   │   │   │       ├── [01;34mpivot[00m
+│   │   │   │       ├── pivot
 │   │   │   │       │   ├── Grid.scss
-│   │   │   │       │   └── [01;34mplugin[00m
-│   │   │   │       │       └── [01;34mconfigurator[00m
+│   │   │   │       │   └── plugin
+│   │   │   │       │       └── configurator
 │   │   │   │       │           ├── Column.scss
 │   │   │   │       │           ├── Container.scss
 │   │   │   │       │           └── Panel.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Thumb.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   ├── Bar.scss
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       └── [01;34mtip[00m
+│   │   │   │       └── tip
 │   │   │   │           └── ToolTip.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   ├── [01;34mtheme-triton[00m
+│   │   ├── theme-triton
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   ├── Readme.md
 │   │   │   │   └── init.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
+│   │   │   ├── resources
 │   │   │   │   ├── Readme.md
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   │   └── fonts
 │   │   │   │       ├── OpenSans-Bold.ttf
 │   │   │   │       ├── OpenSans-BoldItalic.ttf
 │   │   │   │       ├── OpenSans-ExtraBold.ttf
@@ -7485,16 +7488,16 @@
 │   │   │   │       ├── OpenSans-Regular.ttf
 │   │   │   │       ├── OpenSans-Semibold.ttf
 │   │   │   │       └── OpenSans-SemiboldItalic.ttf
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── Readme.md
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── Readme.md
 │   │   │   │   │   ├── all.scss
-│   │   │   │   │   ├── [01;34mfunctions[00m
+│   │   │   │   │   ├── functions
 │   │   │   │   │   │   └── button-colors.scss
 │   │   │   │   │   └── functions.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -7502,9 +7505,9 @@
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   └── Readme.md
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Button.scss
 │   │   │   │       ├── Component.scss
 │   │   │   │       ├── Mask.scss
@@ -7514,81 +7517,81 @@
 │   │   │   │       ├── TitleBar.scss
 │   │   │   │       ├── Toast.scss
 │   │   │   │       ├── Toolbar.scss
-│   │   │   │       ├── [01;34mdataview[00m
+│   │   │   │       ├── dataview
 │   │   │   │       │   ├── ItemHeader.scss
 │   │   │   │       │   └── ListItem.scss
-│   │   │   │       ├── [01;34mfield[00m
+│   │   │   │       ├── field
 │   │   │   │       │   ├── Checkbox.scss
 │   │   │   │       │   ├── Field.scss
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Text.scss
-│   │   │   │       │   └── [01;34mtrigger[00m
+│   │   │   │       │   └── trigger
 │   │   │   │       │       └── Trigger.scss
-│   │   │   │       ├── [01;34mform[00m
+│   │   │   │       ├── form
 │   │   │   │       │   └── FieldSet.scss
-│   │   │   │       ├── [01;34mgrid[00m
+│   │   │   │       ├── grid
 │   │   │   │       │   ├── HeaderContainer.scss
-│   │   │   │       │   ├── [01;34mcell[00m
+│   │   │   │       │   ├── cell
 │   │   │   │       │   │   └── Expander.scss
-│   │   │   │       │   └── [01;34mcolumn[00m
+│   │   │   │       │   └── column
 │   │   │   │       │       └── Column.scss
-│   │   │   │       ├── [01;34mlist[00m
+│   │   │   │       ├── list
 │   │   │   │       │   └── TreeItem.scss
-│   │   │   │       ├── [01;34mpicker[00m
+│   │   │   │       ├── picker
 │   │   │   │       │   └── Picker.scss
-│   │   │   │       ├── [01;34mslider[00m
+│   │   │   │       ├── slider
 │   │   │   │       │   ├── Slider.scss
 │   │   │   │       │   ├── Thumb.scss
 │   │   │   │       │   └── Toggle.scss
-│   │   │   │       ├── [01;34mtab[00m
+│   │   │   │       ├── tab
 │   │   │   │       │   └── Tab.scss
-│   │   │   │       └── [01;34mtip[00m
+│   │   │   │       └── tip
 │   │   │   │           └── ToolTip.scss
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       └── Readme.md
-│   │   └── [01;34mtheme-windows[00m
+│   │   └── theme-windows
 │   │       ├── Readme.md
 │   │       ├── build.xml
-│   │       ├── [01;34mdocs[00m
+│   │       ├── docs
 │   │       │   ├── package.png
-│   │       │   └── [01;34mscreenshots[00m
+│   │       │   └── screenshots
 │   │       │       └── screenshot-1.png
-│   │       ├── [01;34mexamples[00m
+│   │       ├── examples
 │   │       │   └── Readme.md
-│   │       ├── [01;34mlicenses[00m
+│   │       ├── licenses
 │   │       │   └── Readme.md
-│   │       ├── [01;34moverrides[00m
+│   │       ├── overrides
 │   │       │   ├── ActionSheet.js
 │   │       │   ├── MessageBox.js
 │   │       │   ├── Readme.md
 │   │       │   ├── Sheet.js
-│   │       │   ├── [01;34mdataview[00m
+│   │       │   ├── dataview
 │   │       │   │   ├── List.js
 │   │       │   │   └── NestedList.js
-│   │       │   ├── [01;34mfield[00m
+│   │       │   ├── field
 │   │       │   │   ├── Checkbox.js
 │   │       │   │   ├── Field.js
 │   │       │   │   ├── Select.js
 │   │       │   │   └── Toggle.js
-│   │       │   ├── [01;34mgrid[00m
+│   │       │   ├── grid
 │   │       │   │   └── Grid.js
 │   │       │   ├── init.js
-│   │       │   └── [01;34mpicker[00m
+│   │       │   └── picker
 │   │       │       ├── Date.js
 │   │       │       ├── Picker.js
 │   │       │       └── Slot.js
 │   │       ├── package.json
-│   │       ├── [01;34mresources[00m
+│   │       ├── resources
 │   │       │   ├── Readme.md
-│   │       │   └── [01;34mimages[00m
-│   │       │       ├── [01;34mdark[00m
+│   │       │   └── images
+│   │       │       ├── dark
 │   │       │       │   ├── check.png
 │   │       │       │   ├── clear_icon.png
 │   │       │       │   ├── disclosure.png
 │   │       │       │   ├── disclosure2.png
 │   │       │       │   ├── dotgrid.png
-│   │       │       │   ├── [01;35mloading.gif[00m
-│   │       │       │   ├── [01;34mpictos[00m
+│   │       │       │   ├── loading.gif
+│   │       │       │   ├── pictos
 │   │       │       │   │   ├── action.png
 │   │       │       │   │   ├── add.png
 │   │       │       │   │   ├── add1.png
@@ -7938,14 +7941,14 @@
 │   │       │       │   ├── togglethumbbg.png
 │   │       │       │   ├── togglethumbmask.png
 │   │       │       │   └── trackmask_outer.png
-│   │       │       └── [01;34mlight[00m
+│   │       │       └── light
 │   │       │           ├── check.png
 │   │       │           ├── clear_icon.png
 │   │       │           ├── disclosure.png
 │   │       │           ├── disclosure2.png
 │   │       │           ├── dotgrid.png
-│   │       │           ├── [01;35mloading.gif[00m
-│   │       │           ├── [01;34mpictos[00m
+│   │       │           ├── loading.gif
+│   │       │           ├── pictos
 │   │       │           │   ├── action.png
 │   │       │           │   ├── add.png
 │   │       │           │   ├── add1.png
@@ -8295,14 +8298,14 @@
 │   │       │           ├── togglethumbbg.png
 │   │       │           ├── togglethumbmask.png
 │   │       │           └── trackmask_outer.png
-│   │       ├── [01;34msass[00m
+│   │       ├── sass
 │   │       │   ├── Readme.md
 │   │       │   ├── config.rb
-│   │       │   ├── [01;34metc[00m
+│   │       │   ├── etc
 │   │       │   │   ├── Readme.md
 │   │       │   │   ├── all.scss
 │   │       │   │   └── mixins.scss
-│   │       │   ├── [01;34mexample[00m
+│   │       │   ├── example
 │   │       │   │   ├── bootstrap.js
 │   │       │   │   ├── bootstrap.json
 │   │       │   │   ├── bootstrap.jsonp
@@ -8311,7 +8314,7 @@
 │   │       │   │   ├── render.js
 │   │       │   │   ├── sass-page.html
 │   │       │   │   └── theme.html
-│   │       │   ├── [01;34msrc[00m
+│   │       │   ├── src
 │   │       │   │   ├── Button.scss
 │   │       │   │   ├── Component.scss
 │   │       │   │   ├── Menu.scss
@@ -8322,58 +8325,58 @@
 │   │       │   │   ├── Sheet.scss
 │   │       │   │   ├── Toast.scss
 │   │       │   │   ├── Toolbar.scss
-│   │       │   │   ├── [01;34mcarousel[00m
+│   │       │   │   ├── carousel
 │   │       │   │   │   └── Carousel.scss
-│   │       │   │   ├── [01;34mdataview[00m
+│   │       │   │   ├── dataview
 │   │       │   │   │   └── List.scss
-│   │       │   │   ├── [01;34mfield[00m
+│   │       │   │   ├── field
 │   │       │   │   │   ├── Checkbox.scss
 │   │       │   │   │   ├── Field.scss
 │   │       │   │   │   ├── Radio.scss
 │   │       │   │   │   ├── Spinner.scss
 │   │       │   │   │   └── TextArea.scss
-│   │       │   │   ├── [01;34mform[00m
+│   │       │   │   ├── form
 │   │       │   │   │   ├── FieldSet.scss
 │   │       │   │   │   └── Panel.scss
-│   │       │   │   ├── [01;34mgrid[00m
+│   │       │   │   ├── grid
 │   │       │   │   │   └── Grid.scss
-│   │       │   │   ├── [01;34mpicker[00m
+│   │       │   │   ├── picker
 │   │       │   │   │   └── Picker.scss
-│   │       │   │   ├── [01;34mplugin[00m
+│   │       │   │   ├── plugin
 │   │       │   │   │   └── PullRefresh.scss
-│   │       │   │   ├── [01;34mslider[00m
+│   │       │   │   ├── slider
 │   │       │   │   │   ├── Slider.scss
 │   │       │   │   │   └── Toggle.scss
-│   │       │   │   └── [01;34mtab[00m
+│   │       │   │   └── tab
 │   │       │   │       └── Panel.scss
-│   │       │   └── [01;34mvar[00m
+│   │       │   └── var
 │   │       │       ├── Button.scss
 │   │       │       ├── Component.scss
 │   │       │       ├── Panel.scss
 │   │       │       ├── Readme.md
 │   │       │       ├── Sheet.scss
 │   │       │       ├── Toolbar.scss
-│   │       │       ├── [01;34mcarousel[00m
+│   │       │       ├── carousel
 │   │       │       │   └── Carousel.scss
-│   │       │       └── [01;34mpicker[00m
+│   │       │       └── picker
 │   │       │           └── Picker.scss
-│   │       └── [01;34msrc[00m
+│   │       └── src
 │   │           └── Readme.md
 │   ├── package.json
-│   ├── [01;34mpackages[00m
-│   │   ├── [01;34mamf[00m
+│   ├── packages
+│   │   ├── amf
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   └── [01;34mexample[00m
+│   │   │   ├── sass
+│   │   │   │   └── example
 │   │   │   │       └── fashion.html
-│   │   │   └── [01;34msrc[00m
+│   │   │   └── src
 │   │   │       ├── Readme.md
-│   │   │       ├── [01;34mdata[00m
-│   │   │       │   └── [01;34mamf[00m
+│   │   │       ├── data
+│   │   │       │   └── amf
 │   │   │       │       ├── Encoder.js
 │   │   │       │       ├── Packet.js
 │   │   │       │       ├── Proxy.js
@@ -8381,71 +8384,71 @@
 │   │   │       │       ├── RemotingMessage.js
 │   │   │       │       ├── XmlDecoder.js
 │   │   │       │       └── XmlEncoder.js
-│   │   │       └── [01;34mdirect[00m
+│   │   │       └── direct
 │   │   │           └── AmfRemotingProvider.js
-│   │   ├── [01;34mcharts[00m
+│   │   ├── charts
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mclassic[00m
-│   │   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── classic
+│   │   │   │   ├── overrides
 │   │   │   │   │   └── AbstractChart.js
-│   │   │   │   ├── [01;34msass[00m
-│   │   │   │   │   ├── [01;34msrc[00m
-│   │   │   │   │   │   └── [01;34mchart[00m
+│   │   │   │   ├── sass
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   └── chart
 │   │   │   │   │   │       ├── AbstractChart.scss
-│   │   │   │   │   │       └── [01;34mlegend[00m
+│   │   │   │   │   │       └── legend
 │   │   │   │   │   │           └── Legend.scss
-│   │   │   │   │   └── [01;34mvar[00m
-│   │   │   │   │       └── [01;34mchart[00m
+│   │   │   │   │   └── var
+│   │   │   │   │       └── chart
 │   │   │   │   │           ├── AbstractChart.scss
-│   │   │   │   │           └── [01;34mlegend[00m
+│   │   │   │   │           └── legend
 │   │   │   │   │               └── Legend.scss
-│   │   │   │   └── [01;34msrc[00m
-│   │   │   │       ├── [01;34mchart[00m
-│   │   │   │       │   ├── [01;34minteractions[00m
+│   │   │   │   └── src
+│   │   │   │       ├── chart
+│   │   │   │       │   ├── interactions
 │   │   │   │       │   │   └── ItemInfo.js
-│   │   │   │       │   └── [01;34mlegend[00m
+│   │   │   │       │   └── legend
 │   │   │   │       │       └── LegendBase.js
-│   │   │   │       └── [01;34mdraw[00m
+│   │   │   │       └── draw
 │   │   │   │           ├── ContainerBase.js
 │   │   │   │           └── SurfaceBase.js
-│   │   │   ├── [01;34mexamples[00m
+│   │   │   ├── examples
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34mmodern[00m
-│   │   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── modern
+│   │   │   │   ├── overrides
 │   │   │   │   │   └── AbstractChart.js
-│   │   │   │   ├── [01;34msass[00m
-│   │   │   │   │   ├── [01;34msrc[00m
-│   │   │   │   │   │   ├── [01;34mchart[00m
+│   │   │   │   ├── sass
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   ├── chart
 │   │   │   │   │   │   │   ├── AbstractChart.scss
-│   │   │   │   │   │   │   └── [01;34mlegend[00m
+│   │   │   │   │   │   │   └── legend
 │   │   │   │   │   │   │       └── Legend.scss
-│   │   │   │   │   │   └── [01;34mdraw[00m
+│   │   │   │   │   │   └── draw
 │   │   │   │   │   │       └── Container.scss
-│   │   │   │   │   └── [01;34mvar[00m
-│   │   │   │   │       └── [01;34mchart[00m
+│   │   │   │   │   └── var
+│   │   │   │   │       └── chart
 │   │   │   │   │           ├── AbstractChart.scss
-│   │   │   │   │           └── [01;34mlegend[00m
+│   │   │   │   │           └── legend
 │   │   │   │   │               └── Legend.scss
-│   │   │   │   └── [01;34msrc[00m
-│   │   │   │       ├── [01;34mchart[00m
-│   │   │   │       │   ├── [01;34minteractions[00m
+│   │   │   │   └── src
+│   │   │   │       ├── chart
+│   │   │   │       │   ├── interactions
 │   │   │   │       │   │   └── ItemInfo.js
-│   │   │   │       │   └── [01;34mlegend[00m
+│   │   │   │       │   └── legend
 │   │   │   │       │       └── LegendBase.js
-│   │   │   │       └── [01;34mdraw[00m
+│   │   │   │       └── draw
 │   │   │   │           ├── ContainerBase.js
 │   │   │   │           └── SurfaceBase.js
-│   │   │   ├── [01;34moverrides[00m
+│   │   │   ├── overrides
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   └── all.scss
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -8454,37 +8457,37 @@
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   ├── sass-page.html
 │   │   │   │   │   └── theme.html
-│   │   │   │   ├── [01;34msrc[00m
-│   │   │   │   │   ├── [01;34mchart[00m
+│   │   │   │   ├── src
+│   │   │   │   │   ├── chart
 │   │   │   │   │   │   ├── AbstractChart.scss
-│   │   │   │   │   │   └── [01;34mlegend[00m
+│   │   │   │   │   │   └── legend
 │   │   │   │   │   │       └── Legend.scss
-│   │   │   │   │   └── [01;34mdraw[00m
+│   │   │   │   │   └── draw
 │   │   │   │   │       ├── Container.scss
 │   │   │   │   │       └── Surface.scss
-│   │   │   │   └── [01;34mvar[00m
-│   │   │   │       └── [01;34mchart[00m
-│   │   │   │           └── [01;34mlegend[00m
+│   │   │   │   └── var
+│   │   │   │       └── chart
+│   │   │   │           └── legend
 │   │   │   │               └── Legend.scss
-│   │   │   ├── [01;34mserver[00m
-│   │   │   │   └── [01;34mnode[00m
-│   │   │   │       ├── [01;34mconverters[00m
+│   │   │   ├── server
+│   │   │   │   └── node
+│   │   │   │       ├── converters
 │   │   │   │       │   ├── v1.js
 │   │   │   │       │   └── v2.js
 │   │   │   │       ├── helpers.js
 │   │   │   │       ├── main.js
 │   │   │   │       ├── save_script_tpl.js
 │   │   │   │       └── validator.js
-│   │   │   ├── [01;34msrc[00m
+│   │   │   ├── src
 │   │   │   │   ├── Readme.md
-│   │   │   │   ├── [01;34mchart[00m
+│   │   │   │   ├── chart
 │   │   │   │   │   ├── AbstractChart.js
 │   │   │   │   │   ├── CartesianChart.js
 │   │   │   │   │   ├── MarkerHolder.js
 │   │   │   │   │   ├── Markers.js
 │   │   │   │   │   ├── PolarChart.js
 │   │   │   │   │   ├── SpaceFillingChart.js
-│   │   │   │   │   ├── [01;34maxis[00m
+│   │   │   │   │   ├── axis
 │   │   │   │   │   │   ├── Axis.js
 │   │   │   │   │   │   ├── Axis3D.js
 │   │   │   │   │   │   ├── Category.js
@@ -8493,27 +8496,27 @@
 │   │   │   │   │   │   ├── Numeric3D.js
 │   │   │   │   │   │   ├── Time.js
 │   │   │   │   │   │   ├── Time3D.js
-│   │   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   │   ├── layout
 │   │   │   │   │   │   │   ├── CombineDuplicate.js
 │   │   │   │   │   │   │   ├── Continuous.js
 │   │   │   │   │   │   │   ├── Discrete.js
 │   │   │   │   │   │   │   └── Layout.js
-│   │   │   │   │   │   ├── [01;34msegmenter[00m
+│   │   │   │   │   │   ├── segmenter
 │   │   │   │   │   │   │   ├── Names.js
 │   │   │   │   │   │   │   ├── Numeric.js
 │   │   │   │   │   │   │   ├── Segmenter.js
 │   │   │   │   │   │   │   └── Time.js
-│   │   │   │   │   │   └── [01;34msprite[00m
+│   │   │   │   │   │   └── sprite
 │   │   │   │   │   │       ├── Axis.js
 │   │   │   │   │   │       └── Axis3D.js
-│   │   │   │   │   ├── [01;34mgrid[00m
+│   │   │   │   │   ├── grid
 │   │   │   │   │   │   ├── CircularGrid.js
 │   │   │   │   │   │   ├── HorizontalGrid.js
 │   │   │   │   │   │   ├── HorizontalGrid3D.js
 │   │   │   │   │   │   ├── RadialGrid.js
 │   │   │   │   │   │   ├── VerticalGrid.js
 │   │   │   │   │   │   └── VerticalGrid3D.js
-│   │   │   │   │   ├── [01;34minteractions[00m
+│   │   │   │   │   ├── interactions
 │   │   │   │   │   │   ├── Abstract.js
 │   │   │   │   │   │   ├── CrossZoom.js
 │   │   │   │   │   │   ├── Crosshair.js
@@ -8522,20 +8525,20 @@
 │   │   │   │   │   │   ├── PanZoom.js
 │   │   │   │   │   │   ├── Rotate.js
 │   │   │   │   │   │   └── RotatePie3D.js
-│   │   │   │   │   ├── [01;34mlegend[00m
+│   │   │   │   │   ├── legend
 │   │   │   │   │   │   ├── Legend.js
 │   │   │   │   │   │   ├── SpriteLegend.js
-│   │   │   │   │   │   ├── [01;34msprite[00m
+│   │   │   │   │   │   ├── sprite
 │   │   │   │   │   │   │   ├── Border.js
 │   │   │   │   │   │   │   └── Item.js
-│   │   │   │   │   │   └── [01;34mstore[00m
+│   │   │   │   │   │   └── store
 │   │   │   │   │   │       ├── Item.js
 │   │   │   │   │   │       └── Store.js
-│   │   │   │   │   ├── [01;34mmodifier[00m
+│   │   │   │   │   ├── modifier
 │   │   │   │   │   │   └── Callout.js
-│   │   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   │   ├── plugin
 │   │   │   │   │   │   └── ItemEvents.js
-│   │   │   │   │   ├── [01;34mseries[00m
+│   │   │   │   │   ├── series
 │   │   │   │   │   │   ├── Area.js
 │   │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   │   ├── Bar3D.js
@@ -8550,7 +8553,7 @@
 │   │   │   │   │   │   ├── Scatter.js
 │   │   │   │   │   │   ├── Series.js
 │   │   │   │   │   │   ├── StackedCartesian.js
-│   │   │   │   │   │   └── [01;34msprite[00m
+│   │   │   │   │   │   └── sprite
 │   │   │   │   │   │       ├── Aggregative.js
 │   │   │   │   │   │       ├── Area.js
 │   │   │   │   │   │       ├── Bar.js
@@ -8566,9 +8569,9 @@
 │   │   │   │   │   │       ├── Scatter.js
 │   │   │   │   │   │       ├── Series.js
 │   │   │   │   │   │       └── StackedCartesian.js
-│   │   │   │   │   ├── [01;34msprite[00m
+│   │   │   │   │   ├── sprite
 │   │   │   │   │   │   └── Label.js
-│   │   │   │   │   └── [01;34mtheme[00m
+│   │   │   │   │   └── theme
 │   │   │   │   │       ├── Base.js
 │   │   │   │   │       ├── Blue.js
 │   │   │   │   │       ├── BlueGradients.js
@@ -8598,7 +8601,7 @@
 │   │   │   │   │       ├── SkyGradients.js
 │   │   │   │   │       ├── Yellow.js
 │   │   │   │   │       └── YellowGradients.js
-│   │   │   │   └── [01;34mdraw[00m
+│   │   │   │   └── draw
 │   │   │   │       ├── Animator.js
 │   │   │   │       ├── Container.js
 │   │   │   │       ├── Draw.js
@@ -8611,32 +8614,32 @@
 │   │   │   │       ├── Surface.js
 │   │   │   │       ├── TextMeasurer.js
 │   │   │   │       ├── TimingFunctions.js
-│   │   │   │       ├── [01;34mengine[00m
+│   │   │   │       ├── engine
 │   │   │   │       │   ├── Canvas.js
 │   │   │   │       │   ├── Svg.js
 │   │   │   │       │   ├── SvgContext.js
 │   │   │   │       │   └── excanvas.js
-│   │   │   │       ├── [01;34mgradient[00m
+│   │   │   │       ├── gradient
 │   │   │   │       │   ├── Gradient.js
 │   │   │   │       │   ├── GradientDefinition.js
 │   │   │   │       │   ├── Linear.js
 │   │   │   │       │   └── Radial.js
-│   │   │   │       ├── [01;34mmodifier[00m
+│   │   │   │       ├── modifier
 │   │   │   │       │   ├── Animation.js
 │   │   │   │       │   ├── Highlight.js
 │   │   │   │       │   ├── Modifier.js
 │   │   │   │       │   └── Target.js
-│   │   │   │       ├── [01;34moverrides[00m
-│   │   │   │       │   └── [01;34mhittest[00m
+│   │   │   │       ├── overrides
+│   │   │   │       │   └── hittest
 │   │   │   │       │       ├── All.js
 │   │   │   │       │       ├── Path.js
 │   │   │   │       │       ├── Surface.js
-│   │   │   │       │       └── [01;34msprite[00m
+│   │   │   │       │       └── sprite
 │   │   │   │       │           ├── Instancing.js
 │   │   │   │       │           └── Path.js
-│   │   │   │       ├── [01;34mplugin[00m
+│   │   │   │       ├── plugin
 │   │   │   │       │   └── SpriteEvents.js
-│   │   │   │       └── [01;34msprite[00m
+│   │   │   │       └── sprite
 │   │   │   │           ├── AnimationParser.js
 │   │   │   │           ├── Arc.js
 │   │   │   │           ├── Arrow.js
@@ -8660,36 +8663,36 @@
 │   │   │   │           ├── Text.js
 │   │   │   │           ├── Tick.js
 │   │   │   │           └── Triangle.js
-│   │   │   └── [01;34mtest[00m
-│   │   │       ├── [01;34mspecs[00m
-│   │   │       │   ├── [01;34mchart[00m
+│   │   │   └── test
+│   │   │       ├── specs
+│   │   │       │   ├── chart
 │   │   │       │   │   ├── AbstractChart.js
 │   │   │       │   │   ├── MarkerHolder.js
-│   │   │       │   │   ├── [01;34maxis[00m
+│   │   │       │   │   ├── axis
 │   │   │       │   │   │   ├── Axis.js
 │   │   │       │   │   │   ├── Time.js
-│   │   │       │   │   │   ├── [01;34mlayout[00m
+│   │   │       │   │   │   ├── layout
 │   │   │       │   │   │   │   └── Continuous.js
-│   │   │       │   │   │   └── [01;34msegmenter[00m
+│   │   │       │   │   │   └── segmenter
 │   │   │       │   │   │       └── Numeric.js
-│   │   │       │   │   ├── [01;34mlegend[00m
+│   │   │       │   │   ├── legend
 │   │   │       │   │   │   ├── SpriteLegend.js
-│   │   │       │   │   │   └── [01;34msprite[00m
+│   │   │       │   │   │   └── sprite
 │   │   │       │   │   │       └── Item.js
-│   │   │       │   │   └── [01;34mseries[00m
+│   │   │       │   │   └── series
 │   │   │       │   │       ├── Pie.js
 │   │   │       │   │       ├── Series.js
-│   │   │       │   │       └── [01;34msprite[00m
+│   │   │       │   │       └── sprite
 │   │   │       │   │           ├── Pie3DPart.js
 │   │   │       │   │           └── PieSlice.js
-│   │   │       │   └── [01;34mdraw[00m
+│   │   │       │   └── draw
 │   │   │       │       ├── Container.js
 │   │   │       │       ├── Matrix.js
 │   │   │       │       ├── Point.js
 │   │   │       │       ├── Surface.js
-│   │   │       │       ├── [01;34mengine[00m
+│   │   │       │       ├── engine
 │   │   │       │       │   └── Canvas.js
-│   │   │       │       └── [01;34msprite[00m
+│   │   │       │       └── sprite
 │   │   │       │           ├── AnimationParser.js
 │   │   │       │           ├── AttributeParser.js
 │   │   │       │           ├── Composite.js
@@ -8698,64 +8701,64 @@
 │   │   │       │           ├── Path.js
 │   │   │       │           ├── Sprite.js
 │   │   │       │           └── Text.js
-│   │   │       └── [01;34mspecs-classic[00m
-│   │   │           └── [01;34mchart[00m
+│   │   │       └── specs-classic
+│   │   │           └── chart
 │   │   │               ├── AbstractChart.js
 │   │   │               ├── LegendBase.js
-│   │   │               ├── [01;34minteractions[00m
+│   │   │               ├── interactions
 │   │   │               │   └── PanZoom.js
-│   │   │               └── [01;34mseries[00m
+│   │   │               └── series
 │   │   │                   ├── Area.js
 │   │   │                   ├── Gauge.js
 │   │   │                   └── Pie.js
-│   │   ├── [01;34mcore[00m
+│   │   ├── core
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
-│   │   │   ├── [01;34moverrides[00m
-│   │   │   │   └── [01;34mapp[00m
+│   │   │   ├── overrides
+│   │   │   │   └── app
 │   │   │   │       └── Application.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   ├── sass
+│   │   │   │   ├── etc
 │   │   │   │   │   ├── all.scss
 │   │   │   │   │   ├── functions.scss
-│   │   │   │   │   ├── [01;34mmixins[00m
+│   │   │   │   │   ├── mixins
 │   │   │   │   │   │   ├── ellipsis.scss
 │   │   │   │   │   │   ├── margin.scss
 │   │   │   │   │   │   ├── no-select.scss
 │   │   │   │   │   │   └── padding.scss
 │   │   │   │   │   ├── mixins.scss
-│   │   │   │   │   └── [01;34mrecipes[00m
+│   │   │   │   │   └── recipes
 │   │   │   │   │       └── color.scss
-│   │   │   │   ├── [01;34msrc[00m
+│   │   │   │   ├── src
 │   │   │   │   │   ├── ProgressBase.scss
-│   │   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   │   ├── dom
 │   │   │   │   │   │   └── TouchAction.scss
-│   │   │   │   │   ├── [01;34mdrag[00m
+│   │   │   │   │   ├── drag
 │   │   │   │   │   │   └── Source.scss
-│   │   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   │   ├── list
 │   │   │   │   │   │   └── TreeItem.scss
-│   │   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   │   ├── scroll
 │   │   │   │   │   │   └── Scroller.scss
-│   │   │   │   │   └── [01;34mutil[00m
+│   │   │   │   │   └── util
 │   │   │   │   │       ├── PaintMonitor.scss
 │   │   │   │   │       ├── SizeMonitor.scss
 │   │   │   │   │       └── Translatable.scss
-│   │   │   │   └── [01;34mvar[00m
+│   │   │   │   └── var
 │   │   │   │       ├── Component.scss
-│   │   │   │       ├── [01;34mcalendar[00m
+│   │   │   │       ├── calendar
 │   │   │   │       │   ├── Event.scss
-│   │   │   │       │   ├── [01;34mheader[00m
+│   │   │   │       │   ├── header
 │   │   │   │       │   │   └── Base.scss
-│   │   │   │       │   └── [01;34mview[00m
+│   │   │   │       │   └── view
 │   │   │   │       │       ├── Base.scss
 │   │   │   │       │       ├── Days.scss
 │   │   │   │       │       └── Weeks.scss
-│   │   │   │       └── [01;34mlist[00m
+│   │   │   │       └── list
 │   │   │   │           └── TreeItem.scss
-│   │   │   ├── [01;34msrc[00m
+│   │   │   ├── src
 │   │   │   │   ├── AbstractManager.js
 │   │   │   │   ├── Ajax.js
 │   │   │   │   ├── AnimationQueue.js
@@ -8775,7 +8778,7 @@
 │   │   │   │   ├── Util.js
 │   │   │   │   ├── Widget.js
 │   │   │   │   ├── XTemplate.js
-│   │   │   │   ├── [01;34mapp[00m
+│   │   │   │   ├── app
 │   │   │   │   │   ├── Application.js
 │   │   │   │   │   ├── BaseController.js
 │   │   │   │   │   ├── Controller.js
@@ -8785,7 +8788,7 @@
 │   │   │   │   │   ├── Util.js
 │   │   │   │   │   ├── ViewController.js
 │   │   │   │   │   ├── ViewModel.js
-│   │   │   │   │   ├── [01;34mbind[00m
+│   │   │   │   │   ├── bind
 │   │   │   │   │   │   ├── AbstractStub.js
 │   │   │   │   │   │   ├── BaseBinding.js
 │   │   │   │   │   │   ├── Binding.js
@@ -8797,18 +8800,18 @@
 │   │   │   │   │   │   ├── Stub.js
 │   │   │   │   │   │   ├── Template.js
 │   │   │   │   │   │   └── TemplateBinding.js
-│   │   │   │   │   ├── [01;34mdomain[00m
+│   │   │   │   │   ├── domain
 │   │   │   │   │   │   ├── Component.js
 │   │   │   │   │   │   ├── Controller.js
 │   │   │   │   │   │   ├── Direct.js
 │   │   │   │   │   │   ├── Global.js
 │   │   │   │   │   │   ├── Store.js
 │   │   │   │   │   │   └── View.js
-│   │   │   │   │   └── [01;34mroute[00m
+│   │   │   │   │   └── route
 │   │   │   │   │       ├── Queue.js
 │   │   │   │   │       ├── Route.js
 │   │   │   │   │       └── Router.js
-│   │   │   │   ├── [01;34mclass[00m
+│   │   │   │   ├── class
 │   │   │   │   │   ├── Base.js
 │   │   │   │   │   ├── Class.js
 │   │   │   │   │   ├── ClassManager.js
@@ -8817,7 +8820,7 @@
 │   │   │   │   │   ├── Inventory.js
 │   │   │   │   │   ├── Loader.js
 │   │   │   │   │   └── Mixin.js
-│   │   │   │   ├── [01;34mdata[00m
+│   │   │   │   ├── data
 │   │   │   │   │   ├── AbstractStore.js
 │   │   │   │   │   ├── ArrayStore.js
 │   │   │   │   │   ├── Batch.js
@@ -8848,31 +8851,31 @@
 │   │   │   │   │   ├── Types.js
 │   │   │   │   │   ├── Validation.js
 │   │   │   │   │   ├── XmlStore.js
-│   │   │   │   │   ├── [01;34mfield[00m
+│   │   │   │   │   ├── field
 │   │   │   │   │   │   ├── Boolean.js
 │   │   │   │   │   │   ├── Date.js
 │   │   │   │   │   │   ├── Field.js
 │   │   │   │   │   │   ├── Integer.js
 │   │   │   │   │   │   ├── Number.js
 │   │   │   │   │   │   └── String.js
-│   │   │   │   │   ├── [01;34mflash[00m
+│   │   │   │   │   ├── flash
 │   │   │   │   │   │   └── BinaryXhr.js
-│   │   │   │   │   ├── [01;34midentifier[00m
+│   │   │   │   │   ├── identifier
 │   │   │   │   │   │   ├── Generator.js
 │   │   │   │   │   │   ├── Negative.js
 │   │   │   │   │   │   ├── Sequential.js
 │   │   │   │   │   │   └── Uuid.js
-│   │   │   │   │   ├── [01;34mmatrix[00m
+│   │   │   │   │   ├── matrix
 │   │   │   │   │   │   ├── Matrix.js
 │   │   │   │   │   │   ├── Side.js
 │   │   │   │   │   │   └── Slice.js
-│   │   │   │   │   ├── [01;34moperation[00m
+│   │   │   │   │   ├── operation
 │   │   │   │   │   │   ├── Create.js
 │   │   │   │   │   │   ├── Destroy.js
 │   │   │   │   │   │   ├── Operation.js
 │   │   │   │   │   │   ├── Read.js
 │   │   │   │   │   │   └── Update.js
-│   │   │   │   │   ├── [01;34mproxy[00m
+│   │   │   │   │   ├── proxy
 │   │   │   │   │   │   ├── Ajax.js
 │   │   │   │   │   │   ├── Client.js
 │   │   │   │   │   │   ├── Direct.js
@@ -8884,16 +8887,16 @@
 │   │   │   │   │   │   ├── Server.js
 │   │   │   │   │   │   ├── SessionStorage.js
 │   │   │   │   │   │   └── WebStorage.js
-│   │   │   │   │   ├── [01;34mreader[00m
+│   │   │   │   │   ├── reader
 │   │   │   │   │   │   ├── Array.js
 │   │   │   │   │   │   ├── Json.js
 │   │   │   │   │   │   ├── Reader.js
 │   │   │   │   │   │   └── Xml.js
-│   │   │   │   │   ├── [01;34mrequest[00m
+│   │   │   │   │   ├── request
 │   │   │   │   │   │   ├── Ajax.js
 │   │   │   │   │   │   ├── Base.js
 │   │   │   │   │   │   └── Form.js
-│   │   │   │   │   ├── [01;34mschema[00m
+│   │   │   │   │   ├── schema
 │   │   │   │   │   │   ├── Association.js
 │   │   │   │   │   │   ├── BelongsTo.js
 │   │   │   │   │   │   ├── HasMany.js
@@ -8905,11 +8908,11 @@
 │   │   │   │   │   │   ├── Reference.js
 │   │   │   │   │   │   ├── Role.js
 │   │   │   │   │   │   └── Schema.js
-│   │   │   │   │   ├── [01;34msession[00m
+│   │   │   │   │   ├── session
 │   │   │   │   │   │   ├── BatchVisitor.js
 │   │   │   │   │   │   ├── ChangesVisitor.js
 │   │   │   │   │   │   └── ChildChangesVisitor.js
-│   │   │   │   │   ├── [01;34mvalidator[00m
+│   │   │   │   │   ├── validator
 │   │   │   │   │   │   ├── Bound.js
 │   │   │   │   │   │   ├── Email.js
 │   │   │   │   │   │   ├── Exclusion.js
@@ -8920,11 +8923,11 @@
 │   │   │   │   │   │   ├── Presence.js
 │   │   │   │   │   │   ├── Range.js
 │   │   │   │   │   │   └── Validator.js
-│   │   │   │   │   └── [01;34mwriter[00m
+│   │   │   │   │   └── writer
 │   │   │   │   │       ├── Json.js
 │   │   │   │   │       ├── Writer.js
 │   │   │   │   │       └── Xml.js
-│   │   │   │   ├── [01;34mdirect[00m
+│   │   │   │   ├── direct
 │   │   │   │   │   ├── Event.js
 │   │   │   │   │   ├── ExceptionEvent.js
 │   │   │   │   │   ├── JsonProvider.js
@@ -8935,7 +8938,7 @@
 │   │   │   │   │   ├── RemotingMethod.js
 │   │   │   │   │   ├── RemotingProvider.js
 │   │   │   │   │   └── Transaction.js
-│   │   │   │   ├── [01;34mdom[00m
+│   │   │   │   ├── dom
 │   │   │   │   │   ├── CompositeElement.js
 │   │   │   │   │   ├── CompositeElementLite.js
 │   │   │   │   │   ├── Element.js
@@ -8949,25 +8952,25 @@
 │   │   │   │   │   ├── TouchAction.js
 │   │   │   │   │   ├── Underlay.js
 │   │   │   │   │   └── UnderlayPool.js
-│   │   │   │   ├── [01;34mdrag[00m
+│   │   │   │   ├── drag
 │   │   │   │   │   ├── Constraint.js
 │   │   │   │   │   ├── Info.js
 │   │   │   │   │   ├── Item.js
 │   │   │   │   │   ├── Manager.js
 │   │   │   │   │   ├── Source.js
 │   │   │   │   │   ├── Target.js
-│   │   │   │   │   └── [01;34mproxy[00m
+│   │   │   │   │   └── proxy
 │   │   │   │   │       ├── None.js
 │   │   │   │   │       ├── Original.js
 │   │   │   │   │       └── Placeholder.js
-│   │   │   │   ├── [01;34menv[00m
+│   │   │   │   ├── env
 │   │   │   │   │   ├── Browser.js
 │   │   │   │   │   ├── Feature.js
 │   │   │   │   │   ├── OS.js
 │   │   │   │   │   └── Ready.js
-│   │   │   │   ├── [01;34mevent[00m
+│   │   │   │   ├── event
 │   │   │   │   │   ├── Event.js
-│   │   │   │   │   ├── [01;34mgesture[00m
+│   │   │   │   │   ├── gesture
 │   │   │   │   │   │   ├── DoubleTap.js
 │   │   │   │   │   │   ├── Drag.js
 │   │   │   │   │   │   ├── EdgeSwipe.js
@@ -8979,18 +8982,18 @@
 │   │   │   │   │   │   ├── SingleTouch.js
 │   │   │   │   │   │   ├── Swipe.js
 │   │   │   │   │   │   └── Tap.js
-│   │   │   │   │   └── [01;34mpublisher[00m
+│   │   │   │   │   └── publisher
 │   │   │   │   │       ├── Dom.js
 │   │   │   │   │       ├── ElementPaint.js
 │   │   │   │   │       ├── ElementSize.js
 │   │   │   │   │       ├── Focus.js
 │   │   │   │   │       ├── Gesture.js
 │   │   │   │   │       └── Publisher.js
-│   │   │   │   ├── [01;34mfx[00m
+│   │   │   │   ├── fx
 │   │   │   │   │   ├── Animation.js
 │   │   │   │   │   ├── Runner.js
 │   │   │   │   │   ├── State.js
-│   │   │   │   │   ├── [01;34manimation[00m
+│   │   │   │   │   ├── animation
 │   │   │   │   │   │   ├── Abstract.js
 │   │   │   │   │   │   ├── Cube.js
 │   │   │   │   │   │   ├── Fade.js
@@ -9002,7 +9005,7 @@
 │   │   │   │   │   │   ├── SlideOut.js
 │   │   │   │   │   │   ├── Wipe.js
 │   │   │   │   │   │   └── WipeOut.js
-│   │   │   │   │   ├── [01;34measing[00m
+│   │   │   │   │   ├── easing
 │   │   │   │   │   │   ├── Abstract.js
 │   │   │   │   │   │   ├── Bounce.js
 │   │   │   │   │   │   ├── BoundMomentum.js
@@ -9011,9 +9014,9 @@
 │   │   │   │   │   │   ├── Easing.js
 │   │   │   │   │   │   ├── Linear.js
 │   │   │   │   │   │   └── Momentum.js
-│   │   │   │   │   ├── [01;34mlayout[00m
+│   │   │   │   │   ├── layout
 │   │   │   │   │   │   ├── Card.js
-│   │   │   │   │   │   └── [01;34mcard[00m
+│   │   │   │   │   │   └── card
 │   │   │   │   │   │       ├── Abstract.js
 │   │   │   │   │   │       ├── Cover.js
 │   │   │   │   │   │       ├── Cube.js
@@ -9026,11 +9029,11 @@
 │   │   │   │   │   │       ├── ScrollReveal.js
 │   │   │   │   │   │       ├── Slide.js
 │   │   │   │   │   │       └── Style.js
-│   │   │   │   │   └── [01;34mrunner[00m
+│   │   │   │   │   └── runner
 │   │   │   │   │       ├── Css.js
 │   │   │   │   │       ├── CssAnimation.js
 │   │   │   │   │       └── CssTransition.js
-│   │   │   │   ├── [01;34mlang[00m
+│   │   │   │   ├── lang
 │   │   │   │   │   ├── Array.js
 │   │   │   │   │   ├── Assert.js
 │   │   │   │   │   ├── Date.js
@@ -9039,12 +9042,12 @@
 │   │   │   │   │   ├── Number.js
 │   │   │   │   │   ├── Object.js
 │   │   │   │   │   └── String.js
-│   │   │   │   ├── [01;34mlist[00m
+│   │   │   │   ├── list
 │   │   │   │   │   ├── AbstractTreeItem.js
 │   │   │   │   │   ├── RootTreeItem.js
 │   │   │   │   │   ├── Tree.js
 │   │   │   │   │   └── TreeItem.js
-│   │   │   │   ├── [01;34mmixin[00m
+│   │   │   │   ├── mixin
 │   │   │   │   │   ├── Accessible.js
 │   │   │   │   │   ├── Bindable.js
 │   │   │   │   │   ├── ComponentDelegation.js
@@ -9065,30 +9068,30 @@
 │   │   │   │   │   ├── StyleCacher.js
 │   │   │   │   │   ├── Templatable.js
 │   │   │   │   │   └── Traversable.js
-│   │   │   │   ├── [01;34mparse[00m
+│   │   │   │   ├── parse
 │   │   │   │   │   ├── Parser.js
 │   │   │   │   │   ├── Symbol.js
 │   │   │   │   │   ├── Tokenizer.js
-│   │   │   │   │   └── [01;34msymbol[00m
+│   │   │   │   │   └── symbol
 │   │   │   │   │       ├── Constant.js
 │   │   │   │   │       ├── Infix.js
 │   │   │   │   │       ├── InfixRight.js
 │   │   │   │   │       ├── Paren.js
 │   │   │   │   │       └── Prefix.js
-│   │   │   │   ├── [01;34mperf[00m
+│   │   │   │   ├── perf
 │   │   │   │   │   ├── Accumulator.js
 │   │   │   │   │   └── Monitor.js
-│   │   │   │   ├── [01;34mplugin[00m
+│   │   │   │   ├── plugin
 │   │   │   │   │   ├── Abstract.js
 │   │   │   │   │   ├── LazyItems.js
 │   │   │   │   │   └── MousEnter.js
-│   │   │   │   ├── [01;34mpromise[00m
+│   │   │   │   ├── promise
 │   │   │   │   │   ├── Consequence.js
 │   │   │   │   │   ├── Deferred.js
 │   │   │   │   │   └── Promise.js
-│   │   │   │   ├── [01;34mscroll[00m
+│   │   │   │   ├── scroll
 │   │   │   │   │   └── Scroller.js
-│   │   │   │   ├── [01;34msparkline[00m
+│   │   │   │   ├── sparkline
 │   │   │   │   │   ├── Bar.js
 │   │   │   │   │   ├── BarBase.js
 │   │   │   │   │   ├── Base.js
@@ -9103,7 +9106,7 @@
 │   │   │   │   │   ├── Shape.js
 │   │   │   │   │   ├── TriState.js
 │   │   │   │   │   └── VmlCanvas.js
-│   │   │   │   └── [01;34mutil[00m
+│   │   │   │   └── util
 │   │   │   │       ├── AbstractMixedCollection.js
 │   │   │   │       ├── Bag.js
 │   │   │   │       ├── Base64.js
@@ -9152,34 +9155,34 @@
 │   │   │   │       ├── Version.js
 │   │   │   │       ├── XTemplateCompiler.js
 │   │   │   │       ├── XTemplateParser.js
-│   │   │   │       ├── [01;34mpaintmonitor[00m
+│   │   │   │       ├── paintmonitor
 │   │   │   │       │   ├── Abstract.js
 │   │   │   │       │   ├── CssAnimation.js
 │   │   │   │       │   └── OverflowChange.js
-│   │   │   │       ├── [01;34msizemonitor[00m
+│   │   │   │       ├── sizemonitor
 │   │   │   │       │   ├── Abstract.js
 │   │   │   │       │   ├── OverflowChange.js
 │   │   │   │       │   └── Scroll.js
-│   │   │   │       └── [01;34mtranslatable[00m
+│   │   │   │       └── translatable
 │   │   │   │           ├── Abstract.js
 │   │   │   │           ├── CssPosition.js
 │   │   │   │           ├── CssTransform.js
 │   │   │   │           ├── Dom.js
 │   │   │   │           ├── ScrollParent.js
 │   │   │   │           └── ScrollPosition.js
-│   │   │   └── [01;34mtest[00m
-│   │   │       ├── [01;34mresources[00m
+│   │   │   └── test
+│   │   │       ├── resources
 │   │   │       │   ├── helpers.js
 │   │   │       │   ├── init.js
-│   │   │       │   └── [01;34mux[00m
-│   │   │       │       └── [01;34majax[00m
+│   │   │       │   └── ux
+│   │   │       │       └── ajax
 │   │   │       │           ├── DataSimlet.js
 │   │   │       │           ├── JsonSimlet.js
 │   │   │       │           ├── SimManager.js
 │   │   │       │           ├── SimXhr.js
 │   │   │       │           ├── Simlet.js
 │   │   │       │           └── XmlSimlet.js
-│   │   │       └── [01;34mspecs[00m
+│   │   │       └── specs
 │   │   │           ├── AbstractManager.js
 │   │   │           ├── Boot.js
 │   │   │           ├── ComponentQuery.js
@@ -9191,18 +9194,18 @@
 │   │   │           ├── Util.js
 │   │   │           ├── Widget.js
 │   │   │           ├── XTemplate.js
-│   │   │           ├── [01;34mapp[00m
+│   │   │           ├── app
 │   │   │           │   ├── ViewModel.js
-│   │   │           │   └── [01;34mbind[00m
+│   │   │           │   └── bind
 │   │   │           │       ├── Formula.js
 │   │   │           │       ├── Parser.js
 │   │   │           │       └── Template.js
-│   │   │           ├── [01;34mclass[00m
+│   │   │           ├── class
 │   │   │           │   ├── Base.js
 │   │   │           │   ├── Class.js
 │   │   │           │   ├── ClassManager.js
 │   │   │           │   └── Loader.js
-│   │   │           ├── [01;34mdata[00m
+│   │   │           ├── data
 │   │   │           │   ├── Batch.js
 │   │   │           │   ├── BufferedStore.js
 │   │   │           │   ├── ChainedStore.js
@@ -9218,24 +9221,24 @@
 │   │   │           │   ├── Tree.js
 │   │   │           │   ├── TreeStore.js
 │   │   │           │   ├── Types.js
-│   │   │           │   ├── [01;34mfield[00m
+│   │   │           │   ├── field
 │   │   │           │   │   ├── Boolean.js
 │   │   │           │   │   ├── Date.js
 │   │   │           │   │   ├── Field.js
 │   │   │           │   │   ├── Integer.js
 │   │   │           │   │   ├── Number.js
 │   │   │           │   │   └── String.js
-│   │   │           │   ├── [01;34midentifier[00m
+│   │   │           │   ├── identifier
 │   │   │           │   │   ├── Generator.js
 │   │   │           │   │   ├── Sequential.js
 │   │   │           │   │   └── Uuid.js
-│   │   │           │   ├── [01;34moperation[00m
+│   │   │           │   ├── operation
 │   │   │           │   │   ├── Create.js
 │   │   │           │   │   ├── Destroy.js
 │   │   │           │   │   ├── Operation.js
 │   │   │           │   │   ├── Read.js
 │   │   │           │   │   └── Update.js
-│   │   │           │   ├── [01;34mproxy[00m
+│   │   │           │   ├── proxy
 │   │   │           │   │   ├── Ajax.js
 │   │   │           │   │   ├── Client.js
 │   │   │           │   │   ├── Direct.js
@@ -9247,14 +9250,14 @@
 │   │   │           │   │   ├── Server.js
 │   │   │           │   │   ├── SessionStorage.js
 │   │   │           │   │   └── WebStorage.js
-│   │   │           │   ├── [01;34mreader[00m
+│   │   │           │   ├── reader
 │   │   │           │   │   ├── Array.js
 │   │   │           │   │   ├── Json.js
 │   │   │           │   │   ├── Reader.js
 │   │   │           │   │   └── Xml.js
-│   │   │           │   ├── [01;34mrequest[00m
+│   │   │           │   ├── request
 │   │   │           │   │   └── Ajax.js
-│   │   │           │   ├── [01;34mschema[00m
+│   │   │           │   ├── schema
 │   │   │           │   │   ├── BelongsTo.js
 │   │   │           │   │   ├── HasMany.js
 │   │   │           │   │   ├── HasOne.js
@@ -9263,7 +9266,7 @@
 │   │   │           │   │   ├── Namer.js
 │   │   │           │   │   ├── OneToOne.js
 │   │   │           │   │   └── Schema.js
-│   │   │           │   ├── [01;34mvalidator[00m
+│   │   │           │   ├── validator
 │   │   │           │   │   ├── Email.js
 │   │   │           │   │   ├── Exclusion.js
 │   │   │           │   │   ├── Format.js
@@ -9272,11 +9275,11 @@
 │   │   │           │   │   ├── Presence.js
 │   │   │           │   │   ├── Range.js
 │   │   │           │   │   └── Validator.js
-│   │   │           │   └── [01;34mwriter[00m
+│   │   │           │   └── writer
 │   │   │           │       ├── Json.js
 │   │   │           │       ├── Writer.js
 │   │   │           │       └── Xml.js
-│   │   │           ├── [01;34mdirect[00m
+│   │   │           ├── direct
 │   │   │           │   ├── Event.js
 │   │   │           │   ├── JsonProvider.js
 │   │   │           │   ├── Manager.js
@@ -9285,7 +9288,7 @@
 │   │   │           │   ├── RemotingMethod.js
 │   │   │           │   ├── RemotingProvider.js
 │   │   │           │   └── Transaction.js
-│   │   │           ├── [01;34mdom[00m
+│   │   │           ├── dom
 │   │   │           │   ├── CompositeElementLite.js
 │   │   │           │   ├── DomHelper.js
 │   │   │           │   ├── Element.anim.js
@@ -9297,24 +9300,24 @@
 │   │   │           │   ├── Element_scroll.js
 │   │   │           │   ├── GarbageCollector.js
 │   │   │           │   └── Query.js
-│   │   │           ├── [01;34mdrag[00m
+│   │   │           ├── drag
 │   │   │           │   ├── Info.js
 │   │   │           │   ├── Manager.js
 │   │   │           │   ├── Source.js
 │   │   │           │   └── Target.js
-│   │   │           ├── [01;34mevent[00m
+│   │   │           ├── event
 │   │   │           │   ├── Event.js
-│   │   │           │   ├── [01;34mgesture[00m
+│   │   │           │   ├── gesture
 │   │   │           │   │   ├── DoubleTap.js
 │   │   │           │   │   ├── Drag.js
 │   │   │           │   │   ├── LongPress.js
 │   │   │           │   │   ├── Pinch.js
 │   │   │           │   │   ├── Swipe.js
 │   │   │           │   │   └── Tap.js
-│   │   │           │   └── [01;34mpublisher[00m
+│   │   │           │   └── publisher
 │   │   │           │       ├── Focus.js
 │   │   │           │       └── Gesture.js
-│   │   │           ├── [01;34mlang[00m
+│   │   │           ├── lang
 │   │   │           │   ├── Array.js
 │   │   │           │   ├── Date.js
 │   │   │           │   ├── Error.js
@@ -9322,23 +9325,23 @@
 │   │   │           │   ├── Number.js
 │   │   │           │   ├── Object.js
 │   │   │           │   └── String.js
-│   │   │           ├── [01;34mlist[00m
+│   │   │           ├── list
 │   │   │           │   ├── Tree.js
 │   │   │           │   └── TreeItem.js
-│   │   │           ├── [01;34mmixin[00m
+│   │   │           ├── mixin
 │   │   │           │   ├── Identifiable.js
 │   │   │           │   ├── Observable.js
 │   │   │           │   └── Responsive.js
-│   │   │           ├── [01;34mparse[00m
+│   │   │           ├── parse
 │   │   │           │   ├── Parser.js
 │   │   │           │   └── Tokenizer.js
-│   │   │           ├── [01;34mplugin[00m
+│   │   │           ├── plugin
 │   │   │           │   └── Abstract.js
-│   │   │           ├── [01;34mpromise[00m
+│   │   │           ├── promise
 │   │   │           │   └── Promise.js
-│   │   │           ├── [01;34mscroll[00m
+│   │   │           ├── scroll
 │   │   │           │   └── Scroller.js
-│   │   │           └── [01;34mutil[00m
+│   │   │           └── util
 │   │   │               ├── Bag.js
 │   │   │               ├── Base64.js
 │   │   │               ├── CSV.js
@@ -9361,21 +9364,21 @@
 │   │   │               ├── TaskRunner.js
 │   │   │               ├── TextMetrics.js
 │   │   │               └── Version.js
-│   │   ├── [01;34mfont-awesome[00m
+│   │   ├── font-awesome
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   ├── resources
+│   │   │   │   └── fonts
 │   │   │   │       ├── FontAwesome.otf
 │   │   │   │       ├── fontawesome-webfont.eot
 │   │   │   │       ├── fontawesome-webfont.svg
 │   │   │   │       ├── fontawesome-webfont.ttf
 │   │   │   │       ├── fontawesome-webfont.woff
 │   │   │   │       └── fontawesome-webfont.woff2
-│   │   │   └── [01;34msass[00m
+│   │   │   └── sass
 │   │   │       ├── Readme.md
-│   │   │       ├── [01;34metc[00m
+│   │   │       ├── etc
 │   │   │       │   ├── _animated.scss
 │   │   │       │   ├── _bordered-pulled.scss
 │   │   │       │   ├── _core.scss
@@ -9390,7 +9393,7 @@
 │   │   │       │   ├── _variables.scss
 │   │   │       │   ├── all.scss
 │   │   │       │   └── font-awesome.scss
-│   │   │       ├── [01;34mexample[00m
+│   │   │       ├── example
 │   │   │       │   ├── bootstrap.js
 │   │   │       │   ├── bootstrap.json
 │   │   │       │   ├── bootstrap.jsonp
@@ -9398,23 +9401,23 @@
 │   │   │       │   ├── fashion.html
 │   │   │       │   ├── render.js
 │   │   │       │   └── theme.html
-│   │   │       ├── [01;34msrc[00m
+│   │   │       ├── src
 │   │   │       │   ├── Readme.md
 │   │   │       │   └── all.scss
-│   │   │       └── [01;34mvar[00m
+│   │   │       └── var
 │   │   │           └── Readme.md
-│   │   ├── [01;34mfont-ext[00m
+│   │   ├── font-ext
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   ├── resources
+│   │   │   │   └── fonts
 │   │   │   │       ├── ExtJS.eot
 │   │   │   │       ├── ExtJS.svg
 │   │   │   │       ├── ExtJS.ttf
 │   │   │   │       └── ExtJS.woff
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   ├── [01;34mexample[00m
+│   │   │   ├── sass
+│   │   │   │   ├── example
 │   │   │   │   │   ├── bootstrap.js
 │   │   │   │   │   ├── bootstrap.json
 │   │   │   │   │   ├── bootstrap.jsonp
@@ -9422,38 +9425,38 @@
 │   │   │   │   │   ├── fashion.html
 │   │   │   │   │   ├── render.js
 │   │   │   │   │   └── theme.html
-│   │   │   │   └── [01;34msrc[00m
+│   │   │   │   └── src
 │   │   │   │       └── all.scss
 │   │   │   └── selection.json
-│   │   ├── [01;34mfont-ios[00m
+│   │   ├── font-ios
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   ├── resources
+│   │   │   │   └── fonts
 │   │   │   │       ├── iOS.svg
 │   │   │   │       ├── iOS.ttf
 │   │   │   │       └── iOS.woff
-│   │   │   └── [01;34msass[00m
-│   │   │       ├── [01;34mexample[00m
+│   │   │   └── sass
+│   │   │       ├── example
 │   │   │       │   ├── custom.js
 │   │   │       │   ├── fashion.html
 │   │   │       │   ├── render.js
 │   │   │       │   └── theme.html
-│   │   │       └── [01;34msrc[00m
+│   │   │       └── src
 │   │   │           ├── Readme.md
 │   │   │           └── all.scss
-│   │   ├── [01;34mfont-pictos[00m
+│   │   ├── font-pictos
 │   │   │   ├── build.xml
 │   │   │   ├── package.json
-│   │   │   ├── [01;34mresources[00m
-│   │   │   │   └── [01;34mfonts[00m
+│   │   │   ├── resources
+│   │   │   │   └── fonts
 │   │   │   │       ├── pictos-web.eot
 │   │   │   │       ├── pictos-web.svg
 │   │   │   │       ├── pictos-web.ttf
 │   │   │   │       └── pictos-web.woff
-│   │   │   └── [01;34msass[00m
-│   │   │       ├── [01;34mexample[00m
+│   │   │   └── sass
+│   │   │       ├── example
 │   │   │       │   ├── bootstrap.js
 │   │   │       │   ├── bootstrap.json
 │   │   │       │   ├── bootstrap.jsonp
@@ -9461,42 +9464,42 @@
 │   │   │       │   ├── fashion.html
 │   │   │       │   ├── render.js
 │   │   │       │   └── theme.html
-│   │   │       └── [01;34msrc[00m
+│   │   │       └── src
 │   │   │           └── all.scss
-│   │   ├── [01;34mgoogle[00m
+│   │   ├── google
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mclassic[00m
-│   │   │   │   ├── [01;34mresources[00m
-│   │   │   │   │   └── [01;34mimages[00m
-│   │   │   │   │       └── [01;34mdashboard[00m
+│   │   │   ├── classic
+│   │   │   │   ├── resources
+│   │   │   │   │   └── images
+│   │   │   │   │       └── dashboard
 │   │   │   │   │           └── magnify.png
-│   │   │   │   ├── [01;34msass[00m
-│   │   │   │   │   ├── [01;34msrc[00m
-│   │   │   │   │   │   └── [01;34mdashboard[00m
+│   │   │   │   ├── sass
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   └── dashboard
 │   │   │   │   │   │       └── GoogleRssView.scss
-│   │   │   │   │   └── [01;34mvar[00m
-│   │   │   │   │       └── [01;34mdashboard[00m
+│   │   │   │   │   └── var
+│   │   │   │   │       └── dashboard
 │   │   │   │   │           └── GoogleRssView.scss
-│   │   │   │   └── [01;34msrc[00m
-│   │   │   │       └── [01;34mdashboard[00m
+│   │   │   │   └── src
+│   │   │   │       └── dashboard
 │   │   │   │           ├── GoogleRssPart.js
 │   │   │   │           └── GoogleRssView.js
-│   │   │   ├── [01;34mmodern[00m
-│   │   │   │   ├── [01;34msass[00m
-│   │   │   │   │   └── [01;34msrc[00m
-│   │   │   │   │       └── [01;34mux[00m
-│   │   │   │   │           └── [01;34mgoogle[00m
+│   │   │   ├── modern
+│   │   │   │   ├── sass
+│   │   │   │   │   └── src
+│   │   │   │   │       └── ux
+│   │   │   │   │           └── google
 │   │   │   │   │               └── Map.scss
-│   │   │   │   └── [01;34msrc[00m
-│   │   │   │       └── [01;34mux[00m
-│   │   │   │           └── [01;34mgoogle[00m
+│   │   │   │   └── src
+│   │   │   │       └── ux
+│   │   │   │           └── google
 │   │   │   │               └── Map.js
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
+│   │   │   ├── sass
 │   │   │   │   ├── config.rb
-│   │   │   │   ├── [01;34metc[00m
+│   │   │   │   ├── etc
 │   │   │   │   │   └── all.scss
-│   │   │   │   └── [01;34mexample[00m
+│   │   │   │   └── example
 │   │   │   │       ├── bootstrap.js
 │   │   │   │       ├── bootstrap.json
 │   │   │   │       ├── bootstrap.jsonp
@@ -9504,22 +9507,22 @@
 │   │   │   │       ├── fashion.html
 │   │   │   │       ├── render.js
 │   │   │   │       └── theme.html
-│   │   │   └── [01;34msrc[00m
-│   │   │       ├── [01;34mdata[00m
+│   │   │   └── src
+│   │   │       ├── data
 │   │   │       │   ├── AbstractProxy.js
 │   │   │       │   ├── CalendarsProxy.js
 │   │   │       │   └── EventsProxy.js
-│   │   │       └── [01;34mux[00m
+│   │   │       └── ux
 │   │   │           ├── Client.js
-│   │   │           └── [01;34mgoogle[00m
+│   │   │           └── google
 │   │   │               ├── Api.js
 │   │   │               └── Feeds.js
-│   │   ├── [01;34mlegacy[00m
+│   │   ├── legacy
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mmodern[00m
-│   │   │   │   └── [01;34msrc[00m
-│   │   │   │       └── [01;34mdevice[00m
+│   │   │   ├── modern
+│   │   │   │   └── src
+│   │   │   │       └── device
 │   │   │   │           ├── Accelerometer.js
 │   │   │   │           ├── Analytics.js
 │   │   │   │           ├── Browser.js
@@ -9540,169 +9543,169 @@
 │   │   │   │           ├── Splashscreen.js
 │   │   │   │           ├── Storage.js
 │   │   │   │           ├── Twitter.js
-│   │   │   │           ├── [01;34maccelerometer[00m
+│   │   │   │           ├── accelerometer
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34manalytics[00m
+│   │   │   │           ├── analytics
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── Cordova.js
-│   │   │   │           ├── [01;34mbrowser[00m
+│   │   │   │           ├── browser
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   ├── Simulator.js
 │   │   │   │           │   └── Window.js
-│   │   │   │           ├── [01;34mcamera[00m
+│   │   │   │           ├── camera
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mcapture[00m
+│   │   │   │           ├── capture
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── Cordova.js
-│   │   │   │           ├── [01;34mcommunicator[00m
+│   │   │   │           ├── communicator
 │   │   │   │           │   ├── Android.js
 │   │   │   │           │   └── Default.js
-│   │   │   │           ├── [01;34mcompass[00m
+│   │   │   │           ├── compass
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mconnection[00m
+│   │   │   │           ├── connection
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mcontacts[00m
+│   │   │   │           ├── contacts
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── Cordova.js
-│   │   │   │           ├── [01;34mdevice[00m
+│   │   │   │           ├── device
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mfilesystem[00m
+│   │   │   │           ├── filesystem
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Chrome.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   ├── HTML5.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mgeolocation[00m
+│   │   │   │           ├── geolocation
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mglobalization[00m
+│   │   │   │           ├── globalization
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mmedia[00m
+│   │   │   │           ├── media
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── Cordova.js
-│   │   │   │           ├── [01;34mnotification[00m
+│   │   │   │           ├── notification
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34morientation[00m
+│   │   │   │           ├── orientation
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── HTML5.js
-│   │   │   │           ├── [01;34mpush[00m
+│   │   │   │           ├── push
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   └── Cordova.js
-│   │   │   │           ├── [01;34msplashscreen[00m
+│   │   │   │           ├── splashscreen
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           ├── [01;34mstorage[00m
+│   │   │   │           ├── storage
 │   │   │   │           │   ├── Abstract.js
 │   │   │   │           │   ├── Cordova.js
-│   │   │   │           │   ├── [01;34mHTML5[00m
+│   │   │   │           │   ├── HTML5
 │   │   │   │           │   │   ├── Database.js
 │   │   │   │           │   │   ├── HTML5.js
 │   │   │   │           │   │   └── SQLStatement.js
 │   │   │   │           │   └── Simulator.js
-│   │   │   │           └── [01;34mtwitter[00m
+│   │   │   │           └── twitter
 │   │   │   │               ├── Abstract.js
 │   │   │   │               └── Cordova.js
 │   │   │   ├── package.json
-│   │   │   └── [01;34msrc[00m
-│   │   │       └── [01;34mdata[00m
-│   │   │           └── [01;34mproxy[00m
+│   │   │   └── src
+│   │   │       └── data
+│   │   │           └── proxy
 │   │   │               └── Sql.js
-│   │   ├── [01;34msoap[00m
+│   │   ├── soap
 │   │   │   ├── Readme.md
 │   │   │   ├── build.xml
-│   │   │   ├── [01;34mlicenses[00m
+│   │   │   ├── licenses
 │   │   │   │   └── Readme.md
 │   │   │   ├── package.json
-│   │   │   ├── [01;34msass[00m
-│   │   │   │   └── [01;34mexample[00m
+│   │   │   ├── sass
+│   │   │   │   └── example
 │   │   │   │       └── fashion.html
-│   │   │   └── [01;34msrc[00m
-│   │   │       └── [01;34mdata[00m
-│   │   │           └── [01;34msoap[00m
+│   │   │   └── src
+│   │   │       └── data
+│   │   │           └── soap
 │   │   │               ├── Proxy.js
 │   │   │               └── Reader.js
-│   │   └── [01;34mux[00m
+│   │   └── ux
 │   │       ├── Readme.md
 │   │       ├── build.xml
-│   │       ├── [01;34mclassic[00m
-│   │       │   ├── [01;34mresources[00m
-│   │       │   │   └── [01;34mimages[00m
-│   │       │   │       ├── [01;34mcolorpick[00m
+│   │       ├── classic
+│   │       │   ├── resources
+│   │       │   │   └── images
+│   │       │   │       ├── colorpick
 │   │       │   │       │   ├── checkerboard.png
 │   │       │   │       │   ├── drag_circle.png
 │   │       │   │       │   ├── huegradient.png
 │   │       │   │       │   ├── map_gradient.png
 │   │       │   │       │   └── pickerslider.png
-│   │       │   │       ├── [01;34mexplorer[00m
+│   │       │   │       ├── explorer
 │   │       │   │       │   ├── leaf.png
 │   │       │   │       │   └── node.png
-│   │       │   │       ├── [01;34mgrouptabpanel[00m
-│   │       │   │       │   ├── [01;35mcorners.gif[00m
-│   │       │   │       │   ├── [01;35mminus.gif[00m
-│   │       │   │       │   └── [01;35mplus.gif[00m
-│   │       │   │       ├── [01;34mitemselector[00m
-│   │       │   │       │   ├── [01;35mbottom.gif[00m
-│   │       │   │       │   ├── [01;35mdown.gif[00m
-│   │       │   │       │   ├── [01;35mleft.gif[00m
-│   │       │   │       │   ├── [01;35mright.gif[00m
-│   │       │   │       │   ├── [01;35mtop.gif[00m
-│   │       │   │       │   └── [01;35mup.gif[00m
-│   │       │   │       ├── [01;34mstatusbar[00m
+│   │       │   │       ├── grouptabpanel
+│   │       │   │       │   ├── corners.gif
+│   │       │   │       │   ├── minus.gif
+│   │       │   │       │   └── plus.gif
+│   │       │   │       ├── itemselector
+│   │       │   │       │   ├── bottom.gif
+│   │       │   │       │   ├── down.gif
+│   │       │   │       │   ├── left.gif
+│   │       │   │       │   ├── right.gif
+│   │       │   │       │   ├── top.gif
+│   │       │   │       │   └── up.gif
+│   │       │   │       ├── statusbar
 │   │       │   │       │   ├── accept.png
-│   │       │   │       │   ├── [01;35mexclamation.gif[00m
-│   │       │   │       │   └── [01;35mloading.gif[00m
-│   │       │   │       └── [01;34mtabscrollermenu[00m
-│   │       │   │           └── [01;35mmenu.gif[00m
-│   │       │   ├── [01;34msass[00m
-│   │       │   │   ├── [01;34msrc[00m
-│   │       │   │   │   ├── [01;34mDataView[00m
+│   │       │   │       │   ├── exclamation.gif
+│   │       │   │       │   └── loading.gif
+│   │       │   │       └── tabscrollermenu
+│   │       │   │           └── menu.gif
+│   │       │   ├── sass
+│   │       │   │   ├── src
+│   │       │   │   │   ├── DataView
 │   │       │   │   │   │   └── DragSelector.scss
 │   │       │   │   │   ├── Explorer.scss
 │   │       │   │   │   ├── GroupTabPanel.scss
 │   │       │   │   │   ├── LiveSearchGridPanel.scss
 │   │       │   │   │   ├── TabScrollerMenu.scss
-│   │       │   │   │   ├── [01;34mcolorpick[00m
+│   │       │   │   │   ├── colorpick
 │   │       │   │   │   │   ├── Button.scss
 │   │       │   │   │   │   ├── Field.scss
 │   │       │   │   │   │   └── Selector.scss
-│   │       │   │   │   ├── [01;34mform[00m
+│   │       │   │   │   ├── form
 │   │       │   │   │   │   └── ItemSelector.scss
-│   │       │   │   │   ├── [01;34mgrid[00m
+│   │       │   │   │   ├── grid
 │   │       │   │   │   │   └── SubTable.scss
-│   │       │   │   │   ├── [01;34mlayout[00m
+│   │       │   │   │   ├── layout
 │   │       │   │   │   │   └── ResponsiveColumn.scss
-│   │       │   │   │   ├── [01;34mrating[00m
+│   │       │   │   │   ├── rating
 │   │       │   │   │   │   └── Picker.scss
-│   │       │   │   │   └── [01;34mstatusbar[00m
+│   │       │   │   │   └── statusbar
 │   │       │   │   │       └── StatusBar.scss
-│   │       │   │   └── [01;34mvar[00m
+│   │       │   │   └── var
 │   │       │   │       ├── Gauge.scss
-│   │       │   │       ├── [01;34mlayout[00m
+│   │       │   │       ├── layout
 │   │       │   │       │   └── ResponsiveColumn.scss
-│   │       │   │       └── [01;34mrating[00m
+│   │       │   │       └── rating
 │   │       │   │           └── Picker.scss
-│   │       │   └── [01;34msrc[00m
+│   │       │   └── src
 │   │       │       ├── BoxReorderer.js
 │   │       │       ├── CellDragDrop.js
 │   │       │       ├── DataTip.js
-│   │       │       ├── [01;34mDataView[00m
+│   │       │       ├── DataView
 │   │       │       │   ├── Animated.js
 │   │       │       │   ├── DragSelector.js
 │   │       │       │   ├── Draggable.js
@@ -9725,7 +9728,7 @@
 │   │       │       ├── TabScrollerMenu.js
 │   │       │       ├── ToolbarDroppable.js
 │   │       │       ├── TreePicker.js
-│   │       │       ├── [01;34mcolorpick[00m
+│   │       │       ├── colorpick
 │   │       │       │   ├── Button.js
 │   │       │       │   ├── ButtonController.js
 │   │       │       │   ├── ColorMap.js
@@ -9743,12 +9746,12 @@
 │   │       │       │   ├── SliderHue.js
 │   │       │       │   ├── SliderSaturation.js
 │   │       │       │   └── SliderValue.js
-│   │       │       ├── [01;34mdata[00m
+│   │       │       ├── data
 │   │       │       │   └── PagingMemoryProxy.js
-│   │       │       ├── [01;34mdd[00m
+│   │       │       ├── dd
 │   │       │       │   ├── CellFieldDropZone.js
 │   │       │       │   └── PanelFieldDragZone.js
-│   │       │       ├── [01;34mdesktop[00m
+│   │       │       ├── desktop
 │   │       │       │   ├── App.js
 │   │       │       │   ├── Desktop.js
 │   │       │       │   ├── Module.js
@@ -9757,53 +9760,53 @@
 │   │       │       │   ├── TaskBar.js
 │   │       │       │   ├── Video.js
 │   │       │       │   └── Wallpaper.js
-│   │       │       ├── [01;34mevent[00m
+│   │       │       ├── event
 │   │       │       │   ├── RecorderManager.html
 │   │       │       │   └── RecorderManager.js
-│   │       │       ├── [01;34mform[00m
+│   │       │       ├── form
 │   │       │       │   ├── ItemSelector.js
 │   │       │       │   ├── MultiSelect.js
 │   │       │       │   └── SearchField.js
-│   │       │       ├── [01;34mgrid[00m
+│   │       │       ├── grid
 │   │       │       │   ├── SubTable.js
 │   │       │       │   ├── TransformGrid.js
-│   │       │       │   └── [01;34mplugin[00m
+│   │       │       │   └── plugin
 │   │       │       │       └── AutoSelector.js
-│   │       │       ├── [01;34mlayout[00m
+│   │       │       ├── layout
 │   │       │       │   └── ResponsiveColumn.js
-│   │       │       ├── [01;34mrating[00m
+│   │       │       ├── rating
 │   │       │       │   └── Picker.js
-│   │       │       └── [01;34mstatusbar[00m
+│   │       │       └── statusbar
 │   │       │           ├── StatusBar.js
 │   │       │           └── ValidationStatus.js
-│   │       ├── [01;34mmodern[00m
-│   │       │   └── [01;34msass[00m
-│   │       │       └── [01;34mvar[00m
+│   │       ├── modern
+│   │       │   └── sass
+│   │       │       └── var
 │   │       │           └── Gauge.scss
 │   │       ├── package.json
-│   │       ├── [01;34mresources[00m
+│   │       ├── resources
 │   │       │   └── Readme.md
-│   │       ├── [01;34msass[00m
+│   │       ├── sass
 │   │       │   ├── Readme.md
 │   │       │   ├── config.rb
-│   │       │   ├── [01;34metc[00m
+│   │       │   ├── etc
 │   │       │   │   └── Readme.md
-│   │       │   ├── [01;34mexample[00m
+│   │       │   ├── example
 │   │       │   │   ├── bootstrap.js
 │   │       │   │   ├── bootstrap.json
 │   │       │   │   ├── bootstrap.jsonp
 │   │       │   │   ├── fashion.html
 │   │       │   │   ├── render.js
 │   │       │   │   └── theme.html
-│   │       │   ├── [01;34msrc[00m
+│   │       │   ├── src
 │   │       │   │   ├── Gauge.scss
 │   │       │   │   └── Readme.md
-│   │       │   └── [01;34mvar[00m
+│   │       │   └── var
 │   │       │       ├── Gauge.scss
 │   │       │       └── Readme.md
-│   │       └── [01;34msrc[00m
+│   │       └── src
 │   │           ├── Gauge.js
-│   │           ├── [01;34majax[00m
+│   │           ├── ajax
 │   │           │   ├── DataSimlet.js
 │   │           │   ├── JsonSimlet.js
 │   │           │   ├── PivotSimlet.js
@@ -9811,54 +9814,54 @@
 │   │           │   ├── SimXhr.js
 │   │           │   ├── Simlet.js
 │   │           │   └── XmlSimlet.js
-│   │           └── [01;34mevent[00m
+│   │           └── event
 │   │               ├── Driver.js
 │   │               ├── Maker.js
 │   │               ├── Player.js
 │   │               └── Recorder.js
-│   ├── [01;34mresources[00m
-│   │   └── [01;34mext-watermark[00m
+│   ├── resources
+│   │   └── ext-watermark
 │   │       ├── Read\ Me.txt
-│   │       ├── [01;34mdemo-files[00m
+│   │       ├── demo-files
 │   │       │   ├── demo.css
 │   │       │   └── demo.js
 │   │       ├── demo.html
-│   │       ├── [01;34mfonts[00m
+│   │       ├── fonts
 │   │       │   ├── ext-watermark.eot
 │   │       │   ├── ext-watermark.svg
 │   │       │   ├── ext-watermark.ttf
 │   │       │   └── ext-watermark.woff
 │   │       ├── selection.json
 │   │       └── style.css
-│   ├── [01;34msass[00m
-│   │   ├── [01;34metc[00m
+│   ├── sass
+│   │   ├── etc
 │   │   │   ├── all.scss
 │   │   │   ├── extensions.js
 │   │   │   ├── font-awesome-variables.scss
 │   │   │   ├── font-ext-variables.scss
 │   │   │   ├── font-ios-variables.scss
 │   │   │   └── font-pictos-variables.scss
-│   │   └── [01;34mexample[00m
+│   │   └── example
 │   │       └── fashion.html
 │   └── version.properties
 ├── index.html
-├── [01;34mmodern[00m
-│   ├── [01;34msass[00m
-│   │   ├── [01;34metc[00m
+├── modern
+│   ├── sass
+│   │   ├── etc
 │   │   │   └── Readme.md
-│   │   ├── [01;34msrc[00m
+│   │   ├── src
 │   │   │   └── Readme.md
-│   │   └── [01;34mvar[00m
+│   │   └── var
 │   │       └── Readme.md
-│   └── [01;34msrc[00m
-│       └── [01;34mview[00m
-│           └── [01;34mmain[00m
+│   └── src
+│       └── view
+│           └── main
 │               ├── List.js
 │               └── Main.js
 ├── modern.json
 ├── modern.jsonp
-├── [01;34mnode_modules[00m
-│   └── [01;34mmddir[00m
+├── node_modules
+│   └── mddir
 │       ├── AUTHORS
 │       ├── CHANGES.md
 │       ├── LICENSE.txt
@@ -9866,26 +9869,27 @@
 │       ├── logo.svg
 │       ├── mddir.png
 │       ├── package.json
-│       └── [01;34msrc[00m
-│           └── [01;32mmddir.js[00m
-├── [01;34moverrides[00m
+│       └── src
+│           └── mddir.js
+├── overrides
 ├── package-lock.json
 ├── package.json
-├── [01;34mpackages[00m
-├── [01;34mresources[00m
+├── packages
+├── resources
 │   └── Readme.md
-├── [01;34msass[00m
+├── sass
 │   ├── Readme.md
-│   ├── [01;34metc[00m
+│   ├── etc
 │   │   └── all.scss
-│   ├── [01;34mexample[00m
+│   ├── example
 │   │   ├── fashion.html
 │   │   ├── render.js
 │   │   └── theme.html
-│   ├── [01;34msrc[00m
-│   └── [01;34mvar[00m
+│   ├── src
+│   └── var
 │       └── all.scss
 ├── treefiles.md
 └── workspace.json
 
-1777 directories, 8111 files
+1777 directories, 8112 files
+```
