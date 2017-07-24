@@ -46,7 +46,7 @@ The app structure:
 
 ![Image of the app flow](https://github.com/Jakub41/Falcon-Extjs/blob/master/Doc/StructureFlow.png)
 
-The app map:
+[The app tree](https://github.com/Jakub41/Falcon-Extjs/blob/master/Doc/treefiles.md#tree-map)
 
 
 
