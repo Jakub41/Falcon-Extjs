@@ -38,9 +38,17 @@ The **uploads** feature works in this way, a user can upload a CSV file which is
 
 ## The flow of the project
 
-The app is done by the MVVM architecture
+The app is done by the MVVM architecture:
 
 ![Image of the app flow](https://github.com/Jakub41/Falcon-Extjs/blob/master/Doc/appFlow.png)
+
+The app structure:
+
+![Image of the app flow](https://github.com/Jakub41/Falcon-Extjs/blob/master/Doc/StructureFlow.png)
+
+The app map:
+
+
 
 ## Conclusion
 
